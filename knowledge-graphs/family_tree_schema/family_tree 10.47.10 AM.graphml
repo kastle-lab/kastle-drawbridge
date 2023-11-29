@@ -53,7 +53,11 @@
 			</y:CompositeLabelModel>
 			<yjs:Stroke x:Key="9" fill="#FF663800"/>
 			<yjs:SolidColorFill x:Key="10" color="#4700F0FF"/>
-			<y:SmartEdgeLabelModel x:Key="11"/>
+			<y:SmartEdgeLabelModelParameter x:Key="11" Distance="5">
+				<y:SmartEdgeLabelModelParameter.Model>
+					<y:SmartEdgeLabelModel/>
+				</y:SmartEdgeLabelModelParameter.Model>
+			</y:SmartEdgeLabelModelParameter>
 			<yjs:DefaultLabelStyle x:Key="12" verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textFill="BLACK">
 				<yjs:DefaultLabelStyle.font>
 					<yjs:Font fontSize="12"/>
@@ -64,7 +68,6 @@
 					<yjs:Arrow type="TRIANGLE" scale="0.75" stroke="#FF663800" fill="#FF663800" cropLength="1"/>
 				</yjs:PolylineEdgeStyle.targetArrow>
 			</yjs:PolylineEdgeStyle>
-			<y:SmartEdgeLabelModelParameter x:Key="14" Model="{y:GraphMLReference 11}" Distance="5"/>
 		</y:SharedData>
 	</data>
 	<graph id="G" edgedefault="directed">
@@ -173,61 +176,10 @@
 					</y:ViewState>
 				</data>
 			</port>
-		</node>
-		<node id="n1">
-			<data key="d0">2</data>
-			<data key="d4">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 2}">
-						<y:Label.Text>Country</y:Label.Text>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ROUND_RECTANGLE" font="{y:GraphMLReference 3}" textFill="BLACK" textSize="20"/>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="192.75" Y="24.75" Width="173" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:RectangleNodeStyle stroke="{y:GraphMLReference 4}" fill="{y:GraphMLReference 5}"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-79,-196.5,173,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
+			<port name="p10">
 				<data key="d16">
-					<y:GraphMLReference ResourceKey="6"/>
+					<y:FreeNodePortLocationModelParameter Ratio="0.9942857142857142,0.5"/>
 				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p1">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="7"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p2">
-				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p3">
 				<data key="d18">
 					<y:ViewState>
 						<y:Port x:Key="c|view"/>
@@ -235,126 +187,7 @@
 				</data>
 			</port>
 		</node>
-		<node id="n2">
-			<data key="d0">3</data>
-			<data key="d4">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 2}">
-						<y:Label.Text>City</y:Label.Text>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ROUND_RECTANGLE" font="{y:GraphMLReference 3}" textFill="BLACK" textSize="20"/>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-64" Y="24.75" Width="173" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:RectangleNodeStyle stroke="{y:GraphMLReference 4}" fill="{y:GraphMLReference 5}"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-64,-181.5,173,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="6"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p1">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="7"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p2">
-				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p3">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n3">
-			<data key="d0">4</data>
-			<data key="d4">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 2}">
-						<y:Label.Text>Occupation</y:Label.Text>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ROUND_RECTANGLE" font="{y:GraphMLReference 3}" textFill="BLACK" textSize="20"/>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-309.25" Y="24.75" Width="173" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:RectangleNodeStyle stroke="{y:GraphMLReference 4}" fill="{y:GraphMLReference 5}"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-49,-166.5,173,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="6"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p1">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="7"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p2">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p3">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n4">
+		<node id="n1">
 			<data key="d0">5</data>
 			<data key="d4">
 				<x:List>
@@ -416,8 +249,15 @@ Husband]]></y:Label.Text>
 					</y:ViewState>
 				</data>
 			</port>
+			<port name="p3">
+				<data key="d18">
+					<y:ViewState>
+						<y:Port x:Key="c|view"/>
+					</y:ViewState>
+				</data>
+			</port>
 		</node>
-		<node id="n5">
+		<node id="n2">
 			<data key="d0">6</data>
 			<data key="d4">
 				<x:List>
@@ -489,7 +329,7 @@ Husband]]></y:Label.Text>
 				</data>
 			</port>
 		</node>
-		<node id="n6">
+		<node id="n3">
 			<data key="d0">7</data>
 			<data key="d4">
 				<x:List>
@@ -554,162 +394,7 @@ Husband]]></y:Label.Text>
 				</data>
 			</port>
 		</node>
-		<node id="n7">
-			<data key="d0">8</data>
-			<data key="d4">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 2}">
-						<y:Label.Text>Age</y:Label.Text>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ROUND_RECTANGLE" font="{y:GraphMLReference 3}" textFill="BLACK" textSize="20"/>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-533.5" Y="-86.25" Width="173" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:RectangleNodeStyle stroke="{y:GraphMLReference 4}" fill="{y:GraphMLReference 5}"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-4,-121.5,173,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="6"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p1">
-				<data key="d16">
-					<y:GraphMLReference ResourceKey="7"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p2">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p3">
-				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0.9942857142857142,0.5"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p4">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n8">
-			<data key="d0">9</data>
-			<data key="d4">
-				<x:List>
-					<y:Label>
-						<y:Label.Text>rdfs:Literal</y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:CompositeLabelModelParameter Model="{y:GraphMLReference 8}">
-								<y:CompositeLabelModelParameter.Parameter>
-									<y:InteriorLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
-								</y:CompositeLabelModelParameter.Parameter>
-							</y:CompositeLabelModelParameter>
-						</y:Label.LayoutParameter>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ELLIPSE" textFill="BLACK" textSize="19">
-								<yjs:DefaultLabelStyle.font>
-									<yjs:Font fontSize="19"/>
-								</yjs:DefaultLabelStyle.font>
-							</yjs:DefaultLabelStyle>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-474.75" Y="84.75" Width="129" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 9}" fill="{y:GraphMLReference 10}" shape="ELLIPSE"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-339.5,-584.5,129,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n9">
-			<data key="d0">10</data>
-			<data key="d4">
-				<x:List>
-					<y:Label>
-						<y:Label.Text>xsd:String</y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:CompositeLabelModelParameter Model="{y:GraphMLReference 8}">
-								<y:CompositeLabelModelParameter.Parameter>
-									<y:InteriorLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
-								</y:CompositeLabelModelParameter.Parameter>
-							</y:CompositeLabelModelParameter>
-						</y:Label.LayoutParameter>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ELLIPSE" textFill="BLACK" textSize="17">
-								<yjs:DefaultLabelStyle.font>
-									<yjs:Font fontSize="17"/>
-								</yjs:DefaultLabelStyle.font>
-							</yjs:DefaultLabelStyle>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-656" Y="-199" Width="129" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 9}" fill="{y:GraphMLReference 10}" shape="ELLIPSE"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-324.5,-569.5,129,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.9838709677419355"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n10">
+		<node id="n4">
 			<data key="d0">11</data>
 			<data key="d4">
 				<x:List>
@@ -751,7 +436,7 @@ Husband]]></y:Label.Text>
 				</data>
 			</port>
 		</node>
-		<node id="n11">
+		<node id="n5">
 			<data key="d0">12</data>
 			<data key="d4">
 				<x:List>
@@ -793,104 +478,56 @@ Husband]]></y:Label.Text>
 				</data>
 			</port>
 		</node>
-		<node id="n12">
-			<data key="d0">13</data>
-			<data key="d4">
-				<x:List>
-					<y:Label>
-						<y:Label.Text>rdfs:Literal</y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:CompositeLabelModelParameter Model="{y:GraphMLReference 8}">
-								<y:CompositeLabelModelParameter.Parameter>
-									<y:InteriorLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
-								</y:CompositeLabelModelParameter.Parameter>
-							</y:CompositeLabelModelParameter>
-						</y:Label.LayoutParameter>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ELLIPSE" textFill="BLACK" textSize="17">
-								<yjs:DefaultLabelStyle.font>
-									<yjs:Font fontSize="17"/>
-								</yjs:DefaultLabelStyle.font>
-							</yjs:DefaultLabelStyle>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="214.75" Y="133" Width="129" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 9}" fill="{y:GraphMLReference 10}" shape="ELLIPSE"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-279.5,-524.5,129,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d16">
-					<y:FreeNodePortLocationModelParameter Ratio="0.5,0.016129032258064502"/>
-				</data>
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<node id="n13">
-			<data key="d0">14</data>
-			<data key="d4">
-				<x:List>
-					<y:Label>
-						<y:Label.Text>rdfs:Literal</y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:CompositeLabelModelParameter Model="{y:GraphMLReference 8}">
-								<y:CompositeLabelModelParameter.Parameter>
-									<y:InteriorLabelModelParameter Position="Center" Model="{y:GraphMLReference 1}"/>
-								</y:CompositeLabelModelParameter.Parameter>
-							</y:CompositeLabelModelParameter>
-						</y:Label.LayoutParameter>
-						<y:Label.Style>
-							<yjs:DefaultLabelStyle verticalTextAlignment="CENTER" horizontalTextAlignment="CENTER" textWrappingShape="ELLIPSE" textFill="BLACK" textSize="18">
-								<yjs:DefaultLabelStyle.font>
-									<yjs:Font fontSize="18"/>
-								</yjs:DefaultLabelStyle.font>
-							</yjs:DefaultLabelStyle>
-						</y:Label.Style>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d5">
-				<y:RectD X="-94" Y="162.75" Width="129" Height="60"/>
-			</data>
-			<data key="d7">
-				<yjs:ShapeNodeStyle stroke="{y:GraphMLReference 9}" fill="{y:GraphMLReference 10}" shape="ELLIPSE"/>
-			</data>
-			<data key="d8">
-				<y:ViewState>
-					<y:FolderNodeState x:Key="c|view" Layout="-264.5,-509.5,129,60"/>
-				</y:ViewState>
-			</data>
-			<port name="p0">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-			<port name="p1">
-				<data key="d18">
-					<y:ViewState>
-						<y:Port x:Key="c|view"/>
-					</y:ViewState>
-				</data>
-			</port>
-		</node>
-		<edge id="e0" source="n0" target="n0" sourceport="p0" targetport="p1">
+		<edge id="e0" source="n0" target="n1" sourceport="p2" targetport="p2">
 			<data key="d11">
 				<x:List>
-					<y:Label Style="{y:GraphMLReference 12}">
+					<y:Label LayoutParameter="{y:GraphMLReference 11}" Style="{y:GraphMLReference 12}">
+						<y:Label.Text>kastle-lab:providesRole</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="13"/>
+			</data>
+		</edge>
+		<edge id="e1" source="n0" target="n3" sourceport="p8" targetport="p3">
+			<data key="d11">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 11}" Style="{y:GraphMLReference 12}">
+						<y:Label.Text>kastle-lab:hasAge</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="13"/>
+			</data>
+		</edge>
+		<edge id="e2" source="n0" target="n2" sourceport="p9" targetport="p3">
+			<data key="d11">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 11}" Style="{y:GraphMLReference 12}">
+						<y:Label.Text>kastle-lab:hasName</y:Label.Text>
+					</y:Label>
+				</x:List>
+			</data>
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="13"/>
+			</data>
+		</edge>
+		<edge id="e3" source="n2" target="n5" sourceport="p5" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="13"/>
+			</data>
+		</edge>
+		<edge id="e4" source="n3" target="n4" sourceport="p4" targetport="p0">
+			<data key="d13">
+				<y:GraphMLReference ResourceKey="13"/>
+			</data>
+		</edge>
+		<edge id="e5" source="n1" target="n0" sourceport="p3" targetport="p10">
+			<data key="d11">
+				<x:List>
+					<y:Label LayoutParameter="{y:GraphMLReference 11}" Style="{y:GraphMLReference 12}">
 						<y:Label.Text><![CDATA[kastle-lab:isFatherof
 kastle-lab:isMotherof
 kastle-lab:isGrandfatherof
@@ -901,126 +538,9 @@ kastle-lab:isSisterof
 kastle-lab:isBrotherof
 kastle-lab:isWifeof
 kastle-lab:isHusbandof]]></y:Label.Text>
-						<y:Label.LayoutParameter>
-							<y:SmartEdgeLabelModelParameter Model="{y:GraphMLReference 11}" Location="FromTarget" SegmentIndex="1" SegmentRatio="11.999999999999986" Distance="0.001"/>
-						</y:Label.LayoutParameter>
 					</y:Label>
 				</x:List>
 			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e1" source="n0" target="n4" sourceport="p2" targetport="p2">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:providesRole</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e2" source="n0" target="n3" sourceport="p3" targetport="p2">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:hasOccupation</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e3" source="n0" target="n2" sourceport="p4" targetport="p2">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:residesInCity</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e4" source="n0" target="n1" sourceport="p5" targetport="p2">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:residesInCountry</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e5" source="n0" target="n7" sourceport="p6" targetport="p3">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:hasAge</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e6" source="n0" target="n6" sourceport="p8" targetport="p3">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:hasAge</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e7" source="n0" target="n5" sourceport="p9" targetport="p3">
-			<data key="d11">
-				<x:List>
-					<y:Label LayoutParameter="{y:GraphMLReference 14}" Style="{y:GraphMLReference 12}">
-						<y:Label.Text>kastle-lab:hasName</y:Label.Text>
-					</y:Label>
-				</x:List>
-			</data>
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e8" source="n5" target="n11" sourceport="p5" targetport="p0">
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e9" source="n6" target="n10" sourceport="p4" targetport="p0">
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e10" source="n7" target="n9" sourceport="p4" targetport="p0">
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e11" source="n3" target="n8" sourceport="p3" targetport="p0">
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e12" source="n2" target="n13" sourceport="p3" targetport="p1">
-			<data key="d13">
-				<y:GraphMLReference ResourceKey="13"/>
-			</data>
-		</edge>
-		<edge id="e13" source="n1" target="n12" sourceport="p3" targetport="p0">
 			<data key="d13">
 				<y:GraphMLReference ResourceKey="13"/>
 			</data>
