@@ -1,5 +1,5 @@
-# Python-KG-Onboarding
-* This is a tutorial repo for python development and for Knowledge Graph creation using python.
+# kastle-drawbridge
+* kastle-drawbridge is the formulation of a "zero-to-hero" curriculum for learning and using knowledge graphs. It assumes no code experience, and runs you through being able to develop a knowledge graph, and query against it.  
 
 ## Foundation
 * The purpose of this directory is for a student competely new to the field of Computer Science and the aspects of programming.  This directory will walk a student through how to use Python as a programming language.
