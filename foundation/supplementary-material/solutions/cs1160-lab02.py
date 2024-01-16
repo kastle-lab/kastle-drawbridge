@@ -1,10 +1,3 @@
-#Antrea Christou
-#CS 1160
-#Lab2
-#Date Assigned
-#Filename
-#Description
-
 import math
 
 # Input
