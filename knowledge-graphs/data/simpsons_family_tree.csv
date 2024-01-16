@@ -1,8 +1,0 @@
-Bart,isBrotherof,Lisa,,,,
-Lisa,isSisterof,Bart,,,,
-Homer,isFatherof,Bart,,,,
-Homer,isFatherof,Lisa,,,,
-Homer,isHusbandof,Marge,,,,
-Marge,isMotherof,Lisa,,,,
-Marge,isMotherof,Bart,,,,
-Marge,isWifeof,Homer,,,,
