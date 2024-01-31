@@ -1,1 +1,13 @@
 # Graphs
+
+# Here are some links to some preliminary knowledge regarding Knowledge Graphs (KGs) :
+* [Class and Subclass](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Class_and_Subclass/Class_and_Subclass.md)
+* [Description Logic](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/Description_Logic/Description_Logic.md)
+* [What is a KG](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/What_is_a_Knowledge_Graph/What_is_a_Knowledge_Graph.md)
+* [What is a Taxonomy](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/What_is_a_Taxonomy/What_is_a_Taxonomy.md)
+* [What is an Identifier](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/What_is_an_Identifier/What_is_an_Identifier.md)
+* [What is an Ontology](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/What_is_an_Ontology/What_is_an_Ontology.md)
+* [What is Metadata](https://github.com/KGConf/open-kg-curriculum/blob/master/curriculum/modules/What_is_Metadata/What_is_Metadata.md)
+
+## References :
+* [Github Repo of open-kg-curriculum](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules)
