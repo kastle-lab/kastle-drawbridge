@@ -12,7 +12,7 @@
 * Following, the concept of a turtle "ttl" file will be introduced through examples with the student getting a sense on how to break that file down for future nagivation and validation of a KG.
 
 # Week by week estimated framework
-## Python Learning (Weeks 1-3):
+## Python Lesson Plan (Weeks 1-3):
 
 * Weeks 1-2: Introduction to Python Basics
     - Introduction to Python syntax and basic programming concepts.
@@ -22,25 +22,25 @@
     - Control flow statements (if, else, loops).
     - Functions and modules in Python.
 
-## Ontology Learning (Weeks 4-13):
+## Knowledge Graph Lesson Plan (Weeks 4-9):
 
-* Weeks 4-5: Introduction to Ontology and Use Case Documentation
+* Weeks 4: Introduction to Ontology and Use Case Documentation
     - Understand the basics of ontology and its applications.
     - Learn to document use cases that guide the ontology development process.
     - Introduction to KASTLE lab resources for Ontology Development (Foundry, rdflib-starter.py)
 
-* Weeks 6-7: Competency Questions and Schema Design with yEd
+* Weeks 5-6: Competency Questions and Schema Design with yEd
     - Understand the importance of competency questions in guiding ontology development.
     - Introduction to yEd for designing schema diagrams.
 
-*  Weeks 8-9: Ontology Development with Protégé
+*  Weeks 6-7: Ontology Development with Protégé
     - Use Protégé or a similar ontology editor for creating and visualizing ontologies.
     - Understand ontology design concepts and best practices.
 
-* Weeks 10-11: Triplestore Basics and Jena Fuseki
-    - Introduction to triplestores, such as Jena Fuseki, and their role in storing and querying RDF data.
-    - Setting up Jena Fuseki: Learn how to set up and use Jena Fuseki.
-
-* Weeks 12-13: Knowledge Graph Building and Project Development
+* Weeks 8: Knowledge Graph Building and Project Development
     - Building a simple knowledge graph using Python, RDFLib, and ontologies.
     - Work on a final project, applying ontology building and Python development skills to create a knowledge graph.
+
+* Weeks 9: Triplestore Basics and Jena Fuseki
+    - Introduction to triplestores, such as Jena Fuseki, and their role in storing and querying RDF data.
+    - Setting up Jena Fuseki: Learn how to set up and use Jena Fuseki.

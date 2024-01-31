@@ -1,4 +1,4 @@
-# [Modular Ontology Modeling (MOMO)](https://content.iospress.com/articles/semantic-web/sw222886) by Dr. Cogan Shimizu
+# [Modular Ontology Modeling (MOMo)](https://content.iospress.com/articles/semantic-web/sw222886) by Dr. Cogan Shimizu
 
 
 ## Summarized
