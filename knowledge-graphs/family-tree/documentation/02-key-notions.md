@@ -3,11 +3,15 @@ Using the narrative and the competency questions, what are important identifiabl
 
 ### Agent
 **Source Pattern**: Agent
+
 **Source Dataset**: 
-# What are these key notions, how can we use them, and where can we get this information from? (2-3 sentences)
+
+*What are these key notions, how can we use them, and where can we get this information from? (2-3 sentences)*
 
 ### Role
 **Source Pattern**: AgentRole
+
 **Source Dataset**: 
-# What are these key notions, how can we use them, and where can we get this information from? (2-3 sentences)
+
+*What are these key notions, how can we use them, and where can we get this information from? (2-3 sentences)*
 
