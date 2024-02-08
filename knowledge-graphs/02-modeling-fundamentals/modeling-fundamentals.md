@@ -30,7 +30,7 @@ Example:
 ## [Description Logic](https://corescholar.libraries.wright.edu/cse/185/)
 > "Description logics (DLs) is a family of knowledge representation (KR) languages which represent knowledge in a domain of interest using formal, logic-based semantics through knowledge bases (KBs) containing general assertions of describing relevant concepts - hence, the term description - and specific assertions about individuals and relationships among them." (Krisnadhi, 2014)
 
-Description Logic, as set of knowledge representation langages, encompasses the formal representation of knowledge with admittances of _truths_ in the world.  
+Description Logic, as a set of knowledge representation languages, encompasses the formal representation of knowledge with admittances of _truths_ in the world.  
 
 Knowledge can be formally defined with the concepts of TBox and ABox where:
 - TBox is a set of axioms constraining terminology definitions (`concepts` or `roles`)
