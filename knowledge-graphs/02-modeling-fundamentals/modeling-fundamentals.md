@@ -42,13 +42,13 @@ Additionally, Description Logic includes another concept, RBox where:
 > "A description logic (DL) models `concepts`, `roles` and `individuals`, and `their relationships`." - [Wikipedia](https://en.wikipedia.org/wiki/Description_logic)
 
 These asserted admittances are broken down from concept and role constructors:
-- 1. Top and Concept, represented respectively by Tautology(⊤,up tack, falsum, \tee) and Contradiction((⊥, down tack, verum, \bot)
-- 2. nominal
-- 3. Intersection and Union
-- 4. Complements (Negation)
-- 5. Universal Restrictions
-- 6. Existential Restrictions
-- 7. Cardinality Restrictions (at minimum, at maximum, exactly)
+1. Top and Concept, represented respectively by Tautology(⊤,up tack, falsum, \tee) and Contradiction((⊥, down tack, verum, \bot)
+2. nominal
+3. Intersection and Union
+4. Complements (Negation)
+5. Universal Restrictions
+6. Existential Restrictions
+7. Cardinality Restrictions (at minimum, at maximum, exactly)
 
 ### From _ALC_ to _SROIQ_
 - _ALC_, or Attributed Language with general Complement, 
