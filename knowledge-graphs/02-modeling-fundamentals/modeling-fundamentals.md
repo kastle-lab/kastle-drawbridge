@@ -15,7 +15,7 @@
 - Upper Ontology: representation of shared relations and objects generally applicable across a wide range of domains
 - Hybrid Ontology: combining Domain and Upper Ontology
 
-## Axioms
+## [Axioms](https://people.cs.ksu.edu/~hitzler/pub2/04-axiomatization.pdf)
 Axioms are _asserted_ constraints applied to concepts, roles, and individuals. 
 
 Example:
