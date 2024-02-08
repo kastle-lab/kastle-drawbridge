@@ -37,7 +37,7 @@ Knowledge can be formally defined with the concepts of TBox and ABox where:
 - ABox is a set of axioms constraining  `named individuals` (First-Order Logic(R(a,b))
 
 Additionally, Description Logic includes another concept, RBox where:
-- RBox is a set of axioms constraining roles
+- RBox is a set of axioms constraining `roles`
 
 > "A description logic (DL) models `concepts`, `roles` and `individuals`, and `their relationships`." - [Wikipedia](https://en.wikipedia.org/wiki/Description_logic)
 
