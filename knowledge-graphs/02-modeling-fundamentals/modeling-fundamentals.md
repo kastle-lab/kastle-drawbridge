@@ -53,9 +53,9 @@ These asserted admittances are broken down from concept and role constructors:
 ### From _ALC_ to _SROIQ_
 - _ALC_, or Attributed Language with general Complement, 
   - _ALC_ provides support from the above list with including admittances for 1, 3, 4, and 7, along with `TBox` axioms (axioms constraining concepts), and `ABox` axioms (axioms constraining named individuals).
-  - _SHIF_ extends from _ALC_ and adds `Role` admittances
-  - _SHOIN_ adds from _SHIF_ with including #2 and #7
-  - _SROIQ_ combines all of the above with `RBox` Axioms and extends additional constraints to `Roles` and applies numeric conditions and qualifications for 5, 6, 7. 
+- _SHIF_ extends from _ALC_ and adds `Role` admittances
+- _SHOIN_ adds from _SHIF_ with including #2 and #7
+- _SROIQ_ combines all of the above with `RBox` Axioms and extends additional constraints to `Roles` and applies numeric conditions and qualifications for 5, 6, 7. 
 
 ## References :
 * [Github Repo of open-kg-curriculum](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules)
