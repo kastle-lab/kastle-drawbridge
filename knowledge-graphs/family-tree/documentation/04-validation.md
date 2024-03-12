@@ -22,7 +22,7 @@ SELECT ?string ?Role WHERE {
 }
 ```
 
-Results
+Results\
 <img width="484" alt="simpsonsSPARQLhomer" src="https://github.com/kastle-lab/kastle-drawbridge/assets/100725412/bb2aace0-d856-4f8e-a68c-5e20d7f642ce">
 
 1b. Simpson's Father Roles
@@ -46,7 +46,7 @@ SELECT ?String ?Role WHERE {
 }    limit 10
 ```
 
-Results
+Results\
 <img width="484" alt="simpsonsSPARQLfathers" src="https://github.com/kastle-lab/kastle-drawbridge/assets/100725412/676d4829-3ead-461f-8f6b-9303b5940e99">
 
 
@@ -75,7 +75,7 @@ SELECT ?FirstName ?Role WHERE {
 } LIMIT 100
 ```
 
-Results
+Results\
 <img width="484" alt="simpsonsSPARQLsiblings" src="https://github.com/kastle-lab/kastle-drawbridge/assets/100725412/4df6e152-9b99-4d6f-bbc3-540a9d471dad">
 
 
@@ -98,6 +98,6 @@ SELECT ?FirstName ?FamilyMember WHERE {
 
 } LIMIT 100
 ```
-Results
+Results\
 <img width="484" alt="simpsonsSPARQLnames" src="https://github.com/kastle-lab/kastle-drawbridge/assets/100725412/c9650b9a-c6fa-4e99-a2d9-74edce0828eb">
 
