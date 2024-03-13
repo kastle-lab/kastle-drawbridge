@@ -5,6 +5,14 @@
 - Edge as Relationships/Predicates
 - Knowledge Graphs are a `Directed Graph` that associates Class Entities as `Nodes`/`Vertices` and Relationships as `Edges`.
 
+##  Linked Data 
+Knowledge Graphs are designed with principles inherited from Linked Data, which is a set of best practices for publishing structured data onto the Web.
+* The set consists of :
+  1. The use of URIs as names for things.
+  2. The use of HTTP URIs so that people can look up those names.
+  3. When someone looks up a URI, the URI must provide useful information.
+  4. Inclusion of links to other URIs to provide further insight on the described domain.
+
 ## [Ontology](https://en.wikipedia.org/wiki/Ontology_(information_science))
 - "is a branch of philosophy...as it considers how knowledge, language, and perception relate to the nature of reality."
 - _onto-_,from the Greek, "being; that which is"
@@ -16,16 +24,22 @@
 - Hybrid Ontology: combining Domain and Upper Ontology
 
 ## [Axioms](https://people.cs.ksu.edu/~hitzler/pub2/04-axiomatization.pdf)
-Axioms are _asserted_ constraints applied to concepts, roles, and individuals. 
+Axioms are _asserted_ constraints to how a knowledge graph can be constructed. 
 
 Example:
-* Person(Cogan), hasFather(Bill, Cogan)
+* Person(Cogan), hasFather(Cogan, Bill)
+The above example is written in `First Order Predicate Logic`. In the above example, we assert that Cogan is a Person.  It is also asserted that Cogan has a father, and that father is Bill.
 
 ### Closed World Assumptions
 * Implies that attributes outside the ontology that are not explicitly stated are considered 'False'.
+* 
 ### Open World Assumptions
 * Implies that attributes outside the ontology CAN be 'True' (implied).
 
+### Common Axioms and their descriptions
+The below illustrates in `Figure 2` common axioms written in Manchester Syntax. The numbered list in this depiction describes the axioms in natural language.
+
+![17 axioms](https://github.com/kastle-lab/kastle-drawbridge/assets/70174975/8d3d557f-059a-44cc-a806-068f0222dc5c)
 
 ## [Description Logic](https://corescholar.libraries.wright.edu/cse/185/)
 > "Description logics (DLs) is a family of knowledge representation (KR) languages which represent knowledge in a domain of interest using formal, logic-based semantics through knowledge bases (KBs) containing general assertions of describing relevant concepts - hence, the term description - and specific assertions about individuals and relationships among them." (Krisnadhi, 2014)
@@ -59,6 +73,7 @@ These asserted admittances are broken down from concept and role constructors:
 
 ## References :
 * [Github Repo of open-kg-curriculum](https://github.com/KGConf/open-kg-curriculum/tree/master/curriculum/modules)
+* [W3 Wiki](https://www.w3.org/wiki/LinkedData)  
 
 
 ## Resources
