@@ -32,7 +32,7 @@ The above example is written in `First Order Predicate Logic`. In the above exam
 
 ### Closed World Assumptions
 * Implies that attributes outside the ontology that are not explicitly stated are considered 'False'.
-* 
+
 ### Open World Assumptions
 * Implies that attributes outside the ontology CAN be 'True' (implied).
 
