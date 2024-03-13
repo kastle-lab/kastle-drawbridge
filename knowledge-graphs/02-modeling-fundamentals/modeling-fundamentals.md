@@ -37,7 +37,7 @@ The above example is written in `First Order Predicate Logic`. In the above exam
 * Implies that attributes outside the ontology CAN be 'True' (implied).
 
 ### Common Axioms and their descriptions
-The below illustrates in `Figure 2` common axioms written in Manchester Syntax. The numbered list in this depiction describes the axioms in natural language.
+The below illustrates in `Figure 2` common axioms written in Description Logic syntax (discussed in the next section). The numbered list in this depiction describes the axioms in natural language.
 
 ![17 axioms](https://github.com/kastle-lab/kastle-drawbridge/assets/70174975/8d3d557f-059a-44cc-a806-068f0222dc5c)
 
