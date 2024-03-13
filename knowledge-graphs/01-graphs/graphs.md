@@ -17,16 +17,7 @@ An `Undirected Graph` refers to the fact that an edge `e` has no directional ass
 ### Weighted Graph
 A `Weighted Graph` refers to a graph G that has arbitrary values associated to the set of Vertices and set of Edges. These weights facilitate in modeling real objects and relationships between nodes. For example, the path you take to travel from your house to campus varies in travel-time pending the turns you might take along the way. 
 
-##  Linked Data 
-* A set of best practices for publishing structured data on the Web.[2]
-* The set consists of :
-1. Use URIs as names for things.
-2. Use HTTP URIs so that people can look up those names.
-3. When someone looks up a URI, provide useful information.
-4. Include links to other URIs. so that they can discover more things.[2]
-
 ## References
 [1] [W3 Schools](https://www.w3schools.com/dsa/dsa_theory_graphs.php)  
-[2] [W3 Wiki](https://www.w3.org/wiki/LinkedData)  
-[3] [Graph Theory by carnegi Mellon University](https://www.andrew.cmu.edu/course/21-228/lec10.pdf)
+[2] [Graph Theory by Carnegie Mellon University](https://www.andrew.cmu.edu/course/21-228/lec10.pdf)
 
