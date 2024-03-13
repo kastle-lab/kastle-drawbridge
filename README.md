@@ -8,8 +8,9 @@
 
 ## Knowledge-Graphs
 * The purpose of this directory contains details on how to create, utilize, and apply a knowledge graph.  This directory inherits information from [kastle-lab\cs7810-intro-to-ke](https://github.com/kastle-lab/cs7810-intro-to-ke/) and [The KGC Open KG Curriculum](https://github.com/KGConf/open-kg-curriculum)
-* Since the student is expected to become familiar with the foundations mentioned above, the next step would be to get familiar with an RDFLib starter code provided in the CS7810 curriculum as a first exposure to creation og KGs.
-* Following, the concept of a turtle "ttl" file will be introduced through examples with the student getting a sense on how to break that file down for future nagivation and validation of a KG.
+* Since the student is expected to be familiar with the foundations mentioned above, the next step would be to advance the learning with the [`RDFLib starter code`](https://github.com/kastle-lab/kastle-drawbridge/blob/master/resources/rdflib-starter.py) as a first exposure to creating KGs.
+* This directory will also guide a student to understanding the concept of a turtle (`"ttl"`) file, introducing examples to navigate and validate a knowledge graph in this format.
+* The final deliverable for this KG will be a student implementation of a `Family-Tree` knowledge graph as described in the [`family-tree.md`](https://github.com/kastle-lab/kastle-drawbridge/blob/master/knowledge-graphs/family-tree/family-tree.md)
 
 # Week by week estimated framework
 ## Python Lesson Plan (Weeks 1-3):
