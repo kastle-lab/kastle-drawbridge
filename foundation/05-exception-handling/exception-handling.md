@@ -13,7 +13,6 @@ def Find_File(fileName, desiredDirectory):
       if fileName in files:
         print("File found!")
         return os.path.join(root, fileName)
-    print(f"File '{fileName} not found!") # File not found output
   except FileNotFoundError:
     print(f"\nError: '{fileName}' not found.")
   except PermissionError:
