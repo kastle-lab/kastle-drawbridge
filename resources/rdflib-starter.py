@@ -24,8 +24,9 @@ pfs = {
 "owl": OWL,
 "time": TIME
 }
+
 # Initialization shortcut
-def init_kg(prefixes=pfs):
+def init_kg(pfs=pfs):
     kg = Graph()
     for prefix in pfs:
         kg.bind(prefix, pfs[prefix])
@@ -34,7 +35,7 @@ def init_kg(prefixes=pfs):
 a = pfs["rdf"]["type"]
 
 # Initialize an empty graph
-graph = init_kg()
+graph = init_kg(pfs)
 
 # Initialize from a file
 # filename = "path/to/file"

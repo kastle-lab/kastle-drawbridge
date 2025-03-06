@@ -1,108 +1,60 @@
-# Data Structures
+# Functions
 
-Data structures are a fundamental aspect of computer science, allowing developers to organize, manage, and store data efficiently. In Python, several built-in data structures provide versatile and efficient tools for different programming tasks.
+Functions are reusable blocks of code that perform a specific task. Each programming language comes with their own collection of built in functions, but developers frequently create their own custom functions to suit their needs. However, instead of writing your own functions and "reinventing the wheel," it is common practice to use other predefined functions that others have created for public use. This is done by importing libraries, more on this later.
 
-## Lists (Arrays)
-A list is an ordered, mutable collection that can store a variety of data types, including other lists.
+## User defined functions
 
-Key Features:
-
-* Ordered: Maintains the order of elements.
-
-* Mutable: Elements can be changed after creation.
-
-* Heterogeneous: Can store different data types in the same list.
-
+Use the keyword `def` to <i>def</i>ine a function and assign it an identifier.
 
 ```py
-# Creating a list
-fruits = ["apple", "banana", "cherry"]
-
-# Accessing elements
-print(fruits[1])  # Output: banana
-
-# Modifying elements
-fruits[0] = "grape"
-print(fruits)  # Output: ['grape', 'banana', 'cherry']
-
-# Appending elements
-fruits.append("orange")
-print(fruits)  # Output: ['grape', 'banana', 'cherry', 'orange']
+def functionName():
+    # Function code goes here
 ```
 
-## Dictionaries
-Dictionaries store data as key-value pairs, allowing fast lookups by keys.
+Functions typically have information (values) passed into them to process. This is done in the form of arguments: positional or keyword.
 
-Key Features:
-
-* Unordered (prior to Python 3.7) and insertion-ordered (from Python 3.7 onwards).
-
-* Mutable.
-
-* Keys must be unique and immutable.
+- Positional arguments are
+- Keyword arguments are
 
 ```py
-# Creating a dictionary
-person = {"name": "Alice", "age": 30, "city": "New York"}
-
-# Accessing elements
-print(person["name"])  # Output: Alice
-
-# Modifying values
-person["age"] = 31
-print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'New York'}
-
-# Adding new key-value pairs
-person["profession"] = "Engineer"
-print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'New York', 'profession': 'Engineer'}
+def functionName(argument1, argument2):
+    # Function code goes here
 ```
-
-## Sets
-A set is an unordered collection of unique elements.
-
-Key Features:
-
-* Unordered: No specific order of elements.
-
-* Unique: Duplicate elements are automatically removed.
-
-* Mutable: Can add or remove elements.
 
 ```py
-# Creating a set
-numbers = {1, 2, 3, 3, 4}
-print(numbers)  # Output: {1, 2, 3, 4}
+# This function takes in two numbers and returns the average as a float. **Note**: This function can take in either floats and or integers, but will always return a float due to the syntax for division ("/").
+def numAverage(number1, number2):
+    average = (number1 + number2) / 2
+    return average
 
-# Adding elements
-numbers.add(5)
-print(numbers)  # Output: {1, 2, 3, 4, 5}
+# Create variables
+num1 = 10 # Dynamically typed as a integer
+num2 = 15.5 # Dynamically typed as a float
 
-# Removing elements
-numbers.remove(2)
-print(numbers)  # Output: {1, 3, 4, 5}
+# Call the user defined function
+average = numAverage(num1, num2)
+
+# Print is a built in function that will print the input parameter to the console
+print(average)
+
 ```
 
-## Tuples
-A tuple is an ordered, immutable collection of elements.
+Passing info.
 
-Key Features:
+Arguments and Params.
 
-* Ordered: Maintains the order of elements.
+Passing args.
 
-* Immutable: Cannot be changed after creation.
+keyword args
 
-* Can store heterogeneous data types.
+Imported functions from library
 
-```py
-# Creating a tuple
-coordinates = (10, 20, 30)
+# Examples
 
-# Accessing elements
-print(coordinates[1])  # Output: 20
+# Resources
 
-# Tuples are immutable, so the following line would raise an error
-# coordinates[1] = 40
-```
+[PyDocs - Built-in Functions](https://docs.python.org/3/library/functions.html)
 
-### Relevance to KGs
+[G4G - Functions](https://www.geeksforgeeks.org/python-functions/)
 
+[w3school - Functions](https://www.w3schools.com/python/python_functions.asp)
