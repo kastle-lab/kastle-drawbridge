@@ -54,11 +54,14 @@ Numeric data types have a numeric value and can be used in mathematical operatio
   isHere = bool(True)
   ```
 
-### Sequence Types
+## Data Structures
+
+Data structures store, organize, and define relationships between data elements. They also provide ways of accessing, interacting with, and modifying the data.
 
 - <u><strong>List</strong></u>: Lists store data of any type and are created using brackets. Each element is separated by a comma and can be accessed via an index value (beginning at 0).
-  - Ordered
-  - Changeable
+  - Ordered: Maintains the order of elements.
+  - Mutable: Elements can be changed after creation.
+  - Heterogeneous: Can store different data types in the same list.
   - Duplicates Allowed
   ```py
   companies = ["Microsoft", "Apple", "Dell"]
@@ -68,8 +71,9 @@ Numeric data types have a numeric value and can be used in mathematical operatio
   ```
 - <u><strong>Tuple</strong></u>: Tuples are created using parenthesis. They are similar to lists in many ways, with one key difference being that they are immutable.
 
-  - Ordered
-  - Unchangeable
+  - Ordered: Maintains the order of elements.
+  - Immutable: Cannot be changed after creation.
+  - Can store heterogeneous data types.
   - Duplicates Allowed
 
   ```py
@@ -80,18 +84,65 @@ Numeric data types have a numeric value and can be used in mathematical operatio
   # Escape from Tarkov
   ```
 
+* <u><strong>Dictionaries</strong></u>: Dictionaries store data as key-value pairs, allowing fast lookups by keys.
+
+  - Unordered (prior to Python 3.7) and insertion-ordered (from Python 3.7 onwards).
+
+  - Mutable.
+
+  - Keys must be unique and immutable.
+
+  ```py
+  # Creating a dictionary
+  person = {"name": "Alice", "age": 30, "city": "New York"}
+
+  # Accessing elements
+  print(person["name"])  # Output: Alice
+
+  # Modifying values
+  person["age"] = 31
+  print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'New York'}
+
+  # Adding new key-value pairs
+  person["profession"] = "Engineer"
+  print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'New York', 'profession': 'Engineer'}
+  ```
+
+* <u><strong>Sets</strong></u>: A set is an unordered collection of unique elements.
+
+  - Unordered: No specific order of elements.
+
+  - Unique: Duplicate elements are automatically removed.
+
+  - Mutable: Can add or remove elements.
+
+  - Duplicates not allowed
+
+  ```py
+  # Creating a set
+  numbers = {1, 2, 3, 3, 4}
+  print(numbers)  # Output: {1, 2, 3, 4}
+
+  # Adding elements
+  numbers.add(5)
+  print(numbers)  # Output: {1, 2, 3, 4, 5}
+
+  # Removing elements
+  numbers.remove(2)
+  print(numbers)  # Output: {1, 3, 4, 5}
+  ```
+
 There are over a dozen different types in Python, and it is recommended that this topic be further explored for a more advanced understanding. See the Resources section below for more information about data types in Python.
 
 # Assignment
 
-Read and implement [the attached assignment](https://github.com/kastle-lab/kastle-drawbridge/blob/master/foundation/supplementary-material/assignments/cs1160-lab02.pdf) such that your output and calculations match the assignment reading's.
-
-Remember that the numeric datatype affects mathematical calculations. For instance, performing `1/2` rounds down and results in `0`; whereas, `1.0/2.0` evaluates to `0.5`. What happens if we mix datatypes together (i.e., performing `1/2.0` or `1.0/2`)?
+ASSIGNMENT GOES HERE!
 
 # Resources
 
 - [W3school - Python Variables](https://www.w3schools.com/python/python_variables.asp)
 - [Python Guides - What are variables?](https://pythonguides.com/python-variables/)
 - [G4G - Data Types in Programming](https://www.geeksforgeeks.org/data-types-in-programming/)
-- [Python Official Documentation - Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+- [PyDocs - Types](https://docs.python.org/3/library/stdtypes.html#numeric-types-int-float-complex)
+- [PyDocs - Data Structures](https://docs.python.org/3/tutorial/datastructures.html#tuples-and-sequences)
 - [W3School - Types](https://www.w3schools.com/python/python_datatypes.asp)
