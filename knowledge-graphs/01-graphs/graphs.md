@@ -9,13 +9,25 @@
 
 ## Types of Graphs
 ### Directed Graph
+
 A `Directed Graph` refers to the directionality to which an edge `e` connects to vertices `(u, v)`, which causes a distinction between traversing from `(u,v)` versus `(v,u)`.
+
+![Directed Graph Example](../../pngs/directed-graph.png)
+
+A `Knowledge Graph` (KG) is a `Directed Graph`, where entities (nodes) connected by relationships (edges).
+A databases’ relationships, and restrictions are all visually represented in a schema diagram. 
+
+![KG Example](../../pngs/KG-example.png)
 
 ### Undirected Graph
 An `Undirected Graph` refers to the fact that an edge `e` has no directional association to vertices `(u,v)`, which means traversing from `(u,v)` is the same as `(v,u)`.
 
+![Undirected Graph Example](../../pngs/undirected-graph.png)
+
 ### Weighted Graph
 A `Weighted Graph` refers to a graph G that has arbitrary values associated to the set of Vertices and set of Edges. These weights facilitate in modeling real objects and relationships between nodes. For example, the path you take to travel from your house to campus varies in travel-time pending the turns you might take along the way. 
+
+![Weighted Graph examples ( directed and undirected)](../../pngs/weighted-graph.png)
 
 ## References
 [1] [W3 Schools](https://www.w3schools.com/dsa/dsa_theory_graphs.php)  
