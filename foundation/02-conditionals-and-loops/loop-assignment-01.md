@@ -3,6 +3,7 @@
 In programming, a loop is a tool that allows you to repeat the same block of code multiple times without writing it out each time. This is especially useful when working with tasks that need to be done repeatedly, such as handling data. When having to go through large data sources to add, retrieve or delete etc, looping saves time. Instead of writing separate instructions for each piece, a loop enables you to automatically process all of them in one go.
 
 ## For Loop
+
 A `for` loop repeats a set number of times or goes through a list of items.
 
 ```py
@@ -12,6 +13,7 @@ for i in range(3):
 ```
 
 ## While Loop
+
 A `while` loop runs as long as a condition is true.
 
 ```py
@@ -24,6 +26,7 @@ while i < 3:
 ## Using Loops with rdflib
 
 When building a Knowledge Graph, loops assist when we want to iterate through out data and add them to our graph without doing so manually. Below there is a snippet of the rfdlib starter code that uses a for loop when adding data into the graph.
+
 ```py
 from rdflib import Graph, URIRef, RDF, Namespace
 # Initialization shortcut
@@ -45,9 +48,10 @@ for x in kastle_members: # adds all members iteratively
 ```
 
 ## Assignment
-Read and complete [this assignment](https://github.com/kastle-lab/kastle-drawbridge/blob/master/foundation/supplementary-material/assignments/cs1160-lab03.pdf) to practice using loops in Python.
+
+Read and complete [this assignment](/foundation\supplementary-material\assignments\assgn-3.md) to practice using loops in Python.
 
 ## Resources
+
 - [Python Loops - W3Schools](https://www.w3schools.com/python/python_loops.asp)
 - [RDFlib Documentation](https://rdflib.readthedocs.io/en/stable/)
-
