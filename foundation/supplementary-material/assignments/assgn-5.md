@@ -77,8 +77,11 @@ Enter the name of the file: testnums.txt
 0.2 + 0.5 = 0.8
 
 Enter the mathematical operation [a, s, m, d, o, i, q]: q
+```
 
-output.txt:
+### output.txt:
+
+```
 3.0
 50.0
 25.0

@@ -49,7 +49,7 @@ for x in kastle_members: # adds all members iteratively
 
 ## Assignment
 
-Read and complete [this assignment](/foundation\supplementary-material\assignments\assgn-3.md) to practice using loops in Python.
+Read and complete [this assignment](/foundation/supplementary-material/assignments/assgn-3.md) to practice using loops in Python.
 
 ## Resources
 

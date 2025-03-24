@@ -99,4 +99,3 @@ You got this!
 - Successfully prompted the user form starting weight and weight loss
 - Successfully looped and displayed table showing months and weight
 - Successfully displayed total weight loss at end and encouraging message
-  Total

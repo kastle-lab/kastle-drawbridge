@@ -61,7 +61,7 @@ for name in data_entries:
 
 ## Assignment
 
-Read and complete [this assignment](/foundation\supplementary-material\assignments\assgn-2.md) to practice using conditionals.
+Read and complete [this assignment](/foundation/supplementary-material/assignments/assgn-2.md) to practice using conditionals.
 
 ## Resources
 

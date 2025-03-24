@@ -120,4 +120,3 @@ Total of Active Members: 3
 - Successfully avoided all exceptions while program is running
 - Successfully printed tabulated output of members
 - Successfully calculated and printed revenue and member statistics
-  Total
