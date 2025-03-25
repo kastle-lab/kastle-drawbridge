@@ -8,7 +8,7 @@
      <!-- DLs use knowledge bases (KBs) to store general facts about categories of things (like animals, books, or cities) and specific facts about individual things and how they relate to each other. DLs come from earlier ideas like semantic networks and frame systems, which were used to model knowledge in a logical way. -->
       
       
-<img src="/pngs/dog.png" style="float: left; margin-right: 10px;" width="200" height="400">
+<img align="left" src="/pngs/dog.png" width="200" height="300">
 
   
      Example: Describing Dogs 🐶 and Animals 
@@ -34,7 +34,7 @@
     - <ins>*Scientific Defintion*</ins>: Predicate logic also known as <ins>First-Order Logic</ins> is a formal system that extends propositional logic by adding quanitifers and predicates. Statments can be made about objects in a domain and can involve variables that range over these objects. Predicate Logic allows expression such as "For All <ins>*x*</ins> which can be used to describe properties of objects or relations between those objects [[3]](#3enderton-h-b-2001-a-mathematical-introduction-to-logic-elsevier).
     - <ins> *8th Grade Defintion*</ins>: Predicate logic helps us make statements about things or objects. Instead of just saying whether something is true or false, predicate logic lets us talk about different things (like people, numbers, or objects) and their properties or how they are related to each other. 
 
-<img src="/pngs/student_v2.png" style="float: left; margin-right: 10px;" width="200" height="400">
+<img align="left" src="/pngs/student_v2.png" width="200" height="300">
 
      Example: We want to make a Statement about a set of people using Predicate Logic 👩🏼‍🎓
 
