@@ -13,6 +13,12 @@ A databases’ relationships, and restrictions are all visually represented in a
 * Represents RDF Data in plain triple format:
     * Subject Predicate Object - Cogan worksAt WrightStateUniversity ( mapping of triples from above example)
 * A ttl file would be what we get as output from the _rdflif-starter_ code
+* Prefixes:
+    * A short abreviation of a larger _URI_ (Uniform Resource Identifier)
+        * Identifies a resource using a string of characters.
+         Used to locate or identify resources on the internet.
+         * A string whose format depends on the naming scheme is followed by a naming scheme specifier to produce a complete URI.
+
 * Example ttl file:
     ```python
     edu-r:Media.100X_Data_Science_Projects_in_Python_for_Beginners a edu-ont:Article,
@@ -41,6 +47,6 @@ A databases’ relationships, and restrictions are all visually represented in a
 
 ### Assignment
 
-* Can you see where this happens in the _rdflib-starter_ code?
-    * Turn the previous result to a ttl graph.
+* Can you see where this happens in the [_rdflib-starter_](../../resources/rdflib-starter.py) code?
+* Turn the previous result to a rdf serialized graph in turtle.
 
