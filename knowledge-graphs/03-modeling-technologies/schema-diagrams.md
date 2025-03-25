@@ -59,3 +59,8 @@ The `hasAgeValue` relationship acts as a data property in this diagram.
 The `hasAgeCategory` relationship acts as an object property in this diagram.
 
 ![AgeRecord hasAgeCategory AgeCategory.txt](schema-diagrams/AgeRecord-hasAgeCategory-AgeCategory.png)
+
+## References
+
+[The Enslaved Ontology 2.0: People of the Historic Slave Trade](https://docs.enslaved.org/ontology/v2/Enslaved_Documentation_V2_0-2.pdf)
+[Modular Ontology Modeling](https://www.semantic-web-journal.net/system/files/swj2806.pdf)
