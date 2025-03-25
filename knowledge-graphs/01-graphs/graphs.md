@@ -14,7 +14,7 @@ An `Undirected Graph` refers to the Graph where the edges `E` have no directiona
 
 ![Undirected Graph Example](../../pngs/undirected-graph.png)
 
-### Weighted Graph
+### Labeled Graph
 A `Labeled Graph` refers to a graph `G` that has arbitrary values (strings or numeric) associated to the set of `Vertices` and set of `Edges`. These labels facilitate in modeling real objects and relationships between nodes. For example, the path you take to travel from your house to campus varies in travel-time pending the turns you might take along the way. 
 
 ![Weighted Graph examples ( directed and undirected)](../../pngs/weighted-graph.png)
@@ -36,7 +36,7 @@ A databases’ relationships, and restrictions are all visually represented in a
 
 ### Assignment
 
-- Make a Graph of Ohio major cities and highways. 
+- Make a Graph of Ohio's five major cities ( Dayton, Cincinnati, Columbus, Cle veland, Akron) and inner state routes. 
     -   Is it directed?
     - Can two edges exist for the same node?
 
