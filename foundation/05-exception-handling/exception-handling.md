@@ -35,6 +35,10 @@ Python has built in exceptions like the ones above: `FileNotFoundError`, `Permis
 
 The `pass` statement seen in the `PermissionError` exception will result in no message or traceback response. This is typically used as a placeholder until a desired task is implemented. Other exceptions exist and can be explored in the following resources below.
 
+## Assignment
+
+Read and complete [this assignment](/foundation/supplementary-material/assignments/assgn-6.md) to practice using exceptions and data structures (list).
+
 ## Resources
 
 - [PyDocs on Exceptions](https://docs.python.org/3/library/exceptions.html)

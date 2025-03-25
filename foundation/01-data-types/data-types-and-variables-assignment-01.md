@@ -84,7 +84,7 @@ There are over a dozen different types in Python, and it is recommended that thi
 
 # Assignment
 
-Read and implement [the attached assignment](https://github.com/kastle-lab/kastle-drawbridge/blob/master/foundation/supplementary-material/assignments/cs1160-lab02.pdf) such that your output and calculations match the assignment reading's.
+Read and implement [the attached assignment](/foundation/supplementary-material/assignments/assgn-1.md) such that your output and calculations match the assignment reading's.
 
 Remember that the numeric datatype affects mathematical calculations. For instance, performing `1/2` rounds down and results in `0`; whereas, `1.0/2.0` evaluates to `0.5`. What happens if we mix datatypes together (i.e., performing `1/2.0` or `1.0/2`)?
 
