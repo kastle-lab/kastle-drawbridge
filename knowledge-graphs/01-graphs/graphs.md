@@ -4,8 +4,8 @@
 * A graph `G` is defined as an ordered pair `(V,E)`, where `V` represents a set of Vertices (nodes), and `E` represents a set of Edges (connections between nodes).
 * A Vertex (also called a `Node`) is a fundamental unit of a graph, representing an entity or a data point in the graph `G`.
 * An Edge `E` is a connection between two vertices, often represented as `(u, v)`, where `u` and `v` are two nodes in the graph.
-* A Graph is a non-linear data structure that consists of Vertices (Nodes) and Edges.[1]
-* Graphs are non-linear data structures, meaning that there is no strict sequence in which elements are arranged. Instead, elements can be connected in multiple ways to have different paths to get from one vertex to another, forming complex relationships.[1]
+* A Graph is a non-linear data structure that consists of Vertices (Nodes) and Edges [1].
+* Graphs are non-linear data structures, meaning that there is no strict sequence in which elements are arranged. Instead, elements can be connected in multiple ways to have different paths to get from one vertex to another, forming complex relationships [1].
 
 ## Types of Graphs
 
@@ -36,7 +36,7 @@ A databases’ relationships, and restrictions are all visually represented in a
 
 ### Assignment
 
-- Make a Graph of Ohio's five major cities ( Dayton, Cincinnati, Columbus, Cle veland, Akron) and inner state routes. 
+- Make a Graph of Ohio's five major cities ( Dayton, Cincinnati, Columbus, Cleveland, Akron) and inner state routes. 
     -   Is it directed?
     - Can two edges exist for the same node?
 
