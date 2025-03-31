@@ -47,9 +47,9 @@ Enter the second number in the operation: 5
 Enter the mathematical operation [a, s, m, d, o, q]: q
 ```
 
-## Task
+## Successful Task Completion Entails
 
-- Successfully displayed list of operations
-- Successfully validated the operation selection
-- Successfully calculated each mathematical result
-- Successfully loop until user quit the program
+- Displayed list of operations
+- Validated the operation selection
+- Calculated each mathematical result
+- Loop until user quit the program

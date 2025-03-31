@@ -40,8 +40,8 @@ Your average grade is 77.69.
 You will get a C in this class.
 ```
 
-## Task
+## Successful Task Completion Entails
 
-- Successfully accepted all user input values
-- Successfully displayed average grade
-- Successfully displayed the proper letter grade for the class
+- Accepted all user input values
+- Displayed average grade
+- Displayed the proper letter grade for the class

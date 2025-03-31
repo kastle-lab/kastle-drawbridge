@@ -91,9 +91,9 @@ Enter the mathematical operation [a, s, m, d, o, i, q]: q
 0.75
 ```
 
-## Task
+## Successful Task Completion Entails
 
-- Successfully read and executed all operations and operands from input file
-- Successfully wrote all mathematical results to output file
-- Successfully calculated each mathematical result with manual entry
-- Successfully loop until user quit the program
+- Read and executed all operations and operands from input file
+- Wrote all mathematical results to output file
+- Calculated each mathematical result with manual entry
+- Loop until user quit the program
