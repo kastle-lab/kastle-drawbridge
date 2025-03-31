@@ -10,6 +10,10 @@ In this assignment your job is to select which axiom would best suit the node - 
     ➡️ [Word.docx](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/axiomatization-exercises.docx)
 
 
+
+
+
+
 <center> **NOTE**  </center>
 
 1. A relation can have multiple axioms so make sure that what you select makes sense and you can justify your answer to the lab! 
@@ -51,4 +55,3 @@ Lets look at some relations that need some ✨*Axiomization*✨
 - Set up a meeting with the **KASTLE Lab** members to go over your answers! You can set the meeting up through the **#kastle-drawbridge** Slack channel 😊😊. 
 
     - If you have any question please send them in the **#kastle-drawbridge** channel. 
-

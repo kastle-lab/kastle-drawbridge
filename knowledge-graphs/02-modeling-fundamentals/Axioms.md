@@ -232,7 +232,13 @@ There are several kinds of functionality including:
  These as well as the remaining axioms not covered in this module are are all expressed in the [Understanding Axioms](https://docs.google.com/presentation/d/1EmLxLo8yzo9-O6nKr7Yf6GRZdUXqe_VovG02JbTuh60/edit?usp=sharing) presentation and is your responsibility to go through and study them. **YOU WILL BE ASSESSED ON THESE IN THE ASSIGNMENT AND BY THE LAB.**
 
 ## Assignment
-The axiom assignment that was in cogans class. someone will give it to me. 
+To assess your knowledge over this module you will need to complete the <ins>Axiom Assignment</ins>. This Assignment will go through all of the axioms in the [Understanding Axioms](https://docs.google.com/presentation/d/1EmLxLo8yzo9-O6nKr7Yf6GRZdUXqe_VovG02JbTuh60/edit?usp=sharing) presentation.  Once you have completed the Assignment reachout to the KASTLE members to schedule a time to go through your answers! 😊😊
+
+- To access the assignment click here ➡️ [Axiom Assignment](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/Axiom-assign.md)
+
+
+
+
 ## References
 ### [[1]  Krötzsch, M., Simancik, F., & Horrocks, I. (2012). A description logic primer. arXiv preprint arXiv:1201.4089.](https://arxiv.org/pdf/1201.4089)
 <a id="1"></a>
