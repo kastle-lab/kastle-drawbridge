@@ -26,7 +26,7 @@ A module is a single node that indicates a level of hidden complexity. That is, 
 
 ![PersonRecord](../../gifs/PersonRecord.gif)
 
-The `PeronRecord` module is expanded below as a sub-module of `AgentRecord`.
+The `PersonRecord` module is expanded below as a sub-module of `AgentRecord`.
 
 ![AgentRecord](schema-diagrams/AgentRecord.png)
 
