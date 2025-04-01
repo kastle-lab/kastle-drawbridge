@@ -114,9 +114,9 @@ Total of Active Members: 3
 
 ```
 
-## Task
+## Successful Task Completion Entails
 
-- Successfully recorded each member’s data in list: first name, last name, age, active, bill
-- Successfully avoided all exceptions while program is running
-- Successfully printed tabulated output of members
-- Successfully calculated and printed revenue and member statistics
+- Recorded each member’s data in list: first name, last name, age, active, bill
+- Avoided all exceptions while program is running
+- Printed tabulated output of members
+- Calculated and printed revenue and member statistics

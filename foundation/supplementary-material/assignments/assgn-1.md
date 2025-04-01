@@ -32,8 +32,8 @@ Enter the water heater circumference (inches): 75
 Paintable floor area (square feet): 619.933
 ```
 
-## Task
+## Successful Task Completion Entails
 
-- Successfully accepted all user input values
-- Successfully calculated the paintable area
-- Successfully displayed the paintable area with 3 decimal places
+- All user input values accepted
+- Calculated the paintable area
+- Displayed the paintable area with 3 decimal places
