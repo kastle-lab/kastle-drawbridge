@@ -28,7 +28,7 @@ A module is a single node that indicates a level of hidden complexity. That is, 
 
 The `PersonRecord` module is expanded below as a sub-module of `AgentRecord`.
 
-![AgentRecord](schema-diagrams/AgentRecord.png)
+![AgentRecord](../../pngs/AgentRecord.png)
 
 ### Controlled Vocabulary
 
