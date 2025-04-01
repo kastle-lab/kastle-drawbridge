@@ -74,5 +74,5 @@ The `hasAgeCategory` relationship acts as an object property in this diagram.
 
 ## References
 
-[1] [The Enslaved Ontology 2.0: People of the Historic Slave Trade](https://docs.enslaved.org/ontology/v2/Enslaved_Documentation_V2_0-2.pdf)
+[1] [The Enslaved Ontology 2.0: People of the Historic Slave Trade](https://docs.enslaved.org/ontology/v2/Enslaved_Documentation_V2_0-2.pdf)  
 [2] [Modular Ontology Modeling](https://www.semantic-web-journal.net/system/files/swj2806.pdf)
