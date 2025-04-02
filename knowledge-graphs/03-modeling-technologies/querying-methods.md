@@ -8,9 +8,10 @@
 ## Quick Recap
 
 - [Knowledge Graph](../01-graphs/graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
-- TTL (.ttl): A Turtle file format – compact and human-readable RDF syntax
+- [TTL (.ttl)](../01-graphs/graphs-ttl.md): A Turtle file format – compact and human-readable RDF syntax
 - SPARQL: The SQL of Knowledge Graphs. Its Used to query RDF data
 - RDFLib: A Python library to create, manipulate, and query RDF graphs.
+- Triplestore: A database specifically designed for storing and retrieving triples through semantic queries.
 - Apache Jena Fuseki: A SPARQL endpoint server (triplestore) that allows hosting, querying, and updating RDF data via a web interface or APIs
 
 ---
@@ -135,7 +136,7 @@ WHERE {
 }
 ```
 
-4. Click on the `Play` button to run the qeury and see the results below.
+4. Click on the `Play` button to run the query and see the results below.
 
 ![Query](../../pngs/fudeki-query-2.png)
 
@@ -143,7 +144,7 @@ WHERE {
 
 ## 4. Querying Fuseki From Python with SPARQLWrapper
 
-You can also SPARQLWrapper to use your triplestore (Apache Zena Fuseki) in your code to query/manipulate your graph in your python code, especailly if you want to build apps that interact with your knowledge graph as an API.
+You can also SPARQLWrapper to use your triplestore (Apache Zena Fuseki) in your code to query/manipulate your graph in your python code, especially if you want to build apps that interact with your knowledge graph as an API.
 
 ### SPARQL to Fuseki via Python
 
@@ -176,3 +177,4 @@ for result in results["results"]["bindings"]:
 ## External Resources
 
 - https://rdflib.readthedocs.io/en/stable/intro_to_sparql.html
+- https://www.w3.org/TR/sparql11-overview/
