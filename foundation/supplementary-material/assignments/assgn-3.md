@@ -86,16 +86,16 @@ You're going to lose 12.0 pounds over the next six months!
 You got this!
 ```
 
-## Task
+## Successful Task Completion Entails
 
 ### Part 1:
 
-- Successfully looped and prompted user for each grade and continuation
-- Successfully displayed average grade
-- Successfully displayed the proper letter grade for the class
+- Looped and prompted user for each grade and continuation
+- Displayed average grade
+- Displayed the proper letter grade for the class
 
 ### Part 2:
 
-- Successfully prompted the user form starting weight and weight loss
-- Successfully looped and displayed table showing months and weight
-- Successfully displayed total weight loss at end and encouraging message
+- Prompted the user form starting weight and weight loss
+- Looped and displayed table showing months and weight
+- Displayed total weight loss at end and encouraging message
