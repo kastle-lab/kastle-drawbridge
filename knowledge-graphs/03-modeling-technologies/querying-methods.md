@@ -9,7 +9,7 @@
 
 - [Knowledge Graph](../01-graphs/graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
 - [TTL (.ttl)](../01-graphs/graphs-ttl.md): A Turtle file format – compact and human-readable RDF syntax
-- SPARQL: The SQL of Knowledge Graphs. Its Used to query RDF data
+- SPARQL: The SQL of Knowledge Graphs. It's used to query RDF data
 - RDFLib: A Python library to create, manipulate, and query RDF graphs.
 - Triplestore: A database specifically designed for storing and retrieving triples through semantic queries.
 - Apache Jena Fuseki: A SPARQL endpoint server (triplestore) that allows hosting, querying, and updating RDF data via a web interface or APIs
@@ -53,7 +53,7 @@ Save this as `example.ttl`.
 
 ## 2. Working with RDFLib in Python
 
-Using RDFlib, you can query the knowldge graph directly after creating of a new RDF graph, or load a periously exisitng one with a .ttl file.
+Using RDFlib, you can query the knowledge graph directly after creating a new RDF graph or load a previously existing one with a .ttl file.
 
 ### Load and Query Turtle Data
 
@@ -96,18 +96,18 @@ for row in query_result:
 ./fuseki-server
 ```
 
-- **Note** : Additionaly you can use our one-stop container `playground`, available [here](../../resources/playground_startup.md) to use this
+- **Note**: Additionaly you can use our one-stop container `playground`, available [here](../../resources/playground_startup.md) to use this
   Once started, the Apache Zena Fuseki Web Interface will be available at `http://localhost:3030`
 
 ---
 
 ### Step 2: Upload Your `.ttl` File
 
-1. Go to the Fuseki web interface by opening the host url `http://localhost:3030` in your browser.
+1. Go to the Fuseki web interface by opening the host URL `http://localhost:3030` in your browser.
    ![Fuseki Home](../../pngs/fuseki-home.png)
 2. Click "Manage datasets" → "Add new dataset" (name it something like example)
    ![Fuseki Manage Dataset](../../pngs/fuseki-manage-dataset.png)
-3. Choose persistent or in-memory, and create the dataset
+3. Choose persistent or in-memory and create the dataset
    ![Fuseki Add Dataset](../../pngs/fuseki-add-dataset.png)
 4. Go to the add data tab and upload your `example.ttl` file
    ![Fuseki Add Data](../../pngs/fudeki-upload-1.png)
@@ -117,7 +117,7 @@ you can upload multiple ttl files and load them all into one dataset usoing this
 
 ### Step 3: Query Using Web Interface
 
-1. Go to dataset tab
+1. Go to the dataset tab
 2. Find the dataset created `example` → click on query button
    ![Query](../../pngs/fudeki-query-1.png)
 3. Enter your SPARQL query in the query window
