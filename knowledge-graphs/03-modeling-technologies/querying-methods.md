@@ -94,8 +94,9 @@ for row in query_result:
 ```bash
 ./fuseki-server
 ```
- - **Note** : Additionaly you can use our one stop container `playground`, available [here](../../resources/playground_startup.md) to use this
-Once started, the Apache Zena Fuseki Web Interface will be available at `http://localhost:3030`
+
+- **Note** : Additionaly you can use our one-stop container `playground`, available [here](../../resources/playground_startup.md) to use this
+  Once started, the Apache Zena Fuseki Web Interface will be available at `http://localhost:3030`
 
 ---
 
@@ -108,16 +109,16 @@ Once started, the Apache Zena Fuseki Web Interface will be available at `http://
 3. Choose persistent or in-memory, and create the dataset
    ![Fuseki Add Dataset](../../pngs/fuseki-add-dataset.png)
 4. Go to the add data tab and upload your `example.ttl` file
-   ![Fuseki Add Data](../../pngs/upload-1.png)
-   ![Fuseki Upload](../../pngs/upload-2.png)
+   ![Fuseki Add Data](../../pngs/fudeki-upload-1.png)
+   ![Fuseki Upload](../../pngs/fudeki-upload-2.png)
 
-you can upload multiple ttl files and load them all into one dataset usoing this triplestore method and query/update as you go. it also also provides a RESTful API for programmatic access (SPARQL query/update endpoints).
+you can upload multiple ttl files and load them all into one dataset usoing this triplestore method and query/update as you go. It also provides a RESTful API for programmatic access (SPARQL query/update endpoints).
 
 ### Step 3: Query Using Web Interface
 
 1. Go to dataset tab
 2. Find the dataset created `example` → click on query button
-   ![Query](../../pngs/query-1.png)
+   ![Query](../../pngs/fudeki-query-1.png)
 3. Enter your SPARQL query in the query window
 
 Use this SPARQL query:
@@ -136,13 +137,13 @@ WHERE {
 
 4. Click on the `Play` button to run the qeury and see the results below.
 
-![Query](../../pngs/query-2.png)
+![Query](../../pngs/fudeki-query-2.png)
 
 ---
 
 ## 4. Querying Fuseki From Python with SPARQLWrapper
 
-You can also SPARQLWrapper to use your triplestore (Apache Zena Fuseki) in your code to query/manipulate your graph in your python code, especaillyif you want to build apps that interact with your knowledge graph as an API
+You can also SPARQLWrapper to use your triplestore (Apache Zena Fuseki) in your code to query/manipulate your graph in your python code, especailly if you want to build apps that interact with your knowledge graph as an API.
 
 ### SPARQL to Fuseki via Python
 
