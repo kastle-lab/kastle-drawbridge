@@ -1,0 +1,64 @@
+Bootstrap: docker
+From: ubuntu:focal
+
+%post
+    # Update and install necessary packages
+    apt-get update --fix-missing
+    apt-get install -y software-properties-common
+    add-apt-repository universe
+    apt-get update
+    apt-get install -y wget curl vim python3 python3-dev python3-pip firefox screen
+
+    # Upgrade pip
+    pip3 install --upgrade pip
+
+    # Install Jupyter and additional packages using pip3
+    pip3 install jupyterlab-server jupyter numpy geopandas rdflib pandas shapely fiona requests colorama ontospy matplotlib tqdm pyproj s2sphere
+
+    # Download Java and Apache Jena Fuseki
+    wget https://download.oracle.com/java/22/archive/jdk-22.0.2_linux-x64_bin.tar.gz
+    wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-5.0.0.tar.gz
+
+    # Create directories
+    mkdir -p /usr/java
+    mkdir -p /root/apache-jena-fuseki
+    mkdir -p /root/jupyter-notebooks
+
+    # Extract the downloads
+    tar -xzf jdk-22.0.2_linux-x64_bin.tar.gz -C /usr/java
+    tar -xvf apache-jena-fuseki-5.0.0.tar.gz
+
+    # Cleanup downloads
+    rm jdk-22.0.2_linux-x64_bin.tar.gz
+    rm apache-jena-fuseki-5.0.0.tar.gz
+
+    # Set environment variables
+    echo "export JAVA_HOME=/usr/java/jdk-22.0.2" >> /environment
+    echo "export JENA_HOME=/apache-jena-fuseki-5.0.0" >> /environment
+    echo "export PATH=$PATH:/usr/java/jdk-22.0.2/bin" >> /environment
+
+%environment
+    export JAVA_HOME=/usr/java/jdk-22.0.2
+    export JENA_HOME=/apache-jena-fuseki-5.0.0
+    export PATH=$PATH:/usr/java/jdk-22.0.2/bin
+    
+%test
+    java -version
+    curl --version
+    wget --version
+    vim --version
+    python3 --version
+    firefox --version
+    pip3 show numpy | grep Version
+    pip3 show geopandas | grep Version
+    pip3 show rdflib | grep Version
+    pip3 show pandas | grep Version
+    pip3 show shapely | grep Version
+    pip3 show fiona | grep Version
+    pip3 show requests | grep Version
+    pip3 show colorama | grep Version
+    pip3 show ontospy | grep Version
+    pip3 show matplotlib | grep Version
+    pip3 show tqdm | grep Version
+    pip3 show pyproj | grep Version
+    pip3 show s2sphere | grep Version
