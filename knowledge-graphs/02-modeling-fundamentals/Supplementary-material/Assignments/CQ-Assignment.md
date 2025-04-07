@@ -1,8 +1,8 @@
 # Competency Questions Assignment ✏️🧠💡
 
-Lets test your knowledge! In this assignment you will be asked to create CQ's using the different methods discussed in the [Competency Questions Module](/knowledge-graphs/03-modeling-technologies/Competency-Question.md)!
+Lets test your knowledge! In this assignment you will be asked to create CQ's using the different methods discussed in the [Competency Questions Module](/knowledge-graphs/02-modeling-fundamentals/Competency-Question.md)!
 
-- Feel free to use the [Competency Questions Module](/knowledge-graphs/03-modeling-technologies/Competency-Question.md) as a reference for this assignment. 😊 
+- Feel free to use the [Competency Questions Module](/knowledge-graphs/02-modeling-fundamentals/Competency-Question.md) as a reference for this assignment. 😊 
 
 - If you have any questions please ping us in the ✨ ***#kastle-drawbidge*** ✨ slack channel! 
  

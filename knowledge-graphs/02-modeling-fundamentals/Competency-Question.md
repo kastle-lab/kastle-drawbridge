@@ -71,14 +71,14 @@ These are very simplistic representations of the **CQ's** defined in [Keet & Kha
 
 ### So what is the benefit of using **CQ's** ⁉️
  
- - we use **CQ's** to keep us organized and goal oriented when we are developing our ontology! This organization makes it not only easier on ourselfs when developing a ontolgy but also when we are working as a group with other ontology engineers. The more organization and consistency we have the more functional and detailed our ontology will be!
+ - we use **CQ's** to keep us organized and goal oriented when we are developing our ontology! This organization makes it not only easier on ourselves when developing a ontolgy but also when we are working with other ontology engineers. The more organization and consistency we have the more functional and detailed our ontology will be!
 
 
 ![Anmol and Chris](/pngs/theboys.png)
 
             Work smarter not harder! 
 
-       Develope the habit of using CQ's to ensure that your ontolgy will be throughly developed and to keep your head from spinning. 
+       Develope the habit of using CQ's to ensure that your ontolgy will be throughly developed. You will thank yourself for it later! 
 
 
 ## So how do I start making my own **CQ's** ⁉️⁉️
@@ -119,7 +119,7 @@ Ok now that we know what **CQ's** are and **the different types of** **CQ's** le
 # Assignment ✏️🧠💡
  Lets test your knowledge in this *Competency Questions Assignment*! 
  
- - click here ➡️ <ins>[CQ Assignment](/knowledge-graphs/Supplementary-material/Assignments/CQ-Assignment.md) </ins>  to get the instructions on how to complete and submit! 😁 
+ - click here ➡️ <ins>[CQ Assignment](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/CQ-Assignment.md) </ins>  to get the instructions on how to complete and submit! 😁 
 
  - If you have any questions please ping us in the ✨ ***#kastle-drawbidge*** ✨ slack channel! 
 
