@@ -2,22 +2,31 @@
 
 SPARQL Protocol and RDF Query Language (SPARQL - pronounced "sparkle") is a database query language that is explicitly used for data stored in the format of Resource Description Framework (RDF).
 
-- W3C Standards
-- 3 part statements
-
-  - subject - entity identifier
-  - Predicate - attribute name
-  - Object - attribute value
-
-- Uniform Resource Identifiers (URIs) "identifiers"
-  - Prefixes
-    - @prefix customName <http://www.ontology-reference.com> (ttl syntax)
-
 # Concepts
 
-### RDF
+More information about these concepts can be explored using the links in the "Resources" section at the bottom of this page.
 
-# Syntax
+## Resource Descriptive Framework (RDF)
+
+RDF is the standard for representing web data. This standard was set by the World Wide Web Consortium (W3C), a non-profit international organization that creates standards for developing the World Wide Web (Web).
+
+RDF data is in a directed labeled graph format and is structured in the form of RDF triples: 'subject-predicate-object'. RDF Triples are also referred to as "Semantic triple" or "triple."
+
+RDF uses Uniform Resource Identifier(URI) to identify resources such as webpages, material objects, or other concepts. URIs provide users with the information needed to find and access the original data source. Think of URIs as references.
+
+## SPARQL
+
+SPARQL is the query language used to retrieve information from databases that use the RDF format.
+
+### Syntax
+
+- Select
+- Where
+- Filter
+- Limit
+- OrderBy
+- Count
+  (;, , , . , limit, order by, count, filter)
 
 ### Prefix
 
@@ -30,10 +39,12 @@ SPARQL Protocol and RDF Query Language (SPARQL - pronounced "sparkle") is a data
 # Examples
 
 ```sql
-SELECT ?thing
+SELECT ?thing1 ?thing2 ?thing3
 WHERE
 {
-  ?thing predicate object .
+  ?thing1 .
+  ?thing2 .
+  ?thing3
 }
 ```
 
@@ -52,3 +63,15 @@ WHERE
 - [Wikipedia - RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework)
 - [W3C - RDF Standards](https://www.w3.org/RDF/)
 - [W3C - RDF Documentation](https://www.w3.org/XML/9711theory/concepts.html)
+
+### URI
+
+- [Wikipedia - URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
+
+### OWL
+
+- [Wikipedia - OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language)
+
+### Ontology
+
+- [Wikipedia - Ontology](<https://en.wikipedia.org/wiki/Ontology_(information_science)>)
