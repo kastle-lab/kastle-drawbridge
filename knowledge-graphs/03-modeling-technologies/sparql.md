@@ -34,19 +34,19 @@ WHERE{
 }
 ```
 
-Let's further break down the components of the example query.
+Let's further break down the components of a SPARQL query.
 
 ### Punctuation
 
 Punctuation is vital in SPAQRL as it gives language specific instructions and makes queries more condensed and readable.
 
-- `.` - Period: Means the end of a triple pattern.
+- `.` - Period: Means the `end` of a triple pattern or statement.
 - `,` - Comma: Used to save space when the `subject` and `predicate` are the same for multiple variables.
 - `;` - Semicolon: Used to save space when the `subjects` are the same between multiple variables.
 
 ### Prefixes
 
-Prefixes are used to shorten URIs via an abbreviation.
+Prefixes are used to shorten URIs via an abbreviation. Prefixes are always declared at the top of the query.
 
 Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like the example below.
 
@@ -65,7 +65,7 @@ SELECT defines the variables returned from your query results. In the primary ex
 
 ### Where
 
-This is where the triple patterns that you want to search for goes.
+This is where the defined triple patterns you want to search for go.
 
 # Advanced Queries
 
@@ -111,7 +111,7 @@ Query results are typically unordered, but SPARQL has many modifiers that can be
 
 The limit clause will trigger results to display to the user once the declared limit has been reached or the search has been fully completed.
 
-The example below will display results to the user once 5 results for the `?kastle_member` variable have been achieved.
+The example below will display results to the user once 5 results for the `?kastle_member` variable have been gathered.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
