@@ -67,7 +67,7 @@ SELECT defines the variables returned from your query results. In the primary ex
 
 This is where the triple patterns that you want to search for goes.
 
-## Advanced
+# Advanced Queries
 
 There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many other expressions that can be explored in the W3 SPARQL documentation from the "Resources" section at the bottom of this page.
 
