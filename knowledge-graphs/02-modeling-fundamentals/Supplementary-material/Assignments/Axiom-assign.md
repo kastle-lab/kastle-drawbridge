@@ -7,7 +7,7 @@ In this assignment your job is to select which axiom would best suit the node - 
     
     ➡️ [PDF](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/axiomatization-exercises.pdf) 
 
-    ➡️ [Word.docx](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/axiomatization-exercises.docx)
+    
 
 
 
@@ -55,3 +55,13 @@ Lets look at some relations that need some ✨*Axiomization*✨
 - Set up a meeting with the **KASTLE Lab** members to go over your answers! You can set the meeting up through the **#kastle-drawbridge** Slack channel 😊😊. 
 
     - If you have any question please send them in the **#kastle-drawbridge** channel. 
+
+
+
+
+## Assignment Credit 
+External Sources that helped the KASTLE lab create the Axioms Assignment. 
+
+- [Pascal Hitzler](https://www.linkedin.com/in/pascalhitzler/)
+
+- [Aaron Eberhart](https://aaroneberhart.github.io/me/)
