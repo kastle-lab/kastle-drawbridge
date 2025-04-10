@@ -61,13 +61,13 @@ This is where the triple pattern that you want to search for goes.
 
 ## Advanced
 
-There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many others that can be explored in the W3 SPARQL documentation from the "Resources" section at the bottom of this page.
+There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many other expressions that can be explored in the W3 SPARQL documentation from the "Resources" section at the bottom of this page.
 
 ### Filter
 
-Filter will restrict query results to only return results that would equal `True` based on the filter expression.
+Filter will restrict query results to return results equal to `True` based on the filter expression.
 
-The example below filters for results of `?kastle_members` that are above the age of twenty five with `?age` variable.
+The example below filters for results of `?kastle_members` who are above the age of twenty five with the `?age` variable.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
@@ -86,13 +86,13 @@ The count is a SPARQL set function
 
 ## Modifiers and Clauses
 
-Query results are typical unordered but SPARQL has many modifiers that can be used to structure how the results are returned. Modifiers and clauses are declared after the `WHERE` block.
+Query results are typically unordered, but SPARQL has many modifiers that can be used to structure how the results are returned. Modifiers and clauses are declared after the `WHERE` block.
 
 ### Limit
 
-The limit clause will trigger reslts to display to the user once the declared limit has been reached or the search has been fully completed.
+The limit clause will trigger results to display to the user once the declared limit has been reached or the search has been fully completed.
 
-The example below will display results to the user once 5 results for the `?kastle_member` variable has been achieved.
+The example below will display results to the user once 5 results for the `?kastle_member` variable have been achieved.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
@@ -106,7 +106,7 @@ LIMIT 5
 
 ### Order By
 
-The order by modifier will change the sequence in which the results are returned. You can order by variables in ascending or descending order. The order by modifier defaults to ascending order. Descending order must be declared.
+The order by modifier will change the sequence in which the results are returned. You can order the variables in ascending or descending order. The order by modifier defaults to ascending order. Descending order must be declared.
 
 The example below will display the results in descending order of the `?age` variable.
 
@@ -141,11 +141,3 @@ ORDER BY DESC(?age)
 ### URI
 
 - [Wikipedia - URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
-
-### OWL
-
-- [Wikipedia - OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language)
-
-### Ontology
-
-- [Wikipedia - Ontology](<https://en.wikipedia.org/wiki/Ontology_(information_science)>)
