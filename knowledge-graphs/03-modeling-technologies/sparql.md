@@ -23,7 +23,7 @@ URIs provide users with the information needed to find and access the source of 
 
 # Query Syntax
 
-Below is a simple example of a SPARQL query. To summarize, this query will return all subjects linked by the predicate `klab:member` to any object.
+Below is a simple example of a SPARQL query. To summarize, this query will return all subjects, under the variable `?kastle_member`, linked by the predicate `klab:member` to any object.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
@@ -40,7 +40,7 @@ Let's further break down the components of the example query.
 
 Prefixes are used to shorten URIs via an abbreviation.
 
-Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like.
+Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like the example below.
 
 ```sql
 SELECT ?kastle_member
@@ -61,17 +61,66 @@ This is where the triple pattern that you want to search for goes.
 
 ## Advanced
 
+There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many others that can be explored in the W3 SPARQL documentation from the "Resources" section at the bottom of this page.
+
 ### Filter
 
-### Limit
+Filter will restrict query results to only return results that would equal `True` based on the filter expression.
 
-### OrderBy
+The example below filters for results of `?kastle_members` that are above the age of twenty five with `?age` variable.
+
+```sql
+PREFIX klab: <https://kastle-lab.org/ontology/>
+
+SELECT ?kastle_member ?age
+WHERE{
+  ?kastle_member klab:member ?something .
+  ?kastle_member klab:age ?age .
+  FILTER (?age > 25)
+}
+```
 
 ### Count
 
-## Query Pattern
+The count is a SPARQL set function
 
-## Modifiers
+## Modifiers and Clauses
+
+Query results are typical unordered but SPARQL has many modifiers that can be used to structure how the results are returned. Modifiers and clauses are declared after the `WHERE` block.
+
+### Limit
+
+The limit clause will trigger reslts to display to the user once the declared limit has been reached or the search has been fully completed.
+
+The example below will display results to the user once 5 results for the `?kastle_member` variable has been achieved.
+
+```sql
+PREFIX klab: <https://kastle-lab.org/ontology/>
+
+SELECT ?kastle_member
+WHERE{
+  ?kastle_member klab:member ?something .
+}
+LIMIT 5
+```
+
+### Order By
+
+The order by modifier will change the sequence in which the results are returned. You can order by variables in ascending or descending order. The order by modifier defaults to ascending order. Descending order must be declared.
+
+The example below will display the results in descending order of the `?age` variable.
+
+```sql
+PREFIX klab: <https://kastle-lab.org/ontology/>
+
+SELECT ?kastle_member ?age
+WHERE{
+  ?kastle_member klab:member ?something .
+  ?kastle_member klab:age ?age .
+  FILTER (?age > 25)
+}
+ORDER BY DESC(?age)
+```
 
 # Resources
 
