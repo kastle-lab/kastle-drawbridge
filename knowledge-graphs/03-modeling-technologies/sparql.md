@@ -36,6 +36,14 @@ WHERE{
 
 Let's further break down the components of the example query.
 
+### Punctuation
+
+Punctuation is vital in SPAQRL as it gives language specific instructions and makes queries more condensed and readable.
+
+- `.` - Period: Means the end of a triple pattern.
+- `,` - Comma: Used to save space when the `subject` and `predicate` are the same for multiple variables.
+- `;` - Semicolon: Used to save space when the `subjects` are the same between multiple variables.
+
 ### Prefixes
 
 Prefixes are used to shorten URIs via an abbreviation.
@@ -57,7 +65,7 @@ SELECT defines the variables returned from your query results. In the primary ex
 
 ### Where
 
-This is where the triple pattern that you want to search for goes.
+This is where the triple patterns that you want to search for goes.
 
 ## Advanced
 
@@ -82,7 +90,18 @@ WHERE{
 
 ### Count
 
-The count is a SPARQL set function
+Count is a SPARQL set/aggregate function that counts the number of elements returned in the results. It is frequently used with the Group By modifier but can also be used standalone by using COUNT(\*); this counts all results. The results from the COUNT function can be given their own variable, as seen in the example below.
+
+```sql
+PREFIX klab: <https://kastle-lab.org/ontology/>
+
+SELECT ?kastle_member ?age (COUNT(?kastle_member) as ?member_count)
+WHERE{
+  ?kastle_member klab:member ?something .
+  ?kastle_member klab:age ?age .
+  FILTER (?age > 25)
+}
+```
 
 ## Modifiers and Clauses
 
