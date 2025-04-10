@@ -10,43 +10,68 @@ More information about these concepts can be explored using the links in the "Re
 
 RDF is the standard for representing web data. This standard was set by the World Wide Web Consortium (W3C), a non-profit international organization that creates standards for developing the World Wide Web (Web).
 
-RDF data is in a directed labeled graph format and is structured in the form of RDF triples: 'subject-predicate-object'. RDF Triples are also referred to as "Semantic triple" or "triple."
+RDF data is in a directed labeled graph format and is structured in the form of RDF triples: `subject-predicate-object` (s-p-o) to describe the relationship between things. RDF Triples are also referred to as "semantic triple", "statements", or "triple." To further break down the concept of a triple, think of it in the following way:
 
-RDF uses Uniform Resource Identifier(URI) to identify resources such as webpages, material objects, or other concepts. URIs provide users with the information needed to find and access the original data source. Think of URIs as references.
+- `Subject` -> entity identifier
+- `Predicate` -> attribute name
+- `Object` -> attribute value
 
-## SPARQL
+## Uniform Resource Identifier (URI)
 
-SPARQL is the query language used to retrieve information from databases that use the RDF format.
+RDF uses Uniform Resource Identifier (URI) to identify resources such as webpages, material objects, or other concepts.
+URIs provide users with the information needed to find and access the source of the data. Think of URIs as references.
 
-### Syntax
+# Query Syntax
 
-- Select
-- Where
-- Filter
-- Limit
-- OrderBy
-- Count
-  (;, , , . , limit, order by, count, filter)
-
-### Prefix
-
-### Query Pattern
-
-### Modifiers
-
-### Advanced
-
-# Examples
+Below is a simple example of a SPARQL query. To summarize, this query will return all subjects linked by the predicate `klab:member` to any object.
 
 ```sql
-SELECT ?thing1 ?thing2 ?thing3
-WHERE
-{
-  ?thing1 .
-  ?thing2 .
-  ?thing3
+PREFIX klab: <https://kastle-lab.org/ontology/>
+
+SELECT ?kastle_member
+WHERE{
+  ?kastle_member klab:member ?something .
 }
 ```
+
+Let's further break down the components of the example query.
+
+### Prefixes
+
+Prefixes are used to shorten URIs via an abbreviation.
+
+Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like.
+
+```sql
+SELECT ?kastle_member
+WHERE{
+  ?kastle_member <https://kastle-lab.org/ontology/member> ?something .
+}
+```
+
+If your data set contains several URIs, typing each one out multiple times would be quite tedious, which is why it is standard practice to use prefixes.
+
+### Select
+
+SELECT defines the variables returned from your query results. In the primary example , `?kastle_member` is the variable we want returned, which is placed in the `subject` part of the `triple pattern`.
+
+### Where
+
+This is where the triple pattern that you want to search for goes.
+
+## Advanced
+
+### Filter
+
+### Limit
+
+### OrderBy
+
+### Count
+
+## Query Pattern
+
+## Modifiers
 
 # Resources
 
