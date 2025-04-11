@@ -46,9 +46,9 @@ Punctuation is vital in SPAQRL as it gives language specific instructions and ma
 
 ### Prefixes
 
-Prefixes are used to shorten URIs via an abbreviation. Prefixes are always declared at the top of the query.
+Prefixes are used to shorten URIs via an abbreviation and are defined using `PREFIX`. Prefixes are always declared at the top of the query.
 
-Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like the example below.
+Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like:
 
 ```sql
 SELECT ?kastle_member
@@ -61,7 +61,7 @@ If your data set contains several URIs, typing each one out multiple times would
 
 ### Select
 
-SELECT defines the variables returned from your query results. In the primary example , `?kastle_member` is the variable we want returned, which is placed in the `subject` part of the `triple pattern`.
+`SELECT` defines the variables returned from your query results. In the primary example , `?kastle_member` is the variable we want returned, which is placed in the `subject` part of the triple pattern.
 
 ### Where
 
@@ -73,32 +73,32 @@ There are many expressions to further refine your SPARQL query. We will go over 
 
 ### Filter
 
-Filter will restrict query results to return results equal to `True` based on the filter expression.
+`FILTER` will restrict query results to return results equal to `True` based on the filter expression.
 
-The example below filters for results of `?kastle_members` who are above the age of twenty five with the `?age` variable.
+The example below filters for results of `?kastle_members` who are above the age of twenty-five with the `?age` variable.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member ?age
 WHERE{
-  ?kastle_member klab:member ?something .
-  ?kastle_member klab:age ?age .
+  ?kastle_member klab:member ?something ;
+                 klab:age ?age .
   FILTER (?age > 25)
 }
 ```
 
 ### Count
 
-Count is a SPARQL set/aggregate function that counts the number of elements returned in the results. It is frequently used with the Group By modifier but can also be used standalone by using COUNT(\*); this counts all results. The results from the COUNT function can be given their own variable, as seen in the example below.
+`COUNT` is a SPARQL set/aggregate function that counts the number of elements returned in the results. It is frequently used with the `GROUP BY` modifier but can also be used standalone by using `COUNT(*)`; this counts all results. The results from the `COUNT` function can be given their own variable, as seen in the example below.
 
 ```sql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member ?age (COUNT(?kastle_member) as ?member_count)
 WHERE{
-  ?kastle_member klab:member ?something .
-  ?kastle_member klab:age ?age .
+  ?kastle_member klab:member ?something;
+                 klab:age ?age .
   FILTER (?age > 25)
 }
 ```
@@ -109,7 +109,7 @@ Query results are typically unordered, but SPARQL has many modifiers that can be
 
 ### Limit
 
-The limit clause will trigger results to display to the user once the declared limit has been reached or the search has been fully completed.
+The `LIMIT` clause will trigger results to display to the user once the declared limit has been reached or the search has been fully completed.
 
 The example below will display results to the user once 5 results for the `?kastle_member` variable have been gathered.
 
@@ -125,7 +125,7 @@ LIMIT 5
 
 ### Order By
 
-The order by modifier will change the sequence in which the results are returned. You can order the variables in ascending or descending order. The order by modifier defaults to ascending order. Descending order must be declared.
+The `ORDER BY` modifier will change the sequence in which the results are returned. You can order the variables in ascending or descending order. The order by modifier defaults to ascending order. Descending order must be declared.
 
 The example below will display the results in descending order of the `?age` variable.
 
