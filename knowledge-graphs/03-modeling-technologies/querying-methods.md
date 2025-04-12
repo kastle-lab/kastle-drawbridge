@@ -96,7 +96,8 @@ for row in query_result:
 ./fuseki-server
 ```
 
-- **Note**: Additionaly you can use our one-stop container `playground`, available [here](../../resources/playground_startup.md) to use this
+- **Note**: Additionally you can use our one-stop container `playground`, available in [our resources](../../resources/playground_startup.md), to avoid the installation and setup hassle.
+
   Once started, the Apache Zena Fuseki Web Interface will be available at `http://localhost:3030`
 
 ---
@@ -105,15 +106,15 @@ for row in query_result:
 
 1. Go to the Fuseki web interface by opening the host URL `http://localhost:3030` in your browser.
    ![Fuseki Home](../../pngs/fuseki-home.png)
-2. Click "Manage datasets" → "Add new dataset" (name it something like example)
+2. Click `Manage datasets` → `Add new dataset` (Give it a name, for instance: example)
    ![Fuseki Manage Dataset](../../pngs/fuseki-manage-dataset.png)
-3. Choose persistent or in-memory and create the dataset
+3. Choose `persistent` or `in-memory` and create the dataset
    ![Fuseki Add Dataset](../../pngs/fuseki-add-dataset.png)
-4. Go to the add data tab and upload your `example.ttl` file
+4. Go to the `add data` tab and upload your `example.ttl` file
    ![Fuseki Add Data](../../pngs/fudeki-upload-1.png)
    ![Fuseki Upload](../../pngs/fudeki-upload-2.png)
 
-you can upload multiple ttl files and load them all into one dataset usoing this triplestore method and query/update as you go. It also provides a RESTful API for programmatic access (SPARQL query/update endpoints).
+you can upload multiple ttl files and load them all into one dataset using this triplestore method and query/update as you go. It also provides a RESTful API for programmatic access (SPARQL query/update endpoints).
 
 ### Step 3: Query Using Web Interface
 
@@ -176,5 +177,5 @@ for result in results["results"]["bindings"]:
 
 ## External Resources
 
-- https://rdflib.readthedocs.io/en/stable/intro_to_sparql.html
-- https://www.w3.org/TR/sparql11-overview/
+- [Introduction to SPARQL](https://rdflib.readthedocs.io/en/stable/intro_to_sparql.html).
+- [W3C: SPARQL Overview](https://www.w3.org/TR/sparql11-overview/).
