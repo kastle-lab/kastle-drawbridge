@@ -4,13 +4,13 @@ SPARQL Protocol and RDF Query Language (SPARQL - pronounced "sparkle") is a data
 
 # Concepts
 
-More information about these concepts can be explored using the links in the "Resources" section at the bottom of this page.
+More information about these concepts can be explored using the links in the [Resources](#Resources) section at the bottom of this page.
 
 ## Resource Descriptive Framework (RDF)
 
 RDF is the standard for representing web data. This standard was set by the World Wide Web Consortium (W3C), a non-profit international organization that creates standards for developing the World Wide Web (Web).
 
-RDF data is in a directed, labeled graph format and is structured in the form of RDF triples: `subject-predicate-object` (s-p-o) to describe the relationship between things. RDF Triples are also referred to as "semantic triples", "statements", or "triples." To further break down the concept of a triple, think of it in the following way:
+RDF data is in a directed, labeled graph format and is structured in the form of RDF Triples: `subject-predicate-object` (s-p-o) to describe the relationship between things. RDF Triples are also referred to as "semantic triples", "statements", or "triples." To further break down the concept of a triple, think of it in the following way:
 
 - `Subject` -> entity identifier
 - `Predicate` -> attribute name
@@ -69,7 +69,7 @@ This is where the defined triple patterns you want to search for go.
 
 # Advanced Queries
 
-There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many other expressions that can be explored in the W3 SPARQL documentation from the "Resources" section at the bottom of this page.
+There are many expressions to further refine your SPARQL query. We will go over the most common ones below. However, there are many other expressions that can be explored in the W3C SPARQL documentation from the [Resources](#Resources) section at the bottom of this page.
 
 ### Filter
 
@@ -143,7 +143,7 @@ ORDER BY DESC(?age)
 
 # Resources
 
-### Sparql
+### SPARQL
 
 - [SPARQL Dev - Learn SPARQL](https://sparql.dev/)
 - [SPARQL Dev - Tutorial Video](https://youtu.be/FvGndkpa4K0?si=Nr09D5x3k0qDZr4d)
