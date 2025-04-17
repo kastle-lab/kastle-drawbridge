@@ -25,7 +25,7 @@ URIs provide users with the information needed to find and access the source of 
 
 Below is a simple example of a SPARQL query. To summarize, this query will return all subjects, under the variable `?kastle_member`, linked by the predicate `klab:member` to any object.
 
-```sql
+```sparql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member
@@ -50,7 +50,7 @@ Prefixes are used to shorten URIs via an abbreviation and are defined using `PRE
 
 Our prefix in the example above allows us to use `klab:member` in lieu of inputting the entire URI. If we didn't use a prefix, this is what the query from above would look like:
 
-```sql
+```sparql
 SELECT ?kastle_member
 WHERE{
   ?kastle_member <https://kastle-lab.org/ontology/member> ?something .
@@ -77,7 +77,7 @@ There are many expressions to further refine your SPARQL query. We will go over 
 
 The example below filters for results of `?kastle_members` who are above the age of twenty-five with the `?age` variable.
 
-```sql
+```sparql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member ?age
@@ -92,7 +92,7 @@ WHERE{
 
 `COUNT` is a SPARQL set/aggregate function that counts the number of elements returned in the results. It is frequently used with the `GROUP BY` modifier but can also be used standalone by using `COUNT(*)`; this counts all results. The results from the `COUNT` function can be given their own variable, as seen in the example below.
 
-```sql
+```sparql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member ?age (COUNT(?kastle_member) as ?member_count)
@@ -113,7 +113,7 @@ The `LIMIT` clause will trigger results to display to the user once the declared
 
 The example below will display results to the user once 5 results for the `?kastle_member` variable have been gathered.
 
-```sql
+```sparql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member
@@ -129,7 +129,7 @@ The `ORDER BY` modifier will change the sequence in which the results are return
 
 The example below will display the results in descending order of the `?age` variable.
 
-```sql
+```sparql
 PREFIX klab: <https://kastle-lab.org/ontology/>
 
 SELECT ?kastle_member ?age
