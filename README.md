@@ -45,3 +45,11 @@
 * Weeks 9: Triplestore Basics and Jena Fuseki
     - Introduction to triplestores, such as Jena Fuseki, and their role in storing and querying RDF data.
     - Setting up Jena Fuseki: Learn how to set up and use Jena Fuseki.
+
+## License
+
+- **Code** in this repository (including scripts, notebooks, and implementations) is licensed under the [Apache License 2.0](./LICENSE).
+- **Educational content** (Markdown tutorials, guides, documentation, diagrams) is licensed under the 
+  [Creative Commons Attribution-ShareAlike 4.0 International License](./LICENSE.docs).
+
+By contributing, you agree to license your contributions under these same terms.
