@@ -175,6 +175,9 @@ for result in results["results"]["bindings"]:
 
 ---
 
+## Resources
+ - [Jupyter Template to Programatically Query a KG](../../resources/programatically-querying-a-knowledge-graph.ipynb)
+
 ## External Resources
 
 - [Introduction to SPARQL](https://rdflib.readthedocs.io/en/stable/intro_to_sparql.html).
