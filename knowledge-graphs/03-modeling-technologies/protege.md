@@ -1,8 +1,14 @@
 # Protégé
 
-Protégé is a free, open-source software platform used for creating and managing ontologies. It allows users to define classes (concepts), properties (attributes and relationships), and individuals (instances) along with constraints on data (axioms). By supporting standards like OWL and RDF, Protégé can easily be added to a pipeline consisting of other tools.
+## Prerequisites
 
-When Protégé is first opened, an `Ontology IRI` can be defined in the `Active ontology` window as shown below:
+- Knowledge Graphs
+
+- Axioms
+
+Protégé is a free, open-source software platform used for creating and managing ontologies. It allows users to define classes (concepts), properties (attributes and relationships), and individuals (instances) along with constraints on data (axioms). By supporting standards like OWL and [RDF](sparql.md), Protégé can easily be added to a pipeline consisting of other tools.
+
+When Protégé is first opened, an `Ontology IRI` can be defined in the `Active ontology` window as shown below to act as a unique ID for the ontology and other contained items:
 
 ![Ontology IRI](../../pngs/protege-ontology-iri.png)
 
@@ -61,3 +67,6 @@ A datatype, as discussed briefly above, specifies the kind of literal value a da
 # Notes
 - should prob talk about axioms somewhere
 - maybe what this gives you (ie a ttl file that can be included in materialization)
+
+## Axioms
+
