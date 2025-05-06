@@ -12,10 +12,10 @@
 | **macOS**         | ⚠️ Indirect Support | Requires a Linux VM or remote Linux system (Singularity is not natively supported) |
 | **Windows 10/11** | ⚠️ Indirect Support | Requires WSL2 (Windows Subsystem for Linux) or Linux VM                            |
 
-> **Note:** Singularity is a Linux-native container platform. macOS and Windows users must use:
+> **Note:** [Singularity](https://docs.sylabs.io/guides/latest/admin-guide/installation.html) is a Linux-native container platform. macOS and Windows users must use:
 
 - A Linux Virtual Machine (e.g., Ubuntu via VirtualBox, VMware, or Parallels)
-- WSL2 with a Linux distribution (Windows only)
+- [WSL2](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) with a Linux distribution (Windows only)
 - Remote Linux access (e.g., via SSH)
 
 ---
@@ -37,7 +37,7 @@
 | Requirement     | Description                         |
 | --------------- | ----------------------------------- |
 | **Kernel**      | v4.18 or newer                      |
-| **Singularity** | v3.7 or newer                       |
+| **[Singularity](https://docs.sylabs.io/guides/latest/admin-guide/installation.html)** | v3.7 or newer                       |
 | **sudo access** | Required to build `.sif` containers |
 | **Tools**       | `wget`, `curl`, `bash`, `tar`       |
 
@@ -53,7 +53,7 @@
 
 | Requirement  | Description                                |
 | ------------ | ------------------------------------------ |
-| **WSL2**     | Required (with Ubuntu or Debian installed) |
+| **[WSL2](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/)**     | Required (with Ubuntu or Debian installed) |
 | **Optional** | Alternatively, use a full Linux VM         |
 
 ---
