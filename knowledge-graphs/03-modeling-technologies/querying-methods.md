@@ -176,7 +176,7 @@ for result in results["results"]["bindings"]:
 ---
 
 ## Resources
- - [Jupyter Template to Programatically Query a KG](../../resources/programatically-querying-a-knowledge-graph.ipynb)
+ - [Jupyter Template to Programatically Query a KG - Advanced Method](../../resources/programatically-querying-a-knowledge-graph.ipynb)
 
 ## External Resources
 
