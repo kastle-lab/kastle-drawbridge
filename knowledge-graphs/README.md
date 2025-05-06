@@ -4,7 +4,16 @@ Welcome to the Knowledge Graph module series. This series of modules takes you f
 
 ---
 
-## Module 1: Graphs
+## How to Use This Resource
+
+1. **Follow the modules in order** — Each builds on knowledge from the previous one, i.e. later modules assume prior knowledge.
+2. **Click the module titles** – They link directly to the learning content.
+2. **Complete each assignment** - Sync with the lab members for review, evaluation and feedback.
+3. **Ask questions** - Bring them to weekly lab syncs.
+
+---
+
+## Section 1: Graphs
 
 ### [Graphs](01-graphs/graphs.md)
 **Overview**:  
@@ -16,7 +25,7 @@ Start with the foundational concept of graphs, i.e. how entities (nodes) connect
 - Understand real-world graph applications
 
 **Assignment:**
- - [Build an Ohio City Graph](): Design a graph using five major cities in Ohio and their intercity routes. Determine directionality and explore path connections.  
+ - [Build an Ohio City Graph](01-graphs/graphs.md#assignment): Design a graph using five major cities in Ohio and their intercity routes. Determine directionality and explore path connections.  
  - *Goal:* Apply graph theory to a real map, then analyze structure and paths.
 
 ---
@@ -31,12 +40,12 @@ Learn how RDF data is expressed using the Turtle (TTL) syntax, a general way to 
 - Understand how data is serialized for semantic processing
 
 **Assignment:**  
-- [RDF Turtle Practice](): Write your own `.ttl` file by converting simple natural language statements into RDF triples.
+- [RDF Turtle Practice](01-graphs/graphs-ttl.md#assignment): Write your own `.ttl` file by converting simple natural language statements into RDF triples.
 - *Goal:* Demonstrate understanding of how semantic data is structured and encoded.
 
 ---
 
-## Module 2: Modeling Fundamentals 
+## Section 2: Modeling Fundamentals 
 
 ### [Axioms](02-modeling-fundamentals/Axioms.md)
 **Overview**:  
@@ -48,12 +57,12 @@ Axioms are logic-based rules that define structure, meaning and truth in ontolog
 - Understand OWL axioms like Functional, Inverse, and Scoped constraints
 
 **Assignment:**
--  [✨Axiom Assignment✨](02-modeling-fundamentals/Supplementary-material/Assignments/Axiom-assign.md): Study the top 17 axioms used in KASTLE Lab ontologies and apply them in examples.  
+-  [Axiom Assignment](02-modeling-fundamentals/Supplementary-material/Assignments/Axiom-assign.md): Study the top 17 axioms used in KASTLE Lab ontologies and apply them in examples.  
 - *Goal:* Demonstrate your command of logical axioms via real modeling scenarios.
 
 ---
 
-## Module 3: Modeling Technologies
+## Section 3: Modeling Technologies
 
 ### [SPARQL](03-modeling-technologies/sparql.md)
 **Overview**:  
@@ -97,14 +106,5 @@ Learn how to visually model your ontology with schema diagrams using tools like 
 **Assignment:**
 - [Design Your Own Schema Diagram](): Using yEd, draw a schema diagram with at least 3 classes, 2 properties, and relationships. Apply visual rules from this module.  
 - *Goal:* Translate textual ontologies into visual knowledge architecture.
-
----
-
-## How to Use This Resource
-
-1. **Follow the modules in order** — Each builds on knowledge from the previous one, i.e. later modules assume prior knowledge.
-2. **Click the module titles** – They link directly to the learning content.
-2. **Complete each assignment** - Sync with the lab members for review, evaluation and feedback.
-3. **Ask questions** - Bring them to weekly lab syncs.
 
 ---
