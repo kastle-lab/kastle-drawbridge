@@ -63,5 +63,5 @@ Lets test your knowledge! In this assignment you will be asked to create CQ's us
 
 
 
-![Michael](/pngs/michael.png)
+![Mike](/pngs/michael.png)
     

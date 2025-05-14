@@ -10,7 +10,7 @@ In this module we will talk about **Comptemecy Questions** or **CQ's** for short
   - Put your knowledge to the test with an Assignment over this module! 🧠 
 
 ```
-![alexis](/pngs/AlexisE.png)
+![gorl2](/pngs/AlexisE.png)
 
 
 ## What are **CQ's** and why are they so important⁉️⁉️
@@ -74,7 +74,7 @@ These are very simplistic representations of the **CQ's** defined in [Keet & Kha
  - we use **CQ's** to keep us organized and goal oriented when we are developing our ontology! This organization makes it not only easier on ourselves when developing a ontolgy but also when we are working with other ontology engineers. The more organization and consistency we have the more functional and detailed our ontology will be!
 
 
-![Anmol and Chris](/pngs/theboys.png)
+![theboys](/pngs/theboys.png)
 
             Work smarter not harder! 
 
@@ -113,8 +113,6 @@ Ok now that we know what **CQ's** are and **the different types of** **CQ's** le
 
 **CQ's** are a nessesary step in the development process of ontologies. Mastering **CQ's**  by investing time into the process and paying attention to details can make the development process easier and faster for you in the long run!
 
-![Andrea](/pngs/andrea.png)
-
 
 # Assignment ✏️🧠💡
  Lets test your knowledge in this *Competency Questions Assignment*! 
@@ -126,3 +124,9 @@ Ok now that we know what **CQ's** are and **the different types of** **CQ's** le
 
 <center>Looking Forward to your answers </center>
 <center>🍀🍀❗GOOD LUCK❗🍀🍀</center> <br> 
+
+
+![gorl](/pngs/andrea.png)
+
+
+
