@@ -9,7 +9,7 @@ Lets test your knowledge! In this assignment you will be asked to create CQ's us
 
 
 ## Lets Get Started! 📚🖊️🏁
-🗣️📣 ‼️‼️**PLEASE READ THROUGH THE INSTRUCTIONS THROUGHLY!**‼️‼️
+🗣️📣 ‼️‼️**PLEASE READ THROUGH THE INSTRUCTIONS THOROUGHLY!**‼️‼️
 
    - ( P.S we are a CS lab we will know if you used ChatGPT, this isnt graded so dont stress. 😊)
 ### 📋 <ins>**Instructions:**</ins>
@@ -57,7 +57,7 @@ Lets test your knowledge! In this assignment you will be asked to create CQ's us
 
 # <center>⁉️⁉️<ins>Finished</ins> ⁉️⁉️ </center>
 <ins> **Once you have finished the Assignment please schedule a meeting with the lab** </ins>. We will go over your answers so be ready to answer our questions and back your answers up! 😊😊😊
-- you can use the ✨ **#kastle-drawbidge** ✨slack channel to schedule a time! 
+- you can use the ✨ **#kastle-drawbridge** ✨slack channel to schedule a time! 
 
 <center>🍀🍀❗GOOD LUCK❗🍀🍀</center> <br>
 
