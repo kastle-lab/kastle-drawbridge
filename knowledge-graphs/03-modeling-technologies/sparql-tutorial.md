@@ -3,7 +3,7 @@
  # SPARQL Tutorial
  
  
- An example RDF dataset is used in this tutorial to demonstrate how a SPARQL query operates. The following picture contrasts RDF data in Turtle syntax (on the right) with a SPARQL query (on the left):
+An example RDF dataset is used in this tutorial to demonstrate how a SPARQL query operates. The following picture contrasts RDF data in Turtle syntax (on the right) with a SPARQL query (on the left):
  * Colours indicate mapping of the data ot the turtle file to how the query looks for it.
  
  

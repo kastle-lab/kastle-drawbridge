@@ -164,4 +164,4 @@ ORDER BY DESC(?age)
 
 ### SPARQL Tutorial
 
-- [SPARQL Tutprial step by step](../03-modeling-technologies/sparql-tutorial.md)
+- [SPARQL Tutorial step by step](../03-modeling-technologies/sparql-tutorial.md)
