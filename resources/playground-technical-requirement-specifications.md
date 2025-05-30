@@ -2,6 +2,8 @@
 
 **Purpose:** The host system must be capable of building and executing a Singularity container that includes tools for geospatial analysis, semantic web development, RDF processing, and data science tasks. This includes downloading and running large Java and Python-based software stacks like Apache Jena Fuseki, JupyterLab, and Firefox.
 
+> **Note**: The listed requirements (hardware and network specifications) are estimations based on the current demands of included libraries and tools. They are not strict limits and may vary depending on software updates, specific use cases, or additional components added to the container 
+
 ---
 
 ## 1. **Supported Host Platforms**
@@ -12,11 +14,13 @@
 | **macOS**         | ⚠️ Indirect Support | Requires a Linux VM or remote Linux system (Singularity is not natively supported) |
 | **Windows 10/11** | ⚠️ Indirect Support | Requires WSL2 (Windows Subsystem for Linux) or Linux VM                            |
 
-> **Note:** [Singularity](https://docs.sylabs.io/guides/latest/admin-guide/installation.html) is a Linux-native container platform. macOS and Windows users must use:
+> **Note:** **Singularity** is a Linux-native container platform. macOS and Windows users must use:
 
 - A Linux Virtual Machine (e.g., Ubuntu via VirtualBox, VMware, or Parallels)
 - [WSL2](https://documentation.ubuntu.com/wsl/en/latest/howto/install-ubuntu-wsl2/) with a Linux distribution (Windows only)
 - Remote Linux access (e.g., via SSH)
+
+For detailed information and installation instructions, refer to the [official Singularity Docs](https://docs.sylabs.io/guides/latest/admin-guide/installation.html).
 
 ---
 
@@ -37,7 +41,7 @@
 | Requirement     | Description                         |
 | --------------- | ----------------------------------- |
 | **Kernel**      | v4.18 or newer                      |
-| **[Singularity](https://docs.sylabs.io/guides/latest/admin-guide/installation.html)** | v3.7 or newer                       |
+| **[Singularity](https://docs.sylabs.io/guides/latest/user-guide/)** | v3.7 or newer                       |
 | **sudo access** | Required to build `.sif` containers |
 | **Tools**       | `wget`, `curl`, `bash`, `tar`       |
 
