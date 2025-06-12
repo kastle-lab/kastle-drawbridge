@@ -2,17 +2,31 @@
 
 - kastle-drawbridge is the formulation of a "zero-to-hero" curriculum for learning and using knowledge graphs. It assumes no code experience, and runs you through being able to develop a knowledge graph, and query against it.
 
-## Foundation
+## Modules
+
+### Foundation
 
 - The purpose of this directory is to familiarize a student to the field of Computer Science and the aspects of programming. This directory will walk a student through how to use Python as a programming language.
   - This entails Data Structures, that is creating and understanding dictionaries and lists through examples illustrating their usage for storing and retrieving information.
   - Also, I/O manipulation with practical examples while also creating, navigating and manipulating directories.
 
-## Knowledge-Graphs
+### Knowledge-Graphs
 
 - The purpose of this directory contains details on how to create, utilize, and apply a knowledge graph. This directory inherits information from [kastle-lab\cs7810-intro-to-ke](https://github.com/kastle-lab/cs7810-intro-to-ke/) and [The KGC Open KG Curriculum](https://github.com/KGConf/open-kg-curriculum)
 - Since the student is expected to be familiar with the foundations mentioned above, the next step would be to advance the learning with the [`RDFLib starter code`](https://github.com/kastle-lab/kastle-drawbridge/blob/master/resources/rdflib-starter.py) as a first exposure to creating KGs.
 - This directory will also guide a student to understanding the concept of a turtle (`"ttl"`) file, introducing examples to navigate and validate a knowledge graph in this format.
+
+### Resources
+
+Contains the following:
+
+- `programatically-querying-a-knowledge-graph.ipynb`: Documentation on querying a knowledge graph programatically
+
+- `playground-startup.md`: reference documentation for installing and using the playground image file.
+
+* `rdflib-starter.py`: provides barebones foundation to begin materialization of data into triples
+
+* [Foundry](https://github.com/kastle-lab/foundry/tree/main): another materialization tool that parses based on YAML mapping files
 
 # Week by week estimated framework
 
