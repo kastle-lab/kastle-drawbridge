@@ -105,14 +105,14 @@ for row in query_result:
 ### Step 2: Upload Your `.ttl` File
 
 1. Go to the Fuseki web interface by opening the host URL `http://localhost:3030` in your browser.
-   ![Fuseki Home](../../pngs/fuseki-home.png)
+   ![Fuseki Home](../../images/fuseki-home.png)
 2. Click `Manage datasets` → `Add new dataset` (Give it a name, for instance: example)
-   ![Fuseki Manage Dataset](../../pngs/fuseki-manage-dataset.png)
+   ![Fuseki Manage Dataset](../../images/fuseki-manage-dataset.png)
 3. Choose `persistent` or `in-memory` and create the dataset
-   ![Fuseki Add Dataset](../../pngs/fuseki-add-dataset.png)
+   ![Fuseki Add Dataset](../../images/fuseki-add-dataset.png)
 4. Go to the `add data` tab and upload your `example.ttl` file
-   ![Fuseki Add Data](../../pngs/fudeki-upload-1.png)
-   ![Fuseki Upload](../../pngs/fudeki-upload-2.png)
+   ![Fuseki Add Data](../../images/fudeki-upload-1.png)
+   ![Fuseki Upload](../../images/fudeki-upload-2.png)
 
 you can upload multiple ttl files and load them all into one dataset using this triplestore method and query/update as you go. It also provides a RESTful API for programmatic access (SPARQL query/update endpoints).
 
@@ -120,7 +120,7 @@ you can upload multiple ttl files and load them all into one dataset using this 
 
 1. Go to the dataset tab
 2. Find the dataset created `example` → click on query button
-   ![Query](../../pngs/fudeki-query-1.png)
+   ![Query](../../images/fudeki-query-1.png)
 3. Enter your SPARQL query in the query window
 
 Use this SPARQL query:
@@ -139,7 +139,7 @@ WHERE {
 
 4. Click on the `Play` button to run the query and see the results below.
 
-![Query](../../pngs/fudeki-query-2.png)
+![Query](../../images/fudeki-query-2.png)
 
 ---
 
@@ -176,7 +176,8 @@ for result in results["results"]["bindings"]:
 ---
 
 ## Resources
- - [Jupyter Template to Programatically Query a KG - Advanced Method](../../resources/programatically-querying-a-knowledge-graph.ipynb)
+
+- [Jupyter Template to Programatically Query a KG - Advanced Method](../../resources/programatically-querying-a-knowledge-graph.ipynb)
 
 ## External Resources
 
