@@ -45,7 +45,7 @@ Well **CQs** are important for a number of reasons but lets first start with a d
 
              Example:
                 - FCQ: What is a mammal 🐈❓
-                - Explanation: lets us know if the ontology can define key conepts like "mammal"
+                - Explanation: lets us know if the ontology can define key concepts like "mammal"
 
 4.  **Relationship CQ's** 👫: Focus on the connections between different entities.
 

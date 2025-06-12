@@ -10,7 +10,7 @@ Lets test your knowledge! In this assignment you will be asked to create CQ's us
 
 🗣️📣 ‼️‼️**PLEASE READ THROUGH THE INSTRUCTIONS THOROUGHLY!**‼️‼️
 
-- ( P.S we are a CS lab we will know if you used ChatGPT, this isnt graded so dont stress. 😊)
+- ( P.S we are a CS lab we will know if you used ChatGPT, this isn't graded so don't stress. 😊)
 
 ### 📋 <ins>**Instructions:**</ins>
 
