@@ -37,7 +37,7 @@ The `pass` statement seen in the `PermissionError` exception will result in no m
 
 ## Assignment
 
-Read and complete [this assignment](/foundation/supplementary-material/assignments/assgn-6.md) to practice using exceptions and data structures (list).
+Read and complete [this assignment](../supplementary-material/assignments/assgn-6.md) to practice using exceptions and data structures (list).
 
 ## Resources
 

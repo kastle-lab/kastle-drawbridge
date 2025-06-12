@@ -111,7 +111,7 @@ By mastering these file I/O techniques, you can efficiently handle data storage 
 
 # Assignment
 
-Read and implement [the attached assignment](/foundation/supplementary-material/assignments/assgn-5.md) such that your output and calculations match the assignment reading's. After the Python scripts run, an `output.txt` file should be generated.
+Read and implement [the attached assignment](../supplementary-material/assignments/assgn-5.md) such that your output and calculations match the assignment reading's. After the Python scripts run, an `output.txt` file should be generated.
 
 ## Extension to Assignment
 
