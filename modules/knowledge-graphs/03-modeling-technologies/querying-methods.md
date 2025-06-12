@@ -96,7 +96,7 @@ for row in query_result:
 ./fuseki-server
 ```
 
-- **Note**: Additionally you can use our one-stop container `playground`, available in [our resources](../../resources/playground_startup.md), to avoid the installation and setup hassle.
+- **Note**: Additionally you can use our one-stop container `playground`, available in [our resources](../../resources/playground-startup.md), to avoid the installation and setup hassle.
 
   Once started, the Apache Zena Fuseki Web Interface will be available at `http://localhost:3030`
 
