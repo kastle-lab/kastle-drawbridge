@@ -22,7 +22,7 @@ A class is illustrated via a `Rounded Rectangle` node with a solid frame (`Line 
 
 ![AgeRecord Node](../../images/AgeRecordNode.png)
 
-![AgeRecord](../../gifs/AgeRecord.gif)
+![AgeRecord](../../images/AgeRecord.gif)
 
 ### Module
 
@@ -36,7 +36,7 @@ A module is a single node that indicates a level of hidden complexity. That is, 
 
 ![PersonRecord Node](../../images/PersonRecordNode.png)
 
-![PersonRecord](../../gifs/PersonRecord.gif)
+![PersonRecord](../../images/PersonRecord.gif)
 
 The `PersonRecord` module is expanded below as a sub-module of `AgentRecord`.
 
@@ -54,7 +54,7 @@ A controlled vocabulary is a set of pre-defined URIs with a specific meaning tha
 
 ![AgeCategory.txt Node](../../images/AgeCategoryNode.png)
 
-![AgeCategory.txt](../../gifs/AgeCategory.gif)
+![AgeCategory.txt](../../images/AgeCategory.gif)
 
 ### Datatype
 
@@ -68,7 +68,7 @@ A datatype node represents one of the concrete datatypes allowed in OWL. It is i
 
 ![xsd:double Node](../../images/xsddoubleNode.png)
 
-![xsd:double](../../gifs/xsddouble.gif)
+![xsd:double](../../images/xsddouble.gif)
 
 ## Edge Types
 
@@ -85,7 +85,7 @@ A subclass relationship is illustrated via an arrow with a white head (`Target A
 
 ![AgeRecord subclassOf PersonRecord](../../images/AgeRecord-subclass-PersonRecord.png)
 
-![AgeRecord subclassOf PersonRecord](../../gifs/subclass.gif)
+![AgeRecord subclassOf PersonRecord](../../images/subclass.gif)
 
 ### Data Property or Object Property
 
@@ -105,7 +105,7 @@ The `hasAgeCategory` relationship acts as an object property in this diagram.
 
 ![AgeRecord hasAgeCategory AgeCategory.txt](../../images/AgeRecord-hasAgeCategory-AgeCategory.png)
 
-![AgeRecord hasAgeCategory AgeCategory.txt](../../gifs/objectproperty.gif)
+![AgeRecord hasAgeCategory AgeCategory.txt](../../images/objectproperty.gif)
 
 ## References
 
