@@ -117,7 +117,7 @@ Ok now that we know what **CQs** are and **the different types of** **CQs** lets
 
 Lets test your knowledge in this _Competency Questions Assignment_!
 
-- click here ➡️ <ins>[CQs Assignment](/knowledge-graphs/02-modeling-fundamentals/Supplementary-material/Assignments/CQ-Assignment.md) </ins> to get the instructions on how to complete and submit! 😁
+- click here ➡️ <ins>[CQs Assignment](../Supplementary-material/Assignments/CQ-Assignment.md) </ins> to get the instructions on how to complete and submit! 😁
 
 - If you have any questions please ping us in the ✨ **_#kastle-drawbridge_** ✨ slack channel!
 
