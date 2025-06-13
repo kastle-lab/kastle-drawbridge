@@ -53,7 +53,7 @@ Learn how RDF data is expressed using the Turtle (TTL) syntax, a general way to 
 
 ## Section 2: Modeling Fundamentals
 
-### [Axioms](02-modeling-fundamentals/Axioms.md)
+### [Axioms](02-modeling-fundamentals/03-Axioms.md)
 
 **Overview**:  
 Axioms are logic-based rules that define structure, meaning and truth in ontologies. Learn how contraints like subclassing, disjointness, and domain/range rules ensure logical consistency in knowledge graphs.
