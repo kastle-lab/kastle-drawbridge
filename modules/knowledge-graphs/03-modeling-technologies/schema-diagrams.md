@@ -4,7 +4,7 @@ Schema diagrams serve as graphical representations of ontologies. Due to simplic
 
 We use yEd to construct these schema diagrams. In the remainder of this section, we provide a tutorial on the construction of schema diagrams using yEd and discuss the visual standards to be adhered to during this process. The `AgeRecord` diagram, depicted below, illustrates a simple schema diagram with many syntactic components that are detailed below.
 
-![AgeRecord](../../images/AgeRecord.png)
+![AgeRecord](../../../images/AgeRecord.png)
 
 ## Node Types
 
@@ -20,9 +20,9 @@ A class is illustrated via a `Rounded Rectangle` node with a solid frame (`Line 
 - Line Type: 2
 - Fill Color: Orange (#ffcc00)
 
-![AgeRecord Node](../../images/AgeRecordNode.png)
+![AgeRecord Node](../../../images/AgeRecordNode.png)
 
-![AgeRecord](../../images/AgeRecord.gif)
+![AgeRecord](../../../images/AgeRecord.gif)
 
 ### Module
 
@@ -34,13 +34,13 @@ A module is a single node that indicates a level of hidden complexity. That is, 
 - Line Type: 2
 - Fill Color: Blue (#ccffff)
 
-![PersonRecord Node](../../images/PersonRecordNode.png)
+![PersonRecord Node](../../../images/PersonRecordNode.png)
 
-![PersonRecord](../../images/PersonRecord.gif)
+![PersonRecord](../../../images/PersonRecord.gif)
 
 The `PersonRecord` module is expanded below as a sub-module of `AgentRecord`.
 
-![AgentRecord](../../images/AgentRecord.png)
+![AgentRecord](../../../images/AgentRecord.png)
 
 ### Controlled Vocabulary
 
@@ -52,9 +52,9 @@ A controlled vocabulary is a set of pre-defined URIs with a specific meaning tha
 - Line Type: 9
 - Fill Color: Purple (#cc99ff)
 
-![AgeCategory.txt Node](../../images/AgeCategoryNode.png)
+![AgeCategory.txt Node](../../../images/AgeCategoryNode.png)
 
-![AgeCategory.txt](../../images/AgeCategory.gif)
+![AgeCategory.txt](../../../images/AgeCategory.gif)
 
 ### Datatype
 
@@ -66,9 +66,9 @@ A datatype node represents one of the concrete datatypes allowed in OWL. It is i
 - Line Type: 2
 - Fill Color: Yellow (#ffff99)
 
-![xsd:double Node](../../images/xsddoubleNode.png)
+![xsd:double Node](../../../images/xsddoubleNode.png)
 
-![xsd:double](../../images/xsddouble.gif)
+![xsd:double](../../../images/xsddouble.gif)
 
 ## Edge Types
 
@@ -83,9 +83,9 @@ A subclass relationship is illustrated via an arrow with a white head (`Target A
 - Target Arrow: 4
 - Smooth Bends: Enabled
 
-![AgeRecord subclassOf PersonRecord](../../images/AgeRecord-subclass-PersonRecord.png)
+![AgeRecord subclassOf PersonRecord](../../../images/AgeRecord-subclass-PersonRecord.png)
 
-![AgeRecord subclassOf PersonRecord](../../images/subclass.gif)
+![AgeRecord subclassOf PersonRecord](../../../images/subclass.gif)
 
 ### Data Property or Object Property
 
@@ -99,13 +99,13 @@ A data property or object property (distinguished from one another based on the 
 
 The `hasAgeValue` relationship acts as a data property in this diagram.
 
-![AgeRecord hasAgeValue xsd:double](../../images/AgeRecord-hasAgeValue-xsddouble.png)
+![AgeRecord hasAgeValue xsd:double](../../../images/AgeRecord-hasAgeValue-xsddouble.png)
 
 The `hasAgeCategory` relationship acts as an object property in this diagram.
 
-![AgeRecord hasAgeCategory AgeCategory.txt](../../images/AgeRecord-hasAgeCategory-AgeCategory.png)
+![AgeRecord hasAgeCategory AgeCategory.txt](../../../images/AgeRecord-hasAgeCategory-AgeCategory.png)
 
-![AgeRecord hasAgeCategory AgeCategory.txt](../../images/objectproperty.gif)
+![AgeRecord hasAgeCategory AgeCategory.txt](../../../images/objectproperty.gif)
 
 ## References
 

@@ -4,7 +4,7 @@ An example RDF dataset is used in this tutorial to demonstrate how a SPARQL que
 
 - Colours indicate mapping of the data ot the turtle file to how the query looks for it.
 
-![Sparql mapping query to data](../../images/sparql-mapping.png)
+![Sparql mapping query to data](../../../images/sparql-mapping.png)
 
 ## Step 1: Prefix Declaration
 
