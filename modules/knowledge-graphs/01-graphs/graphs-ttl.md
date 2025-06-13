@@ -7,7 +7,7 @@ A `Knowledge Graph` (KG) is a `Directed, Weighted Labeled Graph`, where `Entitie
 
 A databases’ relationships, and restrictions are all visually represented in a schema diagram.
 
-![KG Example](../../images/KG-example.png)
+![KG Example](../../../images/KG-example.png)
 
 ### TTl - Turse RDF (Resource Description Framework) Triple Language
 
@@ -53,5 +53,5 @@ A databases’ relationships, and restrictions are all visually represented in a
 
 ### Assignment
 
-- Can you see where this happens in the [_rdflib-starter_](../../resources/rdflib-starter.py) code?
+- Can you see where this happens in the [_rdflib-starter_](../../../resources/rdflib-starter.py) code?
 - Turn the previous result to a rdf serialized graph in turtle.

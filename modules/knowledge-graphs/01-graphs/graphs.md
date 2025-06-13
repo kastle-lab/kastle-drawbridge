@@ -14,19 +14,19 @@
 
 An `Undirected Graph` refers to the Graph where the edges `E` have no directional association to vertices `(A,B)`, which means traversing from `(A,B)` is the same as `(B,A)`. This means that if two `Nodes` are connected, movement between them is bidirectional.
 
-![Undirected Graph Example](../../images/undirected-graph.png)
+![Undirected Graph Example](../../../images/undirected-graph.png)
 
 ### Labeled Graph
 
 A `Labeled Graph` refers to a graph `G` that has arbitrary values (strings or numeric) associated to the set of `Vertices` and set of `Edges`. These labels facilitate in modeling real objects and relationships between nodes. For example, the path you take to travel from your house to campus varies in travel-time pending the turns you might take along the way.
 
-![Weighted Graph examples ( directed and undirected)](../../images/weighted-graph.png)
+![Weighted Graph examples ( directed and undirected)](../../../images/weighted-graph.png)
 
 ### Directed Graph
 
 A `Directed Graph (or digraph)` refers to the directionality to which an edge `e` connects to vertices `(A, B)`, which causes a distinction between traversing i.e, if there is an edge from node `A` to node `B`, it means you can move from `A` to `B`, but not necessarily from `B` to `A`.
 
-![Directed Graph Example](../../images/directed-graph.png)
+![Directed Graph Example](../../../images/directed-graph.png)
 
 ## **Knowledge Graph**
 
@@ -37,7 +37,7 @@ A `Knowledge Graph` (KG) is a `Directed, Weighted Labeled Graph`, where `Entitie
 
 A databases’ relationships, and restrictions are all visually represented in a schema diagram.
 
-![KG Example](../../images/KG-example.png)
+![KG Example](../../../images/KG-example.png)
 
 ### Assignment
 
