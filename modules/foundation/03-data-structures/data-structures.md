@@ -3,16 +3,16 @@
 Data structures are a fundamental aspect of computer science, allowing developers to organize, manage, and store data efficiently. In Python, several built-in data structures provide versatile and efficient tools for different programming tasks.
 
 ## Lists (Arrays)
+
 A list is an ordered, mutable collection that can store a variety of data types, including other lists.
 
 Key Features:
 
-* Ordered: Maintains the order of elements.
+- Ordered: Maintains the order of elements.
 
-* Mutable: Elements can be changed after creation.
+- Mutable: Elements can be changed after creation.
 
-* Heterogeneous: Can store different data types in the same list.
-
+- Heterogeneous: Can store different data types in the same list.
 
 ```py
 # Creating a list
@@ -31,15 +31,16 @@ print(fruits)  # Output: ['grape', 'banana', 'cherry', 'orange']
 ```
 
 ## Dictionaries
+
 Dictionaries store data as key-value pairs, allowing fast lookups by keys.
 
 Key Features:
 
-* Unordered (prior to Python 3.7) and insertion-ordered (from Python 3.7 onwards).
+- Unordered (prior to Python 3.7) and insertion-ordered (from Python 3.7 onwards).
 
-* Mutable.
+- Mutable.
 
-* Keys must be unique and immutable.
+- Keys must be unique and immutable.
 
 ```py
 # Creating a dictionary
@@ -58,15 +59,16 @@ print(person)  # Output: {'name': 'Alice', 'age': 31, 'city': 'New York', 'profe
 ```
 
 ## Sets
+
 A set is an unordered collection of unique elements.
 
 Key Features:
 
-* Unordered: No specific order of elements.
+- Unordered: No specific order of elements.
 
-* Unique: Duplicate elements are automatically removed.
+- Unique: Duplicate elements are automatically removed.
 
-* Mutable: Can add or remove elements.
+- Mutable: Can add or remove elements.
 
 ```py
 # Creating a set
@@ -83,15 +85,16 @@ print(numbers)  # Output: {1, 3, 4, 5}
 ```
 
 ## Tuples
+
 A tuple is an ordered, immutable collection of elements.
 
 Key Features:
 
-* Ordered: Maintains the order of elements.
+- Ordered: Maintains the order of elements.
 
-* Immutable: Cannot be changed after creation.
+- Immutable: Cannot be changed after creation.
 
-* Can store heterogeneous data types.
+- Can store heterogeneous data types.
 
 ```py
 # Creating a tuple
@@ -103,6 +106,3 @@ print(coordinates[1])  # Output: 20
 # Tuples are immutable, so the following line would raise an error
 # coordinates[1] = 40
 ```
-
-### Relevance to KGs
-
