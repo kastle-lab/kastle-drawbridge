@@ -63,7 +63,7 @@ Well **CQs** are important for a number of reasons but lets first start with a d
             - MCQ: Does every animal have exactly one species❓
             - Explanation: looking to see if the ontology enforces rules about how data should behave.
 
-    - **Note**: look at the [Axiom Module](/knowledge-graphs/02-modeling-fundamentals/Axioms.md) to get a better idea of what "_enforcing rules_" means.
+    - **Note**: look at the [Axiom Module](../02-modeling-fundamentals/03-Axioms.md) to get a better idea of what "_enforcing rules_" means.
 
 These are very simplistic representations of the **CQs** defined in [Keet & Khan, 2024](http://arxiv.org/pdf/2412.13688) if you like a more technical explanation of each then we suggest looking into the paper!
 
