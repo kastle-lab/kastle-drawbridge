@@ -11,7 +11,7 @@ In this module, we will talk about **Competency Questions** or **CQs** for short
 
 ```
 
-![gorl2](/pngs/AlexisE.png)
+![gorl2](../../../images/AlexisE.png)
 
 ## What are **CQs** and why are they so important⁉️⁉️
 
@@ -73,7 +73,7 @@ These are very simplistic representations of the **CQs** defined in [Keet & Khan
 
 - we use **CQs** to keep us organized and goal oriented when we are developing our ontology! This organization makes it not only easier on ourselves when developing a ontology but also when we are working with other ontology engineers. The more organization and consistency we have the more functional and detailed our ontology will be!
 
-![theboys](/pngs/theboys.png)
+![theboys](../../../images/theboys.png)
 
             Work smarter not harder!
 
@@ -95,7 +95,7 @@ Ok now that we know what **CQs** are and **the different types of** **CQs** lets
 
      **Note** : It can benefit you if you categorize big topics in this organization. Making sure that the large parameters of interest are identified and there are CQ's for them!
 
-![CQs](/pngs/CQ-HOW-TO.png)
+![CQs](../../../images/CQ-HOW-TO.png)
 
 ### 3. Once you have your questions you can begin to write them in natural language!
 
@@ -124,4 +124,4 @@ Lets test your knowledge in this _Competency Questions Assignment_!
 <center>Looking Forward to your answers </center>
 <center>🍀🍀❗GOOD LUCK❗🍀🍀</center> <br>
 
-![gorl](/pngs/andrea.png)
+![gorl](../../../images/andrea.png)
