@@ -161,7 +161,6 @@ ORDER BY DESC(?age)
 
 - [Wikipedia - URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)
 
-
 ### SPARQL Tutorial
 
-- [SPARQL Tutorial step by step](../03-modeling-technologies/sparql-tutorial.md)
+- [SPARQL Tutorial step by step](04-sparql-tutorial.md)

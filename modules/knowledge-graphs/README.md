@@ -73,7 +73,7 @@ Axioms are logic-based rules that define structure, meaning and truth in ontolog
 
 ## Section 3: Modeling Technologies
 
-### [SPARQL](03-modeling-technologies/sparql.md)
+### [SPARQL](03-modeling-technologies/03-sparql.md)
 
 **Overview**:  
 Master SPARQL, the query language designed for semantic data. From simple SELECT queries to advanced filters and aggregations, learn to retrieve insights from RDF graphs.
@@ -91,7 +91,7 @@ Master SPARQL, the query language designed for semantic data. From simple SELECT
 
 ---
 
-### [Querying Methods](03-modeling-technologies/querying-methods.md)
+### [Querying Methods](03-modeling-technologies/03-querying-methods.md)
 
 **Overview**:  
 Explore how to query RDF data both programmatically and via triplestore servers using RDFLib (Python) and Apache Jena Fuseki.
@@ -109,7 +109,7 @@ Explore how to query RDF data both programmatically and via triplestore servers 
 
 ---
 
-### [Schema Diagrams](03-modeling-technologies/schema-diagrams.md)
+### [Schema Diagrams](03-modeling-technologies/02-schema-diagrams.md)
 
 **Overview**:  
 Learn how to visually model your ontology with schema diagrams using tools like yEd. Understand color and shape conventions standards for KASTLE.
