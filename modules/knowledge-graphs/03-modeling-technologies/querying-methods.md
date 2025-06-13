@@ -7,8 +7,8 @@
 
 ## Quick Recap
 
-- [Knowledge Graph](../01-graphs/graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
-- [TTL (.ttl)](../01-graphs/graphs-ttl.md): A Turtle file format – compact and human-readable RDF syntax
+- [Knowledge Graph](../01-graphs/01-graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
+- [TTL (.ttl)](../01-graphs/02-graphs-ttl.md): A Turtle file format – compact and human-readable RDF syntax
 - SPARQL: The SQL of Knowledge Graphs. It's used to query RDF data
 - RDFLib: A Python library to create, manipulate, and query RDF graphs.
 - Triplestore: A database specifically designed for storing and retrieving triples through semantic queries.

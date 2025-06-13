@@ -15,7 +15,7 @@ Welcome to the Knowledge Graph module series. This series of modules takes you f
 
 ## Section 1: Graphs
 
-### [Graphs](01-graphs/graphs.md)
+### [Graphs](01-graphs/01-graphs.md)
 
 **Overview**:  
 Start with the foundational concept of graphs, i.e. how entities (nodes) connect via relationships (edges). Understand how real-world knowledge is structured graphically.
@@ -28,12 +28,12 @@ Start with the foundational concept of graphs, i.e. how entities (nodes) connect
 
 **Assignment:**
 
-- [Build an Ohio City Graph](01-graphs/graphs.md#assignment): Design a graph using five major cities in Ohio and their intercity routes. Determine directionality and explore path connections.
+- [Build an Ohio City Graph](01-graphs/01-graphs.md#assignment): Design a graph using five major cities in Ohio and their intercity routes. Determine directionality and explore path connections.
 - _Goal:_ Apply graph theory to a real map, then analyze structure and paths.
 
 ---
 
-### [Graphs in Turtle (TTL)](01-graphs/graphs-ttl.md)
+### [Graphs in Turtle (TTL)](01-graphs/02-graphs-ttl.md)
 
 **Overview**:  
 Learn how RDF data is expressed using the Turtle (TTL) syntax, a general way to represent triples (subject–predicate–object) in semantic web formats.
@@ -46,7 +46,7 @@ Learn how RDF data is expressed using the Turtle (TTL) syntax, a general way to 
 
 **Assignment:**
 
-- [RDF Turtle Practice](01-graphs/graphs-ttl.md#assignment): Write your own `.ttl` file by converting simple natural language statements into RDF triples.
+- [RDF Turtle Practice](01-graphs/02-graphs-ttl.md#assignment): Write your own `.ttl` file by converting simple natural language statements into RDF triples.
 - _Goal:_ Demonstrate understanding of how semantic data is structured and encoded.
 
 ---
