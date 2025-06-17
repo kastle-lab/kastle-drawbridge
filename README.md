@@ -43,7 +43,7 @@ Contains the following:
 
 ## Knowledge Graph Lesson Plan (Weeks 4-9):
 
-- Weeks 4: Introduction to Ontology and Use Case Documentation
+- Week 4: Introduction to Ontology and Use Case Documentation
 
   - Understand the basics of ontology and its applications.
   - Learn to document use cases that guide the ontology development process.
@@ -59,12 +59,12 @@ Contains the following:
   - Use Protégé or a similar ontology editor for creating and visualizing ontologies.
   - Understand ontology design concepts and best practices.
 
-- Weeks 8: Knowledge Graph Building and Project Development
+- Week 8: Knowledge Graph Building and Project Development
 
   - Building a simple knowledge graph using Python, RDFLib, and ontologies.
   - Work on a final project, applying ontology building and Python development skills to create a knowledge graph.
 
-- Weeks 9: Triplestore Basics and Jena Fuseki
+- Week 9: Triplestore Basics and Jena Fuseki
   - Introduction to triplestores, such as Jena Fuseki, and their role in storing and querying RDF data.
   - Setting up Jena Fuseki: Learn how to set up and use Jena Fuseki.
 
