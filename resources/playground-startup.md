@@ -1,4 +1,4 @@
-# How to Create and Use a Singularity Container With Apache-Jena-Fuseki in Linux Environment
+# How to Create and Use the Playground Container in Linux Environment
 
 This guide provides instructions on how to build and run a Singularity container using the `playground.def` definition file. This container includes an Apache Jena Fuseki server configured with Java 22, equipped with Jupyter Notebook and Firefox.
 
@@ -14,15 +14,9 @@ Detailed information about building containers using Singularity can be found [h
 ### CLI Quick Reference
 
 ```
-  # sudo singularity build --sandbox playground.sif playground.def
-  # sudo singularity shell --writable playground.sif/
-  # cd apache-jena-fuseki-5.0.0/run/
-  # vim shiro.ini
-      ## follow step 8
-  # $JENA_HOME/fuseki start
-  # $JENA_HOME/fuseki status
-  # curl -X GET http://localhost:3030/$/server
-  # $JENA_HOME/fuseki stop
+  # sudo singularity build playground.sif playground.def
+  # mkdir playground_local_files
+  # singularity run --bind playground_local_files:/persistent playground.sif 
 ```
 
 ### Guide and Explanation
@@ -39,81 +33,42 @@ To build a Singularity container from the `playground.def` file provided in this
    - Visit this [link](https://docs.sylabs.io/guides/latest/user-guide/definition_files.html) for more information on definition files.
 4. Use the following command to build the container.
    ```
-   sudo singularity build --sandbox playground.sif playground.def
+   sudo singularity build playground.sif playground.def
    ```
    - **Note**: This process can take up to several minutes to complete.
-5. To enter the container use the follwing command. This "allows you to spawn a new shell within your container and interact with it as though it were a small virtual machine."
+5. If you dont have a directory for the playground container local files (eg. Running it for the very first time), create a new directory using the following command.
    ```
-   sudo singularity shell --writable playground.sif
+   # mkdir <directory_name> --> Creates a directory
+   mkdir playground_local_files
    ```
-   - **Note**: One way to verify that you are inside a singularity container is by looking at the command prompt, which will display `Singularity>` or something similar to `root@DESKTOP-KE54U6:/usr/local/singularity#`.
+6. To run the container use the following command. This "allows you to run your container and run the specific features of it."
+   ```
+   singularity run --bind playground_local_files:/persistent playground.sif 
+   ```
    
-   #### Start and stop the server
-6. Start the server using the start command. This will create the /run directory and configuration files.
-   ```
-   <!-- Start Command -->
-   $JENA_HOME/fuseki start
-
-
-   <!-- Stop Command -->
-   $JENA_HOME/fuseki stop
-   ```
-   - Use the stop to halt the server, before continuing.
-
-### Configuring the Server
-
-7. Navigate to the run folder inside the apache directory `cd /apache-jena-fuseki-5.0.0/run/`
-8. Open the `shiro.ini` file
-   - Comment out `/$/** = localhostFilter`
-   - Where it says "allow any access" uncomment the line `/$/** = anon` and add the following: `/$/stats = anon` and `/$/stats/* = anon`
-   - Save and exit file
+   #### Start and stop the Zena Fuseki server
+7. Handle the server using the start and stop options (Option 1 & 2).
 
 ### Starting the Server
 
 **Note:** If using a specific port for your jena fuseki server use the command in step 10.
 
-9. While inside the container you can use [start command](#start-and-stop-the-server) to start up the apache-jena-fuseki server.
-   - To verify the server is running correctly, do the following:
-   ```
-   $JENA_HOME/fuseki status
-   ```
-    and the output should say if Fuseki is running and give its PID.
-   - Additionally, you can use the curl command, it will output information about the server in JSON format.
+8. While running the container you can use [start option](#start-and-stop-the-server) to start up the apache-jena-fuseki server.
+   - Additionally, you can use the curl command in the host computer, it will output information about the server in JSON format.
    ```
    curl -X GET http://localhost:3030/$/server
    ```
    - Another way to verify the server is to go to use the command `hostname -I` to see the host computer's IP address. In your browser, type in `http://ip-address-here:3030. The apache-jena-fuseki webpage should appear and can be interacted with.
    - **Note**: If two IP addresses appear, use the one on the right.
-10. If a specific port is required use the following command `java -Xmx1200M -jar fuseki-server.jar --port=8005`
 
-- If using this method use `http://ip-address-here:PORT#`
-
-11. To stop the server, use the [stop command]((#start-and-stop-the-server)).
+9. To stop the server, use the [stop option]((#start-and-stop-the-server)).
 
 ## Using Jupyter Notebook in a Singularity Container
 
-1. Navigate to the jupyter directory.
-   ```
-   cd /root/jupyter-notebooks
-   ```
-2. Activate server hosting with Jupyter
-   ```
-   jupyter notebook --no-browser --allow-root --port=5000 > jupyter.out 2> jupyter.err &
-   ```
-   - This will run the Jupyter server in the background on port 5000
-3. To view the available URL's, use the command:
-   ```
-   jupyter notebook list
-   ```
-4. Copy and paste the URL from `:: /root/jupyter-notebooks` into your browser to gain access to jupyter notebooks features.
+1. Activate server hosting with Jupyter using option 3.
+   - This will run the Jupyter server in the background on port 8888
+2. Copy and paste the URL (`localhost:8888`) into your browser to gain access to jupyter notebooks features.
 
 ## Stopping Jupyter Notebooks Server
 
-1. Use the command `ps` to display the processes that are currently running. Look for the PID next to "jupyter-notebook".
-   ```
-   ps
-   ```
-2. use the following command to terminate the server.
-   ```
-   kill <pid-here>
-   ```
+1. When you want to stop the server, use `Control + C` (or `Command + C` if you are in a Mac Environment) to prompt to stop the server and confirm stopping the server by pressing the `y` key.

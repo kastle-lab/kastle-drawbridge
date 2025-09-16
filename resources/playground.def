@@ -19,29 +19,83 @@ From: ubuntu:focal
     wget https://download.oracle.com/java/22/archive/jdk-22.0.2_linux-x64_bin.tar.gz
     wget https://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-5.0.0.tar.gz
 
-    # Create directories
-    mkdir -p /usr/java
-    mkdir -p /root/apache-jena-fuseki
-    mkdir -p /root/jupyter-notebooks
+    # Extract Java and Fuseki to /opt/setup
+    mkdir -p /opt/setup/jdk
+    mkdir -p /opt/setup/fuseki
+    tar -xzf jdk-22.0.2_linux-x64_bin.tar.gz -C /opt/setup/jdk --strip-components=1
+    tar -xvf apache-jena-fuseki-5.0.0.tar.gz -C /opt/setup/fuseki --strip-components=1
 
-    # Extract the downloads
-    tar -xzf jdk-22.0.2_linux-x64_bin.tar.gz -C /usr/java
-    tar -xvf apache-jena-fuseki-5.0.0.tar.gz
+    # Copy Java to final location so its usable in %test
+    mkdir -p /usr/java
+    cp -r /opt/setup/jdk /usr/java/jdk-22.0.2
 
     # Cleanup downloads
     rm jdk-22.0.2_linux-x64_bin.tar.gz
     rm apache-jena-fuseki-5.0.0.tar.gz
 
-    # Set environment variables
-    echo "export JAVA_HOME=/usr/java/jdk-22.0.2" >> /environment
-    echo "export JENA_HOME=/apache-jena-fuseki-5.0.0" >> /environment
-    echo "export PATH=$PATH:/usr/java/jdk-22.0.2/bin" >> /environment
 
 %environment
     export JAVA_HOME=/usr/java/jdk-22.0.2
-    export JENA_HOME=/apache-jena-fuseki-5.0.0
-    export PATH=$PATH:/usr/java/jdk-22.0.2/bin
-    
+    export FUSEKI_HOME=/persistent/fuseki
+    export FUSEKI_BASE=/persistent/fuseki/run
+    export JUPYTER_HOME=/persistent/jupyter-notebooks
+    export PATH=$PATH:$JAVA_HOME/bin
+
+%runscript
+    #!/bin/bash
+
+    # Ensure persistent directories exist
+    mkdir -p "$FUSEKI_HOME" "$FUSEKI_BASE" "$JUPYTER_HOME"
+
+    # Copy Fuseki to persistent location if missing
+    if [ ! -f "$FUSEKI_HOME/fuseki-server" ]; then
+        echo "[+] Copying Fuseki to persistence..."
+        cp -r /opt/setup/fuseki/* "$FUSEKI_HOME"
+    fi
+
+    # Patch shiro.ini to allow anonymous access
+    if [ -f "$FUSEKI_BASE/shiro.ini" ]; then
+        echo "[+] Patching shiro.ini for anonymous access..."
+        sed -i 's|^/\$\*/\* = localhostFilter|#/$/** = localhostFilter|' "$FUSEKI_BASE/shiro.ini"
+        sed -i 's|^#/\$\*/\* = anon|/$/** = anon|' "$FUSEKI_BASE/shiro.ini"
+        echo '/$/stats = anon' >> "$FUSEKI_BASE/shiro.ini"
+        echo '/$/stats/* = anon' >> "$FUSEKI_BASE/shiro.ini"
+    fi
+
+    # Interactive menu
+    while true; do
+        echo ""
+        echo "========== Menu =========="
+        echo "1. Start Fuseki"
+        echo "2. Stop Fuseki"
+        echo "3. Start Jupyter Lab"
+        echo "4. Exit"
+        echo "=========================="
+        read -p "Enter choice [1-4]: " choice
+
+        case "$choice" in
+            1)
+                echo "[+] Starting Apache Jena Fuseki..."
+                "$FUSEKI_HOME/fuseki-server" &
+                ;;
+            2)
+                echo "[+] Stopping Fuseki..."
+                pkill -f fuseki-server
+                ;;
+            3)
+                echo "[+] Launching Jupyter Lab..."
+                jupyter lab --notebook-dir="$JUPYTER_HOME" --ip=0.0.0.0 --port=8888 --no-browser
+                ;;
+            4)
+                echo "[+] Exiting."
+                break
+                ;;
+            *)
+                echo "Invalid option. Please choose 1-4."
+                ;;
+        esac
+    done
+
 %test
     java -version
     curl --version
@@ -50,6 +104,7 @@ From: ubuntu:focal
     python3 --version
     firefox --version
     pip3 show numpy | grep Version
+    pip3 show jupyter | grep Version
     pip3 show geopandas | grep Version
     pip3 show rdflib | grep Version
     pip3 show pandas | grep Version
