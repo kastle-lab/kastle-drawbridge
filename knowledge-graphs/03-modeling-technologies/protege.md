@@ -2,9 +2,8 @@
 
 ## Prerequisites
 
-- Knowledge Graphs
-
-- Axioms
+- [Knowledge Graph](../01-graphs/graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
+- [Axiom](../02-modeling-fundamentals/Axioms.md): A constraint on data that govern the relationships of things.
 
 Protégé is a free, open-source software platform used for creating and managing ontologies. It allows users to define classes (concepts), properties (attributes and relationships), and individuals (instances) along with constraints on data (axioms). By supporting standards like OWL and [RDF](sparql.md), Protégé can easily be added to a pipeline consisting of other tools.
 
