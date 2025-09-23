@@ -3,30 +3,92 @@
 Materialization is the term used to describe the process of applying the axioms from an ontology to a knowledge graph, reasoning over the data, and explicitly populating the graph with triples formed from the raw data. The result is a materialized graph, which can then be queried more efficiently and thoroughly.
 This is done using the [RDFLib starter code](../../../resources/rdflib-starter.py).
 
-Keep in mind that materialization has some benefits and downsides:
+## What is a materialized graph?
+A materialized graph is the original graph that is obtained by extracting the knowledge from all of your available data according to the designed schema/ontology and then explicitly being added to the graph.
 
-### Benefits
+## What is a fully materialized graph?
+A fully materialized graph is a materialized graph that is closed under the chosen rule set (i.e. materialized graph plus all triples that logically follow from the ontology axioms that have been actually asserted) such that if you re-run the same inference rules (e.g., simple RDFS rules) on it, no new triples can be produced.
 
-+: Explicit declaration of inferenced data
+## Pros and Cons of Materialization
+Even though materialization enables completeness of the designed knowledge graph, it also has some benefits and downsides:
 
-+: Faster and efficient querying
+### ✅ Benefits
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\+ Explicit declaration of inferred data<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\+ Faster and efficient querying<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\+ More complete results<br>
 
-+: More complete results
+### ⚠️ Downsides
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Increased storage requirements<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Longer preprocessing times<br>
 
-### Downsides
+## RDF Materialization With Example:
+We will illustrate materialization with a simple example. Here, we will proceed with:
+ 1. Loading some original triples (can already added by the [RDFLib starter code](../../../resources/rdflib-starter.py))
+    ```python
+        kastle_members = ["Cogan", "Andrea", "Brandon"]
+        for x in kastle_members:
+            graph.add( (pfs["ex"][x], a, pfs["ex"]["Person"]) ) # Adds the triples for Cogan, Andrea and Brandon
+    ```
+    So the original triples added in the initial RDF knowledge graph will be as follows:
+    ```bash
+        # Original Triples
+        ex:Cogan   rdf:type  ex:Person .
+        ex:Andrea  rdf:type  ex:Person .
+        ex:Brandon rdf:type  ex:Person .
+    ```
 
--: Increased storage requirements
+ 2. Adding an ontology axiom, for instance Axiom 1 (Subclass) `?Class_1 rdfs:subClassOf ?Class_2`
+    ```bash
+    # Sample Ontology Axiom 1 (we add this explicitly to the same graph)
+    ex:Person  rdfs:subClassOf  ex:Agent .
+    ```
+ 3. Materialize by adding the inferred rdf:type for each instance via chosen Axiom rules. For Axiom 1, the RDFS rule used (informally) is: `If ?X rdfs:subClassOf ?Y and ?x rdf:type ?X, then add ?x rdf:type ?Y.`
+ After full materialization over the graph instances across all rules, new triples can be inferred.
+    ```bash
+    # Inferred Triples (after materialization)
+    ex:Cogan   rdf:type  ex:Agent .
+    ex:Andrea  rdf:type  ex:Agent .
+    ex:Brandon rdf:type  ex:Agent .
+    ```
+At this point, under this simple rule set, the graph is fully materialized. Applying the same subclass rule again won’t yield any new triples (no further superclasses were asserted)
 
--: Longer preprocessing times
+### Implementation with RDFLib
+This can be achieved by modifying the [RDFLib starter code](../../../resources/rdflib-starter.py) with applicable axiom codes. The current starter code already gives you:
+ - Bound namespaces (e.g., `pfs["ex"], pfs["rdfs"]`, and `a = pfs["rdf"]["type"]`)
+ - An initialized graph and three `ex:Person` instances
 
-## Example:
+You can add the axiom and then materialize with a simple pass.
+```python
+# Add a tiny ontology axiom
+graph.add( (pfs["ex"]["Person"], pfs["rdfs"]["subClassOf"], pfs["ex"]["Agent"]) )
 
+# Materialize via the RDFS subclass rule: if x a Person and Person ⊑ Agent, add x a Agent
+for s, _, _ in graph.triples( (None, a, pfs["ex"]["Person"]) ):
+    graph.add( (s, a, pfs["ex"]["Agent"]) )
 ```
-# Original Triples
 
+Similarly, you can expand this pattern with other axioms according to your ontology modeling and design. 
+``` bash
+# Domain (Axiom 3)
+if ?p rdfs:domain ?X and (s, p, o) occurs, add s rdf:type X.
 
-# Infered Triples
+# Range (Axiom 5)
+if ?p rdfs:range ?X and (s, p, o) occurs, add o rdf:type X.
 ```
+
+Each time upon finishing a materialization pass, it adds all missing consequences as explicit triples, and you will have a materialized graph. If another pass adds nothing new, it is now a fully materialized graph (w.r.t. the rules (axioms) chosen).
+
+
+## Advanced Considerations
+ ### Materialization vs. Query-Time Reasoning
+ Materialization is not the only way to infer all triples. You can also perform query time reasoning to achieve similar results. Below are some tradeoffs for each:
+
+    | Aspect        | Materialization                | Query-Time Reasoning          |
+    | ------------- | ------------------------------ | ----------------------------- |
+    | Preprocessing | High (reasoning done up front) | Low                           |
+    | Query speed   | Fast (no runtime inference)    | Slower (reasoning on the fly) |
+    | Storage       | Larger (all inferred triples)  | Smaller                       |
+    | Best use case | Read-heavy, static datasets    | Frequently changing datasets  |
 
 # References
 
