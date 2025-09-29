@@ -19,7 +19,7 @@ Personas are custom-made for the candidate audience of our educational platform;
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](https://via.placeholder.com/150 "Profile Image")**
+**![Placeholder Image](../images/beginner.png)**
 
 **Name:** Evan Brown
 **Archetype:** The Evan 
@@ -63,7 +63,7 @@ This learning path qould provide Evan with the necessary insights that he can us
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](https://via.placeholder.com/150 "Profile Image")**
+**![Placeholder Image](../images/beginner-intermediate.png)**
 
 **Name:** Rachel Jackson
 **Archetype:** The Rachel
@@ -109,7 +109,7 @@ I am the learning path.
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](https://via.placeholder.com/150 "Profile Image")**
+**![Placeholder Image](../images/intermediate.png)**
 
 **Name:** Joe Pepper
 **Archetype:** The Joe
@@ -147,7 +147,7 @@ I am the learning path.
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](https://via.placeholder.com/150 "Profile Image")**
+**![Placeholder Image](../images/intermediate-expert.png)**
 
 **Name:** Eric Smith 
 **Archetype:** The Eric 
@@ -202,9 +202,9 @@ This learning path would provide Eric with the necessary insights that they can 
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](https://via.placeholder.com/150 "Profile Image")**
+**![Placeholder Image](../images/expert.png)**
 
-**Name:** Pascal Walters
+**Name:** Pascal Walter
 **Archetype:** The Pascal
 **Status:** Associate Professor
 
@@ -227,6 +227,7 @@ Pascal's learning path consists of learning how to vizualise the graph through y
 This persona would benefit from the following learning path:
 
 - yEd\
+- Ontology Design Patterns
 - OWL Syntax.
 - How to deploy a Knowledge Graph.
 - What is a TTL file, how to read it ?
