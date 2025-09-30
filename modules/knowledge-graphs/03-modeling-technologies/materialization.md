@@ -7,7 +7,7 @@ This is done using the [RDFLib starter code](../../../resources/rdflib-starter.p
 A materialized graph is the original graph that is obtained by extracting the knowledge from all of your available data according to the designed schema/ontology and then explicitly being added to the graph.
 
 ## What is a fully materialized graph?
-A fully materialized graph is a materialized graph that is closed under the chosen rule set (i.e. materialized graph plus all triples that logically follow from the ontology axioms that have been actually asserted) such that if you re-run the same inference rules (e.g., simple RDFS rules) on it, no new triples can be produced.
+A fully materialized graph is a materialized graph that is closed under the chosen rule set (i.e. materialized graph plus all triples that logically follow from the ontology axioms that have been actually asserted) such that all possible consequences of the chosen inference rules have already been added. This means that if you take the resulting graph and re-apply the same inference rules (e.g., simple RDFS rules) on it, no new triples can be produced, i.e. it already contains every fact that can be logically derived from the asserted data and ontology.
 
 ## Pros and Cons of Materialization
 Even though materialization enables completeness of the designed knowledge graph, it also has some benefits and downsides:
@@ -19,7 +19,9 @@ Even though materialization enables completeness of the designed knowledge graph
 
 ### ⚠️ Downsides
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Increased storage requirements<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Mitigation: Can split large materialized graphs into multiple output files or graph DBs that support compression or lazy materialization<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Longer preprocessing times<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\- Mitigation: Can retort to Incremental Materialization (triplfying subsets of data in phases and loading to a store)
 
 ## RDF Materialization With Example:
 We will illustrate materialization with a simple example. Here, we will proceed with:
