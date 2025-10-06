@@ -3,7 +3,7 @@
 ## Prerequisites
 
 - [Knowledge Graph](../01-graphs/graphs.md#directed-graph): A structured representation of entities and relationships using triples ( subject - predicate - object)
-- [Axiom](../02-modeling-fundamentals/Axioms.md): A constraint on data that govern the relationships of things.
+- [Axiom](../02-modeling-fundamentals/Axioms.md): A constraint on data that governs the relationships of things.
 
 Protégé is a free, open-source software platform used for creating and managing ontologies. It allows users to define classes (concepts), properties (attributes and relationships), and individuals (instances) along with constraints on data (axioms). By supporting standards like OWL and [RDF](sparql.md), Protégé can easily be added to a pipeline consisting of other tools.
 
@@ -43,7 +43,7 @@ Once object properties have been defined, relationships between individuals can 
 
 ### Data Properties
 
-A data property links an individual to a data value (like strings or numbers) and can be defined by navigating to the `Data properties` tab (`Entities` -> `Data properties`), selecting one of the already existing data properties, and clicking the `Add sub property` button in the `Data property hierarchy` box. Note that every data property is a subproperty of `owl:topDataProperty`, which is automatically provided by Protégé whenever a new ontology is created. In addition, rather than adding an data property as a subproperty of another data property, one can be added at the same level as another object property by selecting it and clicking the `Add sibling property` button instead. If a mistake is made, an object property can be deleted by selecting it and clicking the `Delete selected properties` button. In the end, a hierarchy like the one shown below should exist:
+A data property links an individual to a data value (like strings or numbers) and can be defined by navigating to the `Data properties` tab (`Entities` -> `Data properties`), selecting one of the already existing data properties, and clicking the `Add sub property` button in the `Data property hierarchy` box. Note that every data property is a subproperty of `owl:topDataProperty`, which is automatically provided by Protégé whenever a new ontology is created. In addition, rather than adding a data property as a subproperty of another data property, one can be added at the same level as another data property by selecting it and clicking the `Add sibling property` button instead. If a mistake is made, a data property can be deleted by selecting it and clicking the `Delete selected properties` button. In the end, a hierarchy like the one shown below should exist:
 
 ![Data Properties](../../pngs/protege-dataproperties.png)
 
@@ -59,13 +59,21 @@ A datatype, as discussed briefly above, specifies the kind of literal value a da
 
 ![Datatypes](../../pngs/protege-datatypes.png)
 
+## Axioms
+
+An axiom, as defined in the [Prerequisites](#prerequisites), can be defined between classes by navigating to the `Classes` tab (`Entities` -> `Classes`), selecting one of the already existing classes, and clicking the `General class axioms` button in the `Description` box. The axioms can then be entered (one per line) in the box that appears. Note that special keywords will appear highlighted.
+
+![Axiom Example](../../pngs/protege-axiom-ex.png)
+
+![Axioms](../../pngs/protege-axiom.png)
+
+## Outputs
+
+When the ontology is complete, it can be saved in one of the formats shown below. If using Apache Jena Fuseki during the Materialization phase, it is recommended to use `Turtle Syntax`.
+
+![Output](../../pngs/protege-output.png)
+
 ## References
 
 [1] [Protégé](https://protege.stanford.edu/)
-
-# Notes
-- should prob talk about axioms somewhere
-- maybe what this gives you (ie a ttl file that can be included in materialization)
-
-## Axioms
 

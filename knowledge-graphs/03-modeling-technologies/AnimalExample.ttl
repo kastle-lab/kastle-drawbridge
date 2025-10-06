@@ -12,11 +12,11 @@
 #    Object Properties
 #################################################################
 
-###  http://www.kastledrawbridge.org/animals#chases
+###  http://www.kastledrawbridge.org/animals/chases
 :chases rdf:type owl:ObjectProperty .
 
 
-###  http://www.kastledrawbridge.org/animals#hasFriend
+###  http://www.kastledrawbridge.org/animals/hasFriend
 :hasFriend rdf:type owl:ObjectProperty .
 
 
@@ -24,11 +24,11 @@
 #    Data properties
 #################################################################
 
-###  http://www.kastledrawbridge.org/animals#hasAgeInYears
+###  http://www.kastledrawbridge.org/animals/hasAgeInYears
 :hasAgeInYears rdf:type owl:DatatypeProperty .
 
 
-###  http://www.kastledrawbridge.org/animals#hasName
+###  http://www.kastledrawbridge.org/animals/hasName
 :hasName rdf:type owl:DatatypeProperty .
 
 
@@ -36,31 +36,32 @@
 #    Classes
 #################################################################
 
-###  http://www.kastledrawbridge.org/animals#Animal
+###  http://www.kastledrawbridge.org/animals/Animal
 :Animal rdf:type owl:Class .
 
 
-###  http://www.kastledrawbridge.org/animals#Bird
+###  http://www.kastledrawbridge.org/animals/Bird
 :Bird rdf:type owl:Class ;
-      rdfs:subClassOf :Animal .
+      rdfs:subClassOf :Animal ;
+      owl:disjointWith :Mammal .
 
 
-###  http://www.kastledrawbridge.org/animals#Cat
+###  http://www.kastledrawbridge.org/animals/Cat
 :Cat rdf:type owl:Class ;
      rdfs:subClassOf :Mammal .
 
 
-###  http://www.kastledrawbridge.org/animals#Dog
+###  http://www.kastledrawbridge.org/animals/Dog
 :Dog rdf:type owl:Class ;
      rdfs:subClassOf :Mammal .
 
 
-###  http://www.kastledrawbridge.org/animals#Mammal
+###  http://www.kastledrawbridge.org/animals/Mammal
 :Mammal rdf:type owl:Class ;
         rdfs:subClassOf :Animal .
 
 
-###  http://www.kastledrawbridge.org/animals#Mouse
+###  http://www.kastledrawbridge.org/animals/Mouse
 :Mouse rdf:type owl:Class ;
        rdfs:subClassOf :Mammal .
 
@@ -69,27 +70,27 @@
 #    Individuals
 #################################################################
 
-###  http://www.kastledrawbridge.org/animals#Cat1
+###  http://www.kastledrawbridge.org/animals/Cat1
 :Cat1 rdf:type owl:NamedIndividual ,
                :Cat ;
       :chases :Mouse1 ;
       :hasName "Tom" .
 
 
-###  http://www.kastledrawbridge.org/animals#Cat2
+###  http://www.kastledrawbridge.org/animals/Cat2
 :Cat2 rdf:type owl:NamedIndividual ,
                :Cat ;
       :hasName "Butch" .
 
 
-###  http://www.kastledrawbridge.org/animals#Dog1
+###  http://www.kastledrawbridge.org/animals/Dog1
 :Dog1 rdf:type owl:NamedIndividual ,
                :Dog ;
       :chases :Cat1 ;
       :hasName "Spike" .
 
 
-###  http://www.kastledrawbridge.org/animals#Mouse1
+###  http://www.kastledrawbridge.org/animals/Mouse1
 :Mouse1 rdf:type owl:NamedIndividual ,
                  :Mouse ;
         :hasFriend :Dog1 ;
