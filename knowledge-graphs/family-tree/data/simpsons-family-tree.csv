@@ -1,7 +1,0 @@
-,Grandfather,Grandmother,Father,Mother,Sister,Brother,Son,Daughter
-Homer,,,Abraham,,,,Bart,"Lisa, Maggie"
-Marge,,,,,,,Bart,"Lisa, Maggie"
-Bart,Abraham,,Homer,Marge,"Lisa, Maggie",,,
-Lisa,Abraham,,Homer,Marge,,Bart,,
-Maggie,Abraham,,Homer,Marge,,Bart,,
-Abraham,,,,,,,,
