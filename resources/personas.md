@@ -96,7 +96,21 @@ Rachels background in ontology is unorganized and missing key terms and the fund
 
 ### Learning Path
 
-I am the learning path.
+This persona would benefit from the following learning path:
+
+- [Graphs](../modules/knowledge-graphs/01-graphs/01-graphs.md)
+- [Graphs with example](../modules/knowledge-graphs/01-graphs/02-graphs-ttl.md)
+- [Modeling Fundamentals](../modules/knowledge-graphs/02-modeling-fundamentals/01-modeling-fundamentals.md)
+- [Ontology](../modules/knowledge-graphs/02-modeling-fundamentals/02-ontology.md)
+- [Protege](link insert)
+- [Axioms](../modules/knowledge-graphs/02-modeling-fundamentals/03-Axioms.md)
+- [Competency Questions](../modules/knowledge-graphs/02-modeling-fundamentals/04-Competency-Question.md)
+- [Key Notions](../modules/knowledge-graphs/02-modeling-fundamentals/05-key-notions.md)
+- [Modeling Technologies](../modules/knowledge-graphs/03-modeling-technologies/01-modeling-technologies.md)
+- [Materilization](link insert)
+- [SPARQL](../modules/knowledge-graphs/03-modeling-technologies/03-sparql.md)
+- [SPARQL Tutorial](../modules/knowledge-graphs/03-modeling-technologies/04-sparql-tutorial.md)
+- [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
 
 
 ### The Outcome
@@ -104,11 +118,6 @@ I am the learning path.
 </td>
 </tr>
 </table>
-
-
-
-
-
 
 ------------------
 
