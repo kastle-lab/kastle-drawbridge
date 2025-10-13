@@ -202,13 +202,13 @@ Eric's learning path consists of the whole vizualisation, constructing and valid
 
 This persona would benefit from the following learning path:
 
-- What is an Identifier
-- Protege
-- OWL
-- Deploying a Knowledge Graph
-- RDF_Serializations
-- SPARQL
-- SHACL
+- [Axioms](../modules/knowledge-graphs/02-modeling-fundamentals/03-Axioms.md)
+- [Competency Questions](../modules/knowledge-graphs/02-modeling-fundamentals/04-Competency-Question.md)
+- [Key Notions](../modules/knowledge-graphs/02-modeling-fundamentals/05-key-notions.md)
+- [SPARQL](../modules/knowledge-graphs/03-modeling-technologies/03-sparql.md)
+- [SPARQL Tutorial](../modules/knowledge-graphs/03-modeling-technologies/04-sparql-tutorial.md)
+- [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
+
 
 
 
