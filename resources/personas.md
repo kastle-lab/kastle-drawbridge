@@ -1,6 +1,32 @@
 
 ---------------------------
 
+<style>
+/* Force same font, size, weight, and wrapping for all elements */
+body, h1, h2, h3, h4, h5, h6, p, li, table, td, th, strong, em, code {
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    font-weight: normal !important;      /* make all text same weight */
+    word-break: break-word !important;  
+    overflow-wrap: break-word !important;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    table-layout: fixed !important;
+}
+
+td, th {
+    padding: 10px !important;
+    border: 1px solid #ccc !important;
+    vertical-align: top !important;
+}
+</style>
+
+
 ```
 Personas are custom-made for the candidate audience of our educational platform; Drawbridge. They are divided into levels that reflect the audience’s knowledge and experience and of course end goal. The visualization below shows how learners are categorized from Beginner through Intermediate to Expert.
 ```
@@ -13,13 +39,13 @@ Personas are custom-made for the candidate audience of our educational platform;
 
 ## Begginer
 
-# THE EVAN
+### THE EVAN
 
 <table>
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](../images/beginner.png)**
+**![Image](../images/beginner.png)**
 
 **Name:** Evan Brown
 **Archetype:** The Evan 
@@ -57,13 +83,13 @@ This learning path qould provide Evan with the necessary insights that he can us
 
 ## Beginner Intermediate
 
-# THE RACHEL
+### THE RACHEL
 
 <table>
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](../images/beginner-intermediate.png)**
+**![Image](../images/beginner-intermediate.png)**
 
 **Name:** Rachel Jackson
 **Archetype:** The Rachel
@@ -103,13 +129,13 @@ I am the learning path.
 
 ## Intermediate
 
-# THE JOE
+### THE JOE
 
 <table>
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](../images/intermediate.png)**
+**![Image](../images/intermediate.png)**
 
 **Name:** Joe Pepper
 **Archetype:** The Joe
@@ -118,6 +144,7 @@ I am the learning path.
 </td>
 
 <td style="width:70%; vertical-align:top; padding:10px;">
+
 I am a 2nd year masters student working in an ontology lab in the Computer Science Department. Through my time in the lab, I have been taught many foundational information about ontologies and have a good grasp on what they are and how they can be used. I can create a schema diagram and I know all of the foundational coding required. However, my knowledge and understanding are still at the theoretical level, and i have not been able to apply my knowledge and create an ontology. Currently, the seniors in the lab who have been helping me learn will be out of town to attend various conferences and won’t be able to help me as much. I need a resource that I can refer to that will allow me to learn the modeling standards, creation tools, and evaluation methods, so I can stay up to date on my educational path while they are away. I am working on other projects and would like something that is self-paced but paced so that i can keep on track.
 ---
 
@@ -141,13 +168,13 @@ I am the learning path.
 
 ## Intermediate/ Expert
 
-# THE ERIC
+### THE ERIC
 
 <table>
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](../images/intermediate-expert.png)**
+**![Image](../images/intermediate-expert.png)**
 
 **Name:** Eric Smith 
 **Archetype:** The Eric 
@@ -196,13 +223,13 @@ This learning path would provide Eric with the necessary insights that they can 
 
 ## Expert
 
-# THE PASCAL
+### THE PASCAL
 
 <table>
 <tr>
 <td style="width:30%; vertical-align:top; border:1px solid #ccc; padding:10px;">
 
-**![Placeholder Image](../images/expert.png)**
+**![Image](../images/expert.png)**
 
 **Name:** Pascal Walter
 **Archetype:** The Pascal
