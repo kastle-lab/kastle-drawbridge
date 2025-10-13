@@ -257,13 +257,12 @@ Pascal's learning path consists of learning how to vizualise the graph through y
 ### Learning Path
 This persona would benefit from the following learning path:
 
-- yEd\
-- Ontology Design Patterns
-- OWL Syntax.
-- How to deploy a Knowledge Graph.
-- What is a TTL file, how to read it ?
-- SPARQL query language, when and how to use it ?
-- Validation of the KG through Apache Jena Fuseki.
+- [Competency Questions](../modules/knowledge-graphs/02-modeling-fundamentals/04-Competency-Question.md)
+- [Key Notions](../modules/knowledge-graphs/02-modeling-fundamentals/05-key-notions.md)
+- [SPARQL](../modules/knowledge-graphs/03-modeling-technologies/03-sparql.md)
+- [SPARQL Tutorial](../modules/knowledge-graphs/03-modeling-technologies/04-sparql-tutorial.md)
+- [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
+
 
 
 
