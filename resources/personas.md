@@ -59,6 +59,7 @@ This persona would benefit from the following learning path:
 - [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
 
 ### Outcome
+
 This learning path qould provide Evan with the necessary insights that he can use to develop the ontology he would need for his research. 
 
 </td>
@@ -113,7 +114,9 @@ This persona would benefit from the following learning path:
 - [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
 
 
-### The Outcome
+### Outcome
+
+This learning path qould provide Rachel with the necessary insights that she can use to finish her dissertation with success. 
 
 </td>
 </tr>
@@ -164,8 +167,9 @@ This persona would benefit from the following learning path:
 
 
 
-### The Outcome
+### Outcome
 
+This learning path could provide Joe with the necessary insights that she can use to create an ontology.
 </td>
 </tr>
 </table>
@@ -213,6 +217,7 @@ This persona would benefit from the following learning path:
 
 
 ### Outcome
+
 This learning path would provide Eric with the necessary insights that they can use to complete his thesis project.
 
 </td>
@@ -268,6 +273,7 @@ This persona would benefit from the following learning path:
 
 
 ### Outcome
+
 This learning path would provide Pascal with the necessary insights to collaborate with the other researchers and to also onboard his students.
 
 </td>
