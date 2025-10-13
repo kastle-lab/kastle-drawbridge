@@ -151,7 +151,17 @@ Joes background in ontology is above the need for foundational material. He is a
 
 ### Learning Path
 
-I am the learning path.
+This persona would benefit from the following learning path:
+
+- [Protege](link insert)
+- [Axioms](../modules/knowledge-graphs/02-modeling-fundamentals/03-Axioms.md)
+- [Competency Questions](../modules/knowledge-graphs/02-modeling-fundamentals/04-Competency-Question.md)
+- [Key Notions](../modules/knowledge-graphs/02-modeling-fundamentals/05-key-notions.md)
+- [Materilization](link insert)
+- [SPARQL](../modules/knowledge-graphs/03-modeling-technologies/03-sparql.md)
+- [SPARQL Tutorial](../modules/knowledge-graphs/03-modeling-technologies/04-sparql-tutorial.md)
+- [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
+
 
 
 ### The Outcome
