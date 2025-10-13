@@ -1,7 +1,7 @@
 
-```
+
 Personas are custom-made for the candidate audience of our educational platform; Drawbridge. They are divided into levels that reflect the audience’s knowledge and experience and of course end goal. The visualization below shows how learners are categorized from Beginner through Intermediate to Expert.
-```
+
 
 ![All Persona Levels](../images/drawbridge-personas-all-levels.png)
 
@@ -37,9 +37,26 @@ Evans' background in ontology is minimal, meaning that he needs a learning path 
 
 This persona would benefit from the following learning path:
 
-- What is a Knowledge Graph 
-- What is Metadata 
-- Deploying a Knowledge Graph 
+- [Data Types and Variables](../modules/foundation/01-data-types/data-types-and-variables.md)
+- [Conditionals](../modules/foundation/02-conditionals-and-loops/conditionals.md)
+- [Loops](../modules/foundation/02-conditionals-and-loops/loops.md)
+- [Data Structures](../modules/foundation/03-data-structures/data-structures.md)
+- [File Input/ Output](../modules/foundation/04-file-io/file-io.md)
+- [Exception Handling](../modules/foundation/05-exception-handling/exception-handling.md)
+- [Graphs](../modules/knowledge-graphs/01-graphs/01-graphs.md)
+- [Graphs with example](../modules/knowledge-graphs/01-graphs/02-graphs-ttl.md)
+- [Modeling Fundamentals](../modules/knowledge-graphs/02-modeling-fundamentals/01-modeling-fundamentals.md)
+- [Ontology](../modules/knowledge-graphs/02-modeling-fundamentals/02-ontology.md)
+- [Protege](link insert)
+- [Axioms](../modules/knowledge-graphs/02-modeling-fundamentals/03-Axioms.md)
+- [Competency Questions](../modules/knowledge-graphs/02-modeling-fundamentals/04-Competency-Question.md)
+- [Key Notios](../modules/knowledge-graphs/02-modeling-fundamentals/05-key-notions.md)
+- [Modeling Technologies](../modules/knowledge-graphs/03-modeling-technologies/01-modeling-technologies.md)
+- [Schema Diagrams](../modules/knowledge-graphs/03-modeling-technologies/02-schema-diagrams.md)
+- [Materilization](link insert)
+- [SPARQL](../modules/knowledge-graphs/03-modeling-technologies/03-sparql.md)
+- [SPARQL Tutorial](../modules/knowledge-graphs/03-modeling-technologies/04-sparql-tutorial.md)
+- [Querying Methods](../modules/knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
 
 ### Outcome
 This learning path qould provide Evan with the necessary insights that he can use to develop the ontology he would need for his research. 
