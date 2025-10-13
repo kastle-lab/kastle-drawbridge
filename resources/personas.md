@@ -1,7 +1,4 @@
 
----------------------------
-
-
 ```
 Personas are custom-made for the candidate audience of our educational platform; Drawbridge. They are divided into levels that reflect the audience’s knowledge and experience and of course end goal. The visualization below shows how learners are categorized from Beginner through Intermediate to Expert.
 ```
@@ -31,20 +28,18 @@ Personas are custom-made for the candidate audience of our educational platform;
 <td style="width:70%; vertical-align:top; padding:10px;">
 
 I am a second-year graduate student pursuing my thesis in biomedical engineering. I am a  GTA for a biomaterials lab this semester, and I am currently working on 3 other projects with various colleagues. My domain of research is in oncology with a focus on precision medicine, where I believe that there is potential for the use of an ontology! I currently have disparate patient data with which I can make a holistic model, but i am not sure how to integrate ontology into my research. I have no background in computer science, with only a little coding experience. I would need to learn the fundamentals of knowledge graph construction and the practices that go into creating a good ontology.  I would prefer to learn about ontologies on my own time without the need to enroll in a course, I have a busy schedule so I need the delivery to be flexible. I enjoy learning thorugh visually methods rather than solely verbal delivery, with in-depth working examples.  
----
+
 ### Background & Needs
 
 Evans' background in ontology is minimal, meaning that he needs a learning path that will start him at the fundamentals and walk with him through the entire construction process. 
----
 
 ### Learning Path
+
 This persona would benefit from the following learning path:
 
 - What is a Knowledge Graph 
 - What is Metadata 
 - Deploying a Knowledge Graph 
-
----
 
 ### Outcome
 This learning path qould provide Evan with the necessary insights that he can use to develop the ontology he would need for his research. 
@@ -75,17 +70,17 @@ This learning path qould provide Evan with the necessary insights that he can us
 <td style="width:70%; vertical-align:top; padding:10px;">
 
 I am a Ph.D student in my first year of graduate school as a computer science major. During my master’s, I was introduced to ontologies via a collaboration with another student. I am working on my dissertation and realize that I could utilize an ontology for my research.  Since most of my Ontology knowledge was gained by working collaboratively with another student, my understanding and background knowledge are a bit unorganized and unclear. I have some background in descriptive logic, and I have proficient coding abilities. I would like to explore how KGs are constructed and the tools that are used to do so. While I do have the time to take a class and learn these things, I would much prefer something more flexible so that I can stay on track with my overall dissertation research. Because of my unorganized information about ontologies, I would like to get a detailed walkthrough on how ontologies are created, definitions, tools, and evaluation metrics that go into an ontology. 
----
+
 
 ### Background & Needs
 
 Rachels background in ontology is unorganized and missing key terms and the fundamental building blocks of ontology.  She has background in coding meaning she can skip the foundations and dive directly into the material she needs the most. 
----
 
 
 ### Learning Path
+
 I am the learning path.
----
+
 
 ### The Outcome
 
@@ -121,17 +116,17 @@ I am the learning path.
 <td style="width:70%; vertical-align:top; padding:10px;">
 
 I am a 2nd year masters student working in an ontology lab in the Computer Science Department. Through my time in the lab, I have been taught many foundational information about ontologies and have a good grasp on what they are and how they can be used. I can create a schema diagram and I know all of the foundational coding required. However, my knowledge and understanding are still at the theoretical level, and i have not been able to apply my knowledge and create an ontology. Currently, the seniors in the lab who have been helping me learn will be out of town to attend various conferences and won’t be able to help me as much. I need a resource that I can refer to that will allow me to learn the modeling standards, creation tools, and evaluation methods, so I can stay up to date on my educational path while they are away. I am working on other projects and would like something that is self-paced but paced so that i can keep on track.
----
+
 
 ### Background & Needs
 
 Joes background in ontology is above the need for foundational material. He is able to use a schema diagram and is able to visually construct his KG. Joe, however, needs to learn how to develop competence questions and how to implement his ontology to ready it for evaluations.
----
 
 
 ### Learning Path
+
 I am the learning path.
----
+
 
 ### The Outcome
 
@@ -139,7 +134,7 @@ I am the learning path.
 </tr>
 </table>
 
----
+
 
 ## Intermediate/ Expert
 
@@ -166,9 +161,9 @@ Eric is a second year Master's student pursuing his thesis in Computer Science. 
 
 Eric's learning path consists of the whole vizualisation, constructing and validation process. He has to learn all the tools the lab uses when it comes to Knowledge Graph construction and validation.
 
----
 
 ### Learning Path
+
 This persona would benefit from the following learning path:
 
 - What is an Identifier
@@ -179,7 +174,7 @@ This persona would benefit from the following learning path:
 - SPARQL
 - SHACL
 
----
+
 
 ### Outcome
 This learning path would provide Eric with the necessary insights that they can use to complete his thesis project.
@@ -223,8 +218,6 @@ Pascal's learning path consists of learning how to vizualise the graph through y
 
 
 
----
-
 ### Learning Path
 This persona would benefit from the following learning path:
 
@@ -237,7 +230,7 @@ This persona would benefit from the following learning path:
 - Validation of the KG through Apache Jena Fuseki.
 
 
----
+
 
 ### Outcome
 This learning path would provide Pascal with the necessary insights to collaborate with the other researchers and to also onboard his students.
