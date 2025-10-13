@@ -1,31 +1,6 @@
 
 ---------------------------
 
-<style>
-/* Force same font, size, weight, and wrapping for all elements */
-body, h1, h2, h3, h4, h5, h6, p, li, table, td, th, strong, em, code {
-    font-family: Arial, Helvetica, sans-serif !important;
-    font-size: 14px !important;
-    line-height: 1.5 !important;
-    font-weight: normal !important;      /* make all text same weight */
-    word-break: break-word !important;  
-    overflow-wrap: break-word !important;
-}
-
-/* Table styling */
-table {
-    border-collapse: collapse !important;
-    width: 100% !important;
-    table-layout: fixed !important;
-}
-
-td, th {
-    padding: 10px !important;
-    border: 1px solid #ccc !important;
-    vertical-align: top !important;
-}
-</style>
-
 
 ```
 Personas are custom-made for the candidate audience of our educational platform; Drawbridge. They are divided into levels that reflect the audience’s knowledge and experience and of course end goal. The visualization below shows how learners are categorized from Beginner through Intermediate to Expert.
