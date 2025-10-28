@@ -9,7 +9,7 @@ Personas are custom-made for the candidate audience of our educational platform;
 
 # L1
 
-## Begginer
+## Beginner
 
 ### THE EVAN
 
@@ -20,7 +20,6 @@ Personas are custom-made for the candidate audience of our educational platform;
 **![Image](../images/beginner.png)**
 
 **Name:** Evan Brown
-**Archetype:** The Evan 
 **Status:**  Biomedical Engineering Master's Student
 
 </td>
@@ -80,7 +79,6 @@ This learning path qould provide Evan with the necessary insights that he can us
 **![Image](../images/beginner-intermediate.png)**
 
 **Name:** Rachel Jackson
-**Archetype:** The Rachel
 **Status:**  Ph.D Student
 
 </td>
@@ -137,7 +135,6 @@ This learning path qould provide Rachel with the necessary insights that she can
 **![Image](../images/intermediate.png)**
 
 **Name:** Joe Pepper
-**Archetype:** The Joe
 **Status:**  Graduate Student
 
 </td>
@@ -187,7 +184,6 @@ This learning path could provide Joe with the necessary insights that she can us
 **![Image](../images/intermediate-expert.png)**
 
 **Name:** Eric Smith 
-**Archetype:** The Eric 
 **Status:**  Graduate Research Assistant
 
 </td>
@@ -243,7 +239,6 @@ This learning path would provide Eric with the necessary insights that they can 
 **![Image](../images/expert.png)**
 
 **Name:** Pascal Walter
-**Archetype:** The Pascal
 **Status:** Associate Professor
 
 </td>
