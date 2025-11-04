@@ -51,10 +51,10 @@ Even though materialization enables completeness of the designed knowledge graph
 ### ❗Important Step before begining Materialization
 Make sure your data is clean and normalized before loading it into RDFLib. This is crucial for error-free materialization.
 Typical steps include:
- - Remove inconsistent entries in your CSV/TXT sources.
- - Standardize names, URIs, and formats.
- - Ensure consistent prefixes.
- - Verify your ontology (e.g., subclass and domain/range relationships).
+ - Remove inconsistent entries in your CSV/TXT sources. (e.g., drop rows with missing or mismatched identifiers and addressing typos)
+ - Standardize names, URIs, and formats. (e.g., ensure all URIs use lowercase and a consistent namespace pattern.)
+ - Ensure consistent prefix usage and association to data. (e.g., prefixes like `ex:` and `rdf:` must align across datasets.)
+ - Verify your ontology (e.g., check that subclass and domain/range rules are applied to the correct data entities, not just class names.).
 
 
 ## RDF Materialization With Example:
