@@ -111,7 +111,7 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 #### [3] K. Hammar, [Ontology Design Patterns in WebProtégé](https://www.diva-portal.org/smash/get/diva2:877199/FULLTEXT01.pdf)
 
-#### [4] None Karima Nazifa, N. H. Karl, and N. H. Pascal, [How to Document Ontology Design Patterns](https://ebooks.iospress.nl/publication/48704)
+#### [4] Karima Nazifa, N. H. Karl, and N. H. Pascal, [How to Document Ontology Design Patterns](https://ebooks.iospress.nl/publication/48704)
 
 #### [5] C. Shimizu, Q. Hirt, and P. Hitzler, [MODL: A Modular Ontology Design Library](https://arxiv.org/pdf/1904.05405v1)
 
