@@ -12,23 +12,23 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 ## Related Papers
 
-### [Patterns In Ontology Engineering: Classification of Ontology Patterns](#1-patterns-in-ontology-engineering-classification-of-ontology-patterns-proceedings-of-the-seventh-international-conference-on-enterprise-information-systems)
+### [Patterns In Ontology Engineering: Classification of Ontology Patterns](#1-e-blomqvist-and-k-sandkuhl-patterns-in-ontology-engineering-classification-of-ontology-patterns)
 
-**Authors:**
+**Authors:** Eva Blomqvist and Kurt Sandkuhl
 
-> Summarize the paper’s main contribution
+> The paper's main contribution is the classification of ontology patterns, such as application, design, syntactic, etc. The authors discuss the considerations required to decide how to use these various pattern classifications (i.e., usage, construction, and ontology type).
 
 ### [Ontology Design Patterns](#2-a-gangemi-and-v-presutti-ontology-design-patterns)
 
-**Authors:**
+**Authors:** Aldo Gangemi and Valentina Presutti
 
-> Summarize the paper’s main contribution
+> The authors make the reader aware of the overlooked aspect of resusbility in ontology design. Notably, in the case of reusing core or reference ontologies that incorporate an enormous amount of knowledge representation, makes them cumbersome to use and understand. Due to this, the authors provide a description, an explanation, and an example use case for Content Ontology Design Patterns (CP). CPs are “…small ontologies that mediate between use cases (problem types) and design solutions that are used as modeling components: ideally, an ontology results from a composition of CPs, with appropriate dependencies between them, plus the necessary design expansion based on specific needs.”
 
 ### [Ontology Design Patterns in WebProtégé](#3-k-hammar-ontology-design-patterns-in-webprotégé)
 
-**Authors:**
+**Authors:** Karl Hammar
 
-> Summarize the paper’s main contribution
+> This paper provides and demonstrates a new extension (at the time) to the WebProtege ontology engineering environment for finding, specialising, and integrating ODPs.
 
 ### [How to Document Ontology Design Patterns](#4-none-karima-nazifa-n-h-karl-and-n-h-pascal-how-to-document-ontology-design-patterns)
 
