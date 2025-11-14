@@ -32,33 +32,33 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 ### [How to Document Ontology Design Patterns](#4-none-karima-nazifa-n-h-karl-and-n-h-pascal-how-to-document-ontology-design-patterns)
 
-**Authors:**
+**Authors:** Nazifa Karima, Karl Hammar and Pascal Hitzler
 
-> Summarize the paper’s main contribution
+> The authors highlight various obstacles to implementing ODPs and focus specifically on documentation. In their paper, they present data from a survey they conducted, ranking the importance of 10 components of the documentation aspect of ODPs. From this, they highlighted the importance of various documentation components from a user's perspective and demonstrated other issues, such as the non-uniformity or inclusion of diagrams, the highest ranked required documentation component. In summary, the most significant components are: graphical illustrations (diagrams), example instantiations, and competency questions.
 
 ### [MODL: A Modular Ontology Design Library](#5-c-shimizu-q-hirt-and-p-hitzler-modl-a-modular-ontology-design-library)
 
-**Authors:**
+**Authors:** Cogan Shimizu, Quinn Hirt, and Pascal Hitzler
 
-> Summarize the paper’s main contribution
+> MODL is a collection of well-documented ontology design patterns, drawn from a wide variety of interdisciplinary use-cases. It is presented as a resource where the authors discuss its use and provide some examples of its contents. Additionally, MODL facilitates the searchability and accessibility of their ODPs, promoting reuse.
 
 ### [The Landscape of Ontology Reuse Approaches: Studies on the semantic web](#6-v-a-carriero-et-al-the-landscape-of-ontology-reuse-approaches-studies-on-the-semantic-web)
 
-**Authors:**
+**Authors:** Valentina Anita Carriero, Marilena Daquino, Aldo Gangemi , Andrea Giovanni Nuzzolese , Silvio Peroni , Valentina Presutti , and Francesca Tomasi
 
-> Summarize the paper’s main contribution
+> In this paper, the authors argue that at the time of publication, there were no effective solutions to support developers’ decision-making when choosing an ontology reuse (OR) strategy. Therefore, they propose various approaches for deciding when and how to use existing ontologies from authoritative organizations such as ISO and the W3C, as well as endorsed ontologies from such entities, or widely used ontologies outside these authoritative groups. The concepts highlighted for important consideration are ontology selection (OS), accessibility and preservation, integration, and reuse implementation.
 
 ### [OPLaX: annotating ontology design patterns at conceptual and instance level](#7-l-asprino-v-carriero-c-colonna-and-v-presutti-oplax-annotating-ontology-design-patterns-at-conceptual-and-instance-level)
 
-**Authors:**
+**Authors:** Luigi Asprino, Valentina Anita Carriero , Christian Colonna , and Valentina Presutt
 
-> Summarize the paper’s main contribution
+> The authors introduce a language for annotating ontology design patterns (ODPs) in ontologies and knowledge graphs at three distinct levels: as implemented in an ontology, the abstract conceptual component that can be implemented by different ODPs, and at the instance of a pattern in a knowledge graph.
 
 ### [Modular ontology modeling](#8-kirrane-s-ngonga-ngomo-a-c-shimizu-c-hammar-k-hitzler-p-modular-ontology-modeling)
 
-**Authors:**
+**Authors:** Cogan Shimizu, Karl Hammar, and Pascal Hitzler
 
-> Summarize the paper’s main contribution
+> The authors of MOMo identify a few issues which make ontology reuse difficult or challenging. Therefore they introduce a unique methodology that provides a systematic approach for developing robust and reusable ontologies designed to function as a schema for a KG. This approach is designed to address limitations in utilizing monolithic ontologies, as they are often difficult to reuse due to either strong ontological commitments that result in overspecification or weak commitments that cause ambiguity.
 
 ### [Neuro-symbolic artificial intelligence: The state of the art](#9-hitzler-p-and-sarker-mk-eds-2022-neuro-symbolic-artificial-intelligence-the-state-of-the-art)
 
