@@ -84,9 +84,16 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 ---
 
+#### ODPs
+
+As mentioned previously, ODPs are essentially miniaturized ontologies that ease the challenges of reuse and knowledge engineering. Below is an example of an ODP. \
+<img src="../../../images/sd-agent.png" alt="odp" style="width:500px;"/>
+
 #### Schema Diagrams
 
-#### ODPs
+`Schema diagrams` serve as graphical representations of ontologies. With modern state-of-the-art practices a `schema diagram` can be thought of as the entire collection of connected ODPs (or modules). Due to simplicity being a desirable characteristic of them to facilitate ease of viewing and human understanding, however, they can be incomplete and ambiguous, lacking the stricter semantics established through the use of axioms. Nonetheless, they provide an easily understandable means of introducing the higher-level concepts of an ontology. More detailed information and modeling practices for [schema diagrams](../03-modeling-technologies/02-schema-diagrams.md) can be found in the Modeling Technologies module. Below is an example of what a schema may look like. The schema is from the [The enslaved ontology: Peoples of the historic slave trade](https://doi.org/10.1016/j.websem.2020.100567).
+
+<img src="../../../images/enslaved-schema.png" alt="odp" style="width:900px;"/>
 
 ### Oplax
 
