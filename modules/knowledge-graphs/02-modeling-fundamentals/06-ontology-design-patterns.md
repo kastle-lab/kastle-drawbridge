@@ -18,7 +18,7 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 > The paper's main contribution is the classification of ontology patterns, such as application, design, syntactic, etc. The authors discuss the considerations required to decide how to use these various pattern classifications (i.e., usage, construction, and ontology type).
 
-### [Ontology Design Patterns](#2-a-gangemi-and-v-presutti-ontology-design-patterns)
+### [Ontology Design Patterns\*](#2-a-gangemi-and-v-presutti-ontology-design-patterns)
 
 **Authors:** Aldo Gangemi and Valentina Presutti
 
@@ -36,7 +36,7 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 > The authors highlight various obstacles to implementing ODPs and focus specifically on documentation. In their paper, they present data from a survey they conducted, ranking the importance of 10 components of the documentation aspect of ODPs. From this, they highlighted the importance of various documentation components from a user's perspective and demonstrated other issues, such as the non-uniformity or inclusion of diagrams, the highest ranked required documentation component. In summary, the most significant components are: graphical illustrations (diagrams), example instantiations, and competency questions.
 
-### [MODL: A Modular Ontology Design Library](#5-c-shimizu-q-hirt-and-p-hitzler-modl-a-modular-ontology-design-library)
+### [MODL: A Modular Ontology Design Library\*](#5-c-shimizu-q-hirt-and-p-hitzler-modl-a-modular-ontology-design-library)
 
 **Authors:** Cogan Shimizu, Quinn Hirt, and Pascal Hitzler
 
@@ -54,7 +54,7 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 > The authors introduce a language for annotating ontology design patterns (ODPs) in ontologies and knowledge graphs at three distinct levels: as implemented in an ontology, the abstract conceptual component that can be implemented by different ODPs, and at the instance of a pattern in a knowledge graph.
 
-### [Modular ontology modeling](#8-kirrane-s-ngonga-ngomo-a-c-shimizu-c-hammar-k-hitzler-p-modular-ontology-modeling)
+### [Modular ontology modeling\*](#8-kirrane-s-ngonga-ngomo-a-c-shimizu-c-hammar-k-hitzler-p-modular-ontology-modeling)
 
 **Authors:** Cogan Shimizu, Karl Hammar, and Pascal Hitzler
 
@@ -62,26 +62,45 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 ### [Neuro-symbolic artificial intelligence: The state of the art](#9-hitzler-p-and-sarker-mk-eds-2022-neuro-symbolic-artificial-intelligence-the-state-of-the-art)
 
-**Authors:**
+**Editors:** Pascal Hitzler, Md Kamruzzaman Sarker
 
-> Summarize the paper’s main contribution
+> This book is an amalgamation of relatively recent research papers that showcase state-of-the-art (SOTA) methods for neurosymbolic systems that combine logic, machine learning, and automated reasoning.
 
 ### [Empirical ontology design patterns and shapes from Wikidata](#10-v-a-carriero-p-groth-and-v-presutti-empirical-ontology-design-patterns-and-shapes-from-wikidata)
 
-**Authors:**
+**Authors:** Valentina Anita Carriero, , Paul Groth, Paul Groth
 
-> Summarize the paper’s main contribution
+> This paper introduces a method for extracting empirical ontology design patterns (EODPs) from knowledge graphs (KGs) that lack formal ontologies, such as Wikidata. The method addresses the challenge of reusing Wikidata's ontology, which is defined bottom-up, partially implicit, and constantly evolving. By identifying EODPs as sets of axioms/constraints with associated probability values based on their actual usage in the KG, the research aims to make the implicit ontology emerge and provide guidance for its use and potential improvement. The authors extend previous work by transforming frequent domain-property-range triplets into probabilistic OWL ontology design patterns (using RDF-star) and probabilistic ShEx shapes (a schema language used to formalize shapes), and by defining probabilistic patterns based on a frequentist interpretation.
 
 ### [Commonsense Ontology Micropatterns](#11-eells-a-dave-b-hitzler-p-shimizu-c-2024-commonsense-ontology-micropatterns)
 
-**Authors:**
+**Authors:** Andrew Eells, Brandon Dave, Pascal Hitzler, Cogan Shimizu
 
-> Summarize the paper’s main contribution
+> This paper's primary contribution is the creation of a comprehensive collection of 104 commonsense ontology micropatterns, organized into a fully annotated Modular Ontology Design Library (MODL) called CS-MODL. These micropatterns, representing frequently occurring nouns, were curated from common-sense knowledge extracted from Large Language Models (LLMs). The CS-MODL is designed to support the Modular Ontology Modeling (MOMO) methodology, aiming to accelerate ontology development for both human and automated processes. By providing a ready-to-use library of such patterns, the research addresses a major bottleneck in the large-scale deployment of MOMO, which previously faced limited availability of ready-to-use ontology design patterns. This resource is programmatically queryable and can facilitate the construction of internal knowledge frameworks for automated systems.
 
 ## Current Usage
 
-> Describe current applied in various systems, domains, or projects.  
-> Include human-centered perspectives and discuss future perspectives focused on automation of the process.
+### MOMo
+
+---
+
+#### Schema Diagrams
+
+#### ODPs
+
+### Oplax
+
+---
+
+### Patterns + Nesi -> accel LLMs4kgoe
+
+---
+
+### CSMODL
+
+---
+
+> Describe current applied in various systems, domains, or projects. Include human-centered perspectives and discuss future perspectives focused on automation of the process.
 
 - **Momo** — _human aspect / description_
 - **Oplax** — _human aspect / description_
