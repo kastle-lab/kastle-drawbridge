@@ -78,6 +78,12 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 > This paper's primary contribution is the creation of a comprehensive collection of 104 commonsense ontology micropatterns, organized into a fully annotated Modular Ontology Design Library (MODL) called CS-MODL. These micropatterns, representing frequently occurring nouns, were curated from common-sense knowledge extracted from Large Language Models (LLMs). The CS-MODL is designed to support the Modular Ontology Modeling (MOMO) methodology, aiming to accelerate ontology development for both human and automated processes. By providing a ready-to-use library of such patterns, the research addresses a major bottleneck in the large-scale deployment of MOMO, which previously faced limited availability of ready-to-use ontology design patterns. This resource is programmatically queryable and can facilitate the construction of internal knowledge frameworks for automated systems.
 
+### [Accelerating knowledge graph and ontology engineering with large language models](#12-shimizu-c-hitzler-p-2025-accelerating-knowledge-graph-and-ontology-engineering-with-large-language-models)
+
+**Authors:** Cogan Shimizu, Pascal Hitzler
+
+> The authors of this paper propose that modular approaches to automated ontology development (ontology learning) with LLMs is of central importance. The paper includes an extensive discussion around the background and terminology for Knowledge Graph and Ontology Engineering (KGOE). Additionally, the paper includes an acknowledgement of the current limitations and usefulness of LLMs for ontology learning.
+
 ## Current Usage
 
 ### ODPs
@@ -116,8 +122,6 @@ As mentioned previously, ODPs are essentially miniaturized ontologies that ease 
 </figcaption>
 </figure>
 
-### Oplax
-
 ---
 
 ### Patterns + Nesi -> accel LLMs4kgoe
@@ -152,19 +156,19 @@ As mentioned previously, ODPs are essentially miniaturized ontologies that ease 
 
 ## References
 
-#### [1] E. Blomqvist and K. Sandkuhl [Patterns In Ontology Engineering: Classification of Ontology Patterns](https://www.scitepress.org/Papers/2005/25188/.)
+#### [1] E. Blomqvist and K. Sandkuhl. [Patterns In Ontology Engineering: Classification of Ontology Patterns](https://www.scitepress.org/Papers/2005/25188/.)
 
-#### [2] A. Gangemi and V. Presutti, [Ontology Design Patterns](https://www.researchgate.net/profile/Aldo-Gangemi/publication/227215903_Ontology_Design_Patterns/links/00b7d5152eea4d92eb000000/Ontology-Design-Patterns.pdf)
+#### [2] A. Gangemi and V. Presutti. [Ontology Design Patterns](https://www.researchgate.net/profile/Aldo-Gangemi/publication/227215903_Ontology_Design_Patterns/links/00b7d5152eea4d92eb000000/Ontology-Design-Patterns.pdf)
 
-#### [3] K. Hammar, [Ontology Design Patterns in WebProtégé](https://www.diva-portal.org/smash/get/diva2:877199/FULLTEXT01.pdf)
+#### [3] K. Hammar. [Ontology Design Patterns in WebProtégé](https://www.diva-portal.org/smash/get/diva2:877199/FULLTEXT01.pdf)
 
-#### [4] Karima Nazifa, N. H. Karl, and N. H. Pascal, [How to Document Ontology Design Patterns](https://ebooks.iospress.nl/publication/48704)
+#### [4] Karima Nazifa, N. H. Karl, and N. H. Pascal. [How to Document Ontology Design Patterns](https://ebooks.iospress.nl/publication/48704)
 
-#### [5] C. Shimizu, Q. Hirt, and P. Hitzler, [MODL: A Modular Ontology Design Library](https://arxiv.org/pdf/1904.05405v1)
+#### [5] C. Shimizu, Q. Hirt, and P. Hitzler. [MODL: A Modular Ontology Design Library](https://arxiv.org/pdf/1904.05405v1)
 
-#### [6] V. A. Carriero et al., [The Landscape of Ontology Reuse Approaches: Studies on the semantic web](https://arxiv.org/pdf/2011.12599)
+#### [6] V. A. Carriero et al. [The Landscape of Ontology Reuse Approaches: Studies on the semantic web](https://arxiv.org/pdf/2011.12599)
 
-#### [7] L. Asprino, V. Carriero, C. Colonna, and V. Presutti, [OPLaX: annotating ontology design patterns at conceptual and instance level](https://cris.unibo.it/bitstream/11585/844294/2/paper1.pdf)
+#### [7] L. Asprino, V. Carriero, C. Colonna, and V. Presutti. [OPLaX: annotating ontology design patterns at conceptual and instance level](https://cris.unibo.it/bitstream/11585/844294/2/paper1.pdf)
 
 #### [8] Kirrane S, Ngonga Ngomo A-C, Shimizu C, Hammar K, Hitzler P. [Modular ontology modeling](https://journals.sagepub.com/doi/full/10.3233/SW-222886)
 
@@ -173,3 +177,7 @@ As mentioned previously, ODPs are essentially miniaturized ontologies that ease 
 #### [10] V. A. Carriero, P. Groth, and V. Presutti, [Empirical ontology design patterns and shapes from Wikidata](https://journals.sagepub.com/doi/full/10.3233/SW-243613)
 
 #### [11] Eells, A., Dave, B., Hitzler, P., Shimizu, C. (2024). [Commonsense Ontology Micropatterns](https://link.springer.com/chapter/10.1007/978-3-031-71170-1_6)
+
+#### [12] Shimizu, C., Hitzler, P. (2025). [Accelerating knowledge graph and ontology engineering with large language models](https://www.sciencedirect.com/science/article/pii/S1570826825000022)
+
+#### [13] Sanaz Saki Norouzi and Adrita Barua and Antrea Christou and Nikita Gautam and Andrew Eells and Pascal Hitzler and Cogan Shimizu. [Ontology Population using LLMs](https://arxiv.org/abs/2411.01612)
