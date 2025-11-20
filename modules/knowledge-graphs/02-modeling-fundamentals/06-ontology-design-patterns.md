@@ -80,20 +80,41 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 ## Current Usage
 
-### MOMo
+### ODPs
 
 ---
 
-#### ODPs
+As mentioned previously, ODPs are essentially miniaturized ontologies that ease the challenges of reuse and knowledge engineering. Below is an example of an ODP and how it can be adapted for a specific use case. The red dotted lines in Figure 3 highlight the associated classes from the use case to the AgentRole pattern.
 
-As mentioned previously, ODPs are essentially miniaturized ontologies that ease the challenges of reuse and knowledge engineering. Below is an example of an ODP. \
-<img src="../../../images/sd-agent.png" alt="odp" style="width:500px;"/>
+<figure>
+    <img src="../../../images/sd-agent.png" alt="Alt text" />
+    <figcaption>Figure 1: The Agent Role pattern.</figcaption>
+</figure>
 
-#### Schema Diagrams
+<figure>
+    <img src="../../../images/job-role.png" alt="Alt text" />
+    <figcaption>Figure 2: The AgentRole pattern being adopted for a specific use case.</figcaption>
+</figure>
 
-`Schema diagrams` serve as graphical representations of ontologies. With modern state-of-the-art practices a `schema diagram` can be thought of as the entire collection of connected ODPs (or modules). Due to simplicity being a desirable characteristic of them to facilitate ease of viewing and human understanding, however, they can be incomplete and ambiguous, lacking the stricter semantics established through the use of axioms. Nonetheless, they provide an easily understandable means of introducing the higher-level concepts of an ontology. More detailed information and modeling practices for [schema diagrams](../03-modeling-technologies/02-schema-diagrams.md) can be found in the Modeling Technologies module. Below is an example of what a schema may look like. The schema is from the [The enslaved ontology: Peoples of the historic slave trade](https://doi.org/10.1016/j.websem.2020.100567).
+<figure>
+    <img src="../../../images/schema.png" alt="Alt text" />
+    <figcaption>Figure 3: Indicating the associated classes from the use case to the AgentRole pattern through red dotted lines.
+</figcaption>
+</figure>
 
-<img src="../../../images/enslaved-schema.png" alt="odp" style="width:900px;"/>
+### Schema Diagrams
+
+---
+
+`Schema diagrams` serve as graphical representations of ontologies. With modern state-of-the-art practices a `schema diagram` can be thought of as the entire collection of connected ODPs (or modules). Due to simplicity being a desirable characteristic of them to facilitate ease of viewing and human understanding, however, they can be incomplete and ambiguous, lacking the stricter semantics established through the use of axioms. Nonetheless, they provide an easily understandable means of introducing the higher-level concepts of an ontology. More detailed information and modeling practices for [schema diagrams](../03-modeling-technologies/02-schema-diagrams.md) can be found in the Modeling Technologies module. Figure 4 is an example of what a schema may look like in academic sources. The schema in Figure 4 is from the [The enslaved ontology: Peoples of the historic slave trade](https://doi.org/10.1016/j.websem.2020.100567).
+
+<figure>
+    <img src="../../../images/enslaved-schema.png" alt="Alt text" />
+    <figcaption>Figure 4: The schema from The enslaved ontology: Peoples of the Historic Slave Trade. 
+    
+    Note: Each grey box indicates a pattern that was used.
+</figcaption>
+</figure>
 
 ### Oplax
 
