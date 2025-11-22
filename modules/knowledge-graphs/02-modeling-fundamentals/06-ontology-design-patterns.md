@@ -1,16 +1,62 @@
 # Ontology Design Patterns
 
-## Definition
+### What are Ontology Design Patterns?
 
-`Ontology Design Patterns` (ODPs) are small, self-contained ontologies that aim to address general problems in ontology design. They can also be described as a collection of semantic patterns that provide a generic construct for ontology development. An ODP forms a small component or module of a complete ontology. Additionally, they facilitate the reuse of established design patterns, which can be tailored into a more specific module for a use case, streamlining the ontology building process.
+---
 
-## Background
+Ontology Design Patterns (ODPs) are small, self-contained ontologies that aim to address general problems in ontology design. They can also be described as a collection of semantic patterns that provide a generic construct for ontology development. An ODP forms a small component or module of a complete ontology. Additionally, they facilitate the reuse of established design patterns, which can be tailored into a more specific module for a use case.
 
-ODPs were introduced by [Gangemi](https://scholar.google.com/citations?hl=en&user=-iVGcoAAAAAJ), [Blomqvist](https://scholar.google.com/citations?hl=en&user=4ftCkeQAAAAJ), and [Sandkuhl](https://scholar.google.com/citations?hl=en&user=5MxuPr4AAAAJ) in 2005 to simplify the ontology development process. A primary motivator for the inception of ODPs is to provide ontology engineers with small, reusable OWL ontologies that can be integrated into their larger constituents to solve specific modeling challenges. Since then, pattern-based design has become a state-of-the-art (SOTA) standard practice in ontology engineering, enabling modular design and encouraging the reuse of existing patterns. The reason is that ODPs have been shown to positively impact the quality of developed ontologies and to improve interoperability.
+### Background
 
-In summary, ODPs emerged as a critical tool for standardizing, simplifying, and improving the quality and reusability of ontologies. They provide a structured approach to addressing common modeling challenges in the development of knowledge graphs and other semantic applications.
+---
 
-## Related Papers
+ODPs were introduced by [Gangemi](https://scholar.google.com/citations?hl=en&user=-iVGcoAAAAAJ), [Blomqvist](https://scholar.google.com/citations?hl=en&user=4ftCkeQAAAAJ), and [Sandkuhl](https://scholar.google.com/citations?hl=en&user=5MxuPr4AAAAJ) in 2005 to simplify the ontology development process. A primary motivator for the inception of ODPs is to provide ontology engineers with small, reusable OWL ontologies that can be integrated into their larger constituents to solve specific modeling challenges. Since then, pattern-based design has become a state-of-the-art (SOTA) standard practice in ontology engineering, enabling modular design and encouraging the reuse of existing patterns. The reason is that ODPs have been shown to positively impact the quality of developed ontologies and to improve interoperability. In summary, ODPs emerged as a critical tool for standardizing, simplifying, and improving the quality and reusability of ontologies. They provide a structured approach to addressing common modeling challenges in the development of knowledge graphs and other semantic applications.
+
+### ODPs Illustrated
+
+---
+
+As mentioned previously, ODPs are essentially miniaturized ontologies that ease the challenges of reuse and knowledge engineering. Below is an example of an ODP and how it can be adapted for a specific use case. The red dotted lines in Figure 3 highlight the associated classes from the use case to the AgentRole pattern.
+
+<figure>
+    <img src="../../../images/sd-agent.png" alt="Alt text"  width="600" />
+    <figcaption><b>Figure 1</b>: The Agent Role pattern.</figcaption>
+</figure>
+
+<figure>
+    <img src="../../../images/job-role.png" alt="Alt text"  width="600"/>
+    <figcaption><b>Figure 2</b>: The AgentRole pattern being adopted for a specific use case.</figcaption>
+</figure>
+
+<figure>
+    <img src="../../../images/schema.png" alt="Alt text"  width="600"/>
+    <figcaption><b>Figure 3</b>: Indicating the associated classes from the use case to the AgentRole pattern through red dotted lines.
+</figcaption>
+</figure>
+
+### Schema Diagrams and ODPs
+
+---
+
+Schema diagrams serve as graphical representations of ontologies. With modern state-of-the-art practices a schema diagram can be thought of as the entire collection of connected ODPs (or modules). Due to simplicity being a desirable characteristic of them to facilitate ease of viewing and human understanding, however, they can be incomplete and ambiguous, lacking the stricter semantics established through the use of axioms. Nonetheless, they provide an easily understandable means of introducing the higher-level concepts of an ontology. More detailed information and modeling practices for [schema diagrams](../03-modeling-technologies/02-schema-diagrams.md) can be found in the Modeling Technologies module. Figure 4 is an example of what a schema may look like in academic sources. The schema in Figure 4 is from the [The Enslaved Ontology: Peoples of the Historic Slave Trade](https://doi.org/10.1016/j.websem.2020.100567).
+
+<figure>
+    <img src="../../../images/enslaved-schema.png" alt="Alt text"  width="900"/>
+    <figcaption>Figure 4: The schema from The enslaved ontology: Peoples of the Historic Slave Trade. 
+    
+    Note: Each grey box indicates a pattern that was used.
+</figcaption>
+</figure>
+
+---
+
+### Current usage
+
+Currently, the use of ODPs with LLMs is being explored, with promising preliminary results indicating their effectiveness in improving LLM output when combined with other strategies like prompt engineering and fine-tuning. Though these examples are outside the scope of this resource, the Related Papers section below includes the last five papers, which go into great detail on this exploration with LLMs.
+
+## Related Academic Sources
+
+Below are academic sources that outline the history, usage, and various SOTA practices for ODPs, in chronological order of publication.
 
 ### [Patterns In Ontology Engineering: Classification of Ontology Patterns](#1-e-blomqvist-and-k-sandkuhl-patterns-in-ontology-engineering-classification-of-ontology-patterns)
 
@@ -84,75 +130,11 @@ In summary, ODPs emerged as a critical tool for standardizing, simplifying, and 
 
 > The authors of this paper propose that modular approaches to automated ontology development (ontology learning) with LLMs is of central importance. The paper includes an extensive discussion around the background and terminology for Knowledge Graph and Ontology Engineering (KGOE). Additionally, the paper includes an acknowledgement of the current limitations and usefulness of LLMs for ontology learning.
 
-## Current Usage
+### [Ontology Population Using LLMs](#13-sanaz-saki-norouzi-and-adrita-barua-and-antrea-christou-and-nikita-gautam-and-andrew-eells-and-pascal-hitzler-and-cogan-shimizu-ontology-population-using-llms)
 
-### ODPs
+**Authors:** Sanaz Saki Norouzi, Adrita Barua, Antrea Christou, Nikita Gautam, Andrew Eells, Pascal Hitzler, Cogan Shimizu
 
----
-
-As mentioned previously, ODPs are essentially miniaturized ontologies that ease the challenges of reuse and knowledge engineering. Below is an example of an ODP and how it can be adapted for a specific use case. The red dotted lines in Figure 3 highlight the associated classes from the use case to the AgentRole pattern.
-
-<figure>
-    <img src="../../../images/sd-agent.png" alt="Alt text" />
-    <figcaption>Figure 1: The Agent Role pattern.</figcaption>
-</figure>
-
-<figure>
-    <img src="../../../images/job-role.png" alt="Alt text" />
-    <figcaption>Figure 2: The AgentRole pattern being adopted for a specific use case.</figcaption>
-</figure>
-
-<figure>
-    <img src="../../../images/schema.png" alt="Alt text" />
-    <figcaption>Figure 3: Indicating the associated classes from the use case to the AgentRole pattern through red dotted lines.
-</figcaption>
-</figure>
-
-### Schema Diagrams
-
----
-
-`Schema diagrams` serve as graphical representations of ontologies. With modern state-of-the-art practices a `schema diagram` can be thought of as the entire collection of connected ODPs (or modules). Due to simplicity being a desirable characteristic of them to facilitate ease of viewing and human understanding, however, they can be incomplete and ambiguous, lacking the stricter semantics established through the use of axioms. Nonetheless, they provide an easily understandable means of introducing the higher-level concepts of an ontology. More detailed information and modeling practices for [schema diagrams](../03-modeling-technologies/02-schema-diagrams.md) can be found in the Modeling Technologies module. Figure 4 is an example of what a schema may look like in academic sources. The schema in Figure 4 is from the [The enslaved ontology: Peoples of the historic slave trade](https://doi.org/10.1016/j.websem.2020.100567).
-
-<figure>
-    <img src="../../../images/enslaved-schema.png" alt="Alt text" />
-    <figcaption>Figure 4: The schema from The enslaved ontology: Peoples of the Historic Slave Trade. 
-    
-    Note: Each grey box indicates a pattern that was used.
-</figcaption>
-</figure>
-
----
-
-### Patterns + Nesi -> accel LLMs4kgoe
-
----
-
-### CSMODL
-
----
-
-> Describe current applied in various systems, domains, or projects. Include human-centered perspectives and discuss future perspectives focused on automation of the process.
-
-- **Momo** — _human aspect / description_
-- **Oplax** — _human aspect / description_
-- **patterns + nesi → accel LLMs4kgoe** — _describe this combination or workflow_
-- **CSMODL** — _explain its role or integration_
-
-### Examples
-
-> Provide one or more examples illustrating how this pattern is used in practice.  
-> Include ontology snippets, diagrams, or RDF/Turtle examples as appropriate.
-
-### Example: Modl
-
-**Description:**
-
-> Explain what this example demonstrates.
-
-**Code Example:**
-
-> If any
+> This paper explores using Large Language Models (LLMs) for populating knowledge graphs from unstructured text. It finds that LLMs, guided by modular ontologies and prompt engineering, can extract approximately 90% of triples, offering a scalable solution despite hallucination risks. The study demonstrates LLMs' effectiveness in semi-automated ontology population.
 
 ## References
 
