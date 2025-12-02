@@ -73,7 +73,7 @@ Axioms are logic-based rules that define structure, meaning and truth in ontolog
 
 ## Section 3: Modeling Technologies
 
-### [SPARQL](../knowledge-graphs/03-modeling-technologies/03-sparql.md)
+### [SPARQL](../knowledge-graphs/03-modeling-technologies/04-sparql.md)
 
 **Overview**:  
 Master SPARQL, the query language designed for semantic data. From simple SELECT queries to advanced filters and aggregations, learn to retrieve insights from RDF graphs.
@@ -91,7 +91,7 @@ Master SPARQL, the query language designed for semantic data. From simple SELECT
 
 ---
 
-### [Querying Methods](../knowledge-graphs/03-modeling-technologies/05-querying-methods.md)
+### [Querying Methods](../knowledge-graphs/03-modeling-technologies/06-querying-methods.md)
 
 **Overview**:  
 Explore how to query RDF data both programmatically and via triplestore servers using RDFLib (Python) and Apache Jena Fuseki.
@@ -104,7 +104,7 @@ Explore how to query RDF data both programmatically and via triplestore servers 
 
 **Assignment:**
 
-- [Setup & Query Your Knowledge Graph with a Triplestore](../knowledge-graphs/03-modeling-technologies/05-querying-methods.md): Use RDFLib to query your local `.ttl` file, and then deploy the same graph to Fuseki and run remote queries.
+- [Setup & Query Your Knowledge Graph with a Triplestore](../knowledge-graphs/03-modeling-technologies/06-querying-methods.md): Use RDFLib to query your local `.ttl` file, and then deploy the same graph to Fuseki and run remote queries.
 - _Goal:_ Practice both programmatic and hosted graph querying.
 
 ---
@@ -122,7 +122,7 @@ Learn how to visually model your ontology with schema diagrams using tools like 
 
 **Assignment:**
 
-- [Design Your Own Schema Diagram](): Using yEd, draw a schema diagram with at least 3 classes, 2 properties, and relationships. Apply visual rules from this module.
+- [Design Your Own Schema Diagram](./project/project.md): Using yEd, draw a schema diagram with at least 3 classes, 2 properties, and relationships. Apply visual rules from this module.
 - _Goal:_ Translate textual ontologies into visual knowledge architecture.
 
 ---
