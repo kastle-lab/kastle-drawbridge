@@ -1,5 +1,7 @@
 # Modeling Fundamentals
 
+Below are the topics that will be covered within this section of Module 2 Section 2.
+
 ## [Knowledge Graph](../01-graphs/01-graphs.md)
 
 - (Node, Edge, Node)
