@@ -39,7 +39,7 @@ In the end, a layout similar to the one below should exist. In this example, the
 
 ![Individuals](../../../images/protege-individuals.png)
 
-__Note__: Adding a class as a type to an individual will also add that individual as an instance of that class, as shown below in the `Description` box (lower right) of the `Classes` tab: In this example, `Cat1` and `Cat2` are shown to be instances of `Cat`.
+**Note**: Adding a class as a type to an individual will also add that individual as an instance of that class, as shown below in the `Description` box (lower right) of the `Classes` tab: In this example, `Cat1` and `Cat2` are shown to be instances of `Cat`.
 
 ![Instances](../../../images/protege-class-instance.png)
 
@@ -67,7 +67,7 @@ Once object properties have been defined, relationships between individuals can 
 
 - Go to `Entities` -> `Individuals`
 - Select one of the already existing individuals
-- Assign it an object property and corresponding indivdiual via the `Object property assertions` section
+- Assign it an object property and corresponding individual via the `Object property assertions` section
 
 ![Individual Object Properties Example](../../../images/protege-individual-objectproperty-ex.png)
 
@@ -95,7 +95,7 @@ Once data properties have been defined, relationships between individuals and da
 
 - Go to `Entities` -> `Individuals`
 - Select one of the already existing individuals
-- Assign it a data property and corresponding indivdiual via the `Data property assertions` section
+- Assign it a data property and corresponding individual via the `Data property assertions` section
 
 ![Individual Data Properties Example](../../../images/protege-individual-dataproperty-ex.png)
 
@@ -119,6 +119,7 @@ A datatype, as discussed briefly above, specifies the kind of literal value a da
 An axiom, as defined in the [Prerequisites](#prerequisites), can be defined between classes by navigating to the `Classes` tab, selecting one of the already existing classes, and clicking the `General class axioms` button in the `Description` box (lower right). The axioms can then be entered (one per line) in the box that appears. Note that special keywords will appear highlighted.
 
 ##### Axiom Definition Summary
+
 - Go to `Entities` -> `Classes`
 - Select one of the already existing classes
 - Assign it an axiom via the `General class axioms` section
@@ -138,4 +139,3 @@ When the ontology is complete, it can be saved in one of the formats shown below
 ## References
 
 [1] [Protégé](https://protege.stanford.edu/)
-

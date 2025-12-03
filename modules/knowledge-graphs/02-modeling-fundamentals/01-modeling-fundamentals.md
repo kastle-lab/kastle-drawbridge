@@ -65,7 +65,7 @@ Description Logic, as a set of knowledge representation languages, encompasses t
 Knowledge can be formally defined with the concepts of TBox and ABox where:
 
 - TBox is a set of axioms constraining terminology definitions (`concepts` or `roles`)
-- ABox is a set of axioms constraining `named individuals` (First-Order Logic(R(a,b))
+- ABox is a set of axioms constraining `named individuals` (First-Order Logic(R(a,b)))
 
 Additionally, Description Logic includes another concept, RBox where:
 
@@ -75,7 +75,7 @@ Additionally, Description Logic includes another concept, RBox where:
 
 These asserted admittances are broken down from concept and role constructors:
 
-1. Top and Concept, represented respectively by Tautology(⊤,up tack, falsum, \tee) and Contradiction((⊥, down tack, verum, \bot)
+1. Top and Concept, represented respectively by Tautology(⊤,up tack, falsum, \tee) and Contradiction((⊥, down tack, verum, \bot))
 2. nominal
 3. Intersection and Union
 4. Complements (Negation)
@@ -95,7 +95,7 @@ These asserted admittances are broken down from concept and role constructors:
 
 `Competency Questions` (CQs) are questions formatted in natural language that aid in defining the scope and requirements in knowledge representation.
 
-These questions allow ontology engineer(s) to appropriately process and organize the requirements for the ontology, ensuring it is equipped with all of the information it needs. Additonally, it is used for verification of the ontology in the later stages.
+These questions allow ontology engineer(s) to appropriately process and organize the requirements for the ontology, ensuring it is equipped with all of the information it needs. Additionally, it is used for verification of the ontology in the later stages.
 
 ## [Key Notions](./05-key-notions.md)
 

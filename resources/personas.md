@@ -22,7 +22,7 @@ Personas are custom-made for the candidate audience of our educational platform;
 
 <td style="width:70%; vertical-align:top; padding:10px;">
 
-I am a second-year graduate student pursuing my thesis in biomedical engineering. I am a GTA for a biomaterials lab this semester, and I am currently working on 3 other projects with various colleagues. My domain of research is in oncology with a focus on precision medicine, where I believe that there is potential for the use of an ontology! I currently have disparate patient data with which I can make a holistic model, but i am not sure how to integrate ontology into my research. I have no background in computer science, with only a little coding experience. I would need to learn the fundamentals of knowledge graph construction and the practices that go into creating a good ontology. I would prefer to learn about ontologies on my own time without the need to enroll in a course, I have a busy schedule so I need the delivery to be flexible. I enjoy learning thorugh visually methods rather than solely verbal delivery, with in-depth working examples.
+I am a second-year graduate student pursuing my thesis in biomedical engineering. I am a GTA for a biomaterials lab this semester, and I am currently working on 3 other projects with various colleagues. My domain of research is in oncology with a focus on precision medicine, where I believe that there is potential for the use of an ontology! I currently have disparate patient data with which I can make a holistic model, but i am not sure how to integrate ontology into my research. I have no background in computer science, with only a little coding experience. I would need to learn the fundamentals of knowledge graph construction and the practices that go into creating a good ontology. I would prefer to learn about ontologies on my own time without the need to enroll in a course, I have a busy schedule so I need the delivery to be flexible. I enjoy learning through visually methods rather than solely verbal delivery, with in-depth working examples.
 
 ### Background & Needs
 
@@ -55,7 +55,7 @@ This persona would benefit from the following learning path:
 
 ### Outcome
 
-This learning path qould provide Evan with the necessary insights that he can use to develop the ontology he would need for his research.
+This learning path would provide Evan with the necessary insights that he can use to develop the ontology he would need for his research.
 
 </td>
 </tr>
@@ -87,7 +87,7 @@ I am a Ph.D student in my first year of graduate school as a computer science ma
 
 ### Background & Needs
 
-Rachels background in ontology is unorganized and missing key terms and the fundamental building blocks of ontology. She has background in coding meaning she can skip the foundations and dive directly into the material she needs the most.
+Rachel's background in ontology is unorganized and missing key terms and the fundamental building blocks of ontology. She has background in coding meaning she can skip the foundations and dive directly into the material she needs the most.
 
 ### Learning Path
 
@@ -109,7 +109,7 @@ This persona would benefit from the following learning path:
 
 ### Outcome
 
-This learning path qould provide Rachel with the necessary insights that she can use to finish her dissertation with success.
+This learning path would provide Rachel with the necessary insights that she can use to finish her dissertation with success.
 
 </td>
 </tr>
@@ -184,7 +184,7 @@ Eric is a second year Master's student pursuing his thesis in Computer Science. 
 
 ### Background & Needs
 
-Eric's learning path consists of the whole vizualisation, constructing and validation process. He has to learn all the tools the lab uses when it comes to Knowledge Graph construction and validation.
+Eric's learning path consists of the whole visualization, constructing and validation process. He has to learn all the tools the lab uses when it comes to Knowledge Graph construction and validation.
 
 ### Learning Path
 
@@ -227,11 +227,11 @@ This learning path would provide Eric with the necessary insights that they can 
 
 <td style="width:70%; vertical-align:top; padding:10px;">
 
-Pascal is an associate professor in the Computer Science department of X university. He recently had a successfull research proposal with three other universities regarding collaborating on an ontology/ and knowledge graph of a specific domain along with a natural language engine that queries it and is interactive. All of the researchers need to settle with a common language they will be using along with what ontology engineering methodology they will use. All of the researchers except Pascal have been using MoMo while he uses BFO. He has to be able to fully comprehend that process while also guiding his students that are part of the grant and will be working on it as well. He needs to go through all the stages of Modular Ontology Modeling along with the tools that are most commonly used.
+Pascal is an associate professor in the Computer Science department of X university. He recently had a successful research proposal with three other universities regarding collaborating on an ontology/ and knowledge graph of a specific domain along with a natural language engine that queries it and is interactive. All of the researchers need to settle with a common language they will be using along with what ontology engineering methodology they will use. All of the researchers except Pascal have been using MoMo while he uses BFO. He has to be able to fully comprehend that process while also guiding his students that are part of the grant and will be working on it as well. He needs to go through all the stages of Modular Ontology Modeling along with the tools that are most commonly used.
 
 ### Background & Needs
 
-Pascal's learning path consists of learning how to vizualise the graph through yEd using Ontology Design Patterns (odp's) and then materialize it using the rdflib code example, finally validate it using SPARQL/ SHACL.
+Pascal's learning path consists of learning how to visualize the graph through yEd using Ontology Design Patterns (ODPs) and then materialize it using the rdflib code example, finally validate it using SPARQL/ SHACL.
 
 ### Learning Path
 
