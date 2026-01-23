@@ -60,7 +60,7 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
                 </a>
               </li>
               <li>
-                <a href="./modules/foundation/supplementary-material/assignments/3">
+                <a href="./modules/foundation/supplementary-material/assignments/assgn-3.md">
                   Assignment 3
                 </a>
               </li>
