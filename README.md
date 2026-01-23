@@ -211,6 +211,11 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
       </li>
     </ol>
       <li>
+        <a href="./modules/knowledge-graphs/project/project.md">
+          Final Project
+        </a>
+      </li>
+      <li>
         <a href="./resources/README.md">Resources
         </a> 
         <ol>
@@ -239,12 +244,12 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
             </li>
             <li>
               <a href="./resources/playground.def">
-                Def File
+                Container Recipe File
               </a>
             </li>
             <li>
               <a href="./resources/playground-startup.md">
-                Startup
+                Startup Instructions
               </a>
             </li>            
           </ol>
@@ -278,11 +283,13 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
 
 # Before Diving In
 
+Before beginning this content, it would be ideal to complete the [persona survey](https://docs.google.com/forms/d/e/1FAIpQLSdIVCUVG7VJBf6-ATQKW5KeqG1_MbXLsUBwA1gLPh39chanuw/viewform?usp=publish-editor) so we can provide the most optimal learning path for your needs based on your prior knowledge and experience. If you are using this resource as a reference or only want to explore specific topics for your own interest, then the persona survey is not required.
+
+If you wish to use this resource to it's fullest potential perform the following steps below:
+
 1. Answer Persona Survey
 2. Get Learning Path (Persona)
 3. Begin Learning!
-
-Before beginning this content, it would be ideal to complete the [persona survey](https://docs.google.com/forms/d/e/1FAIpQLSdIVCUVG7VJBf6-ATQKW5KeqG1_MbXLsUBwA1gLPh39chanuw/viewform?usp=publish-editor) so we can provide the most optimal learning path for your needs based on your prior knowledge and experience. If you are using this resource as a reference or only want to explore specific topics for your own interest, then the persona survey is not required.
 
 # Modules
 
@@ -290,7 +297,7 @@ Below are summaries of the material in each module, along with helpful reference
 
 ## Foundation
 
-- The purpose of this module is to familiarize a student with the field of Computer Science and the aspects of programming. This section of Drawbridge will walk a student through how to use Python to perform the most essential and basic tasks required for knowledge engineering. These tasks include, but are not limited to, understanding data types and structures, writing and reading files, and exception handling. Assignments are provided to measure understanding, application, and retention of the concepts outlined in Foundation.
+The purpose of this module is to familiarize a student with the field of Computer Science and the aspects of programming. This section of Drawbridge will walk a student through how to use Python to perform the most essential and basic tasks required for knowledge engineering. These tasks include, but are not limited to, understanding data types and structures, writing and reading files, and exception handling. Assignments are provided to measure understanding, application, and retention of the concepts outlined in Foundation.
 
 ## Knowledge-Graphs
 
