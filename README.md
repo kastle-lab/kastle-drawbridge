@@ -223,6 +223,11 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
           Personas
           <ol>
             <li>
+              <a href="./resources/drawbridge-onboarding-questionnaire.pdf">
+                Questionnaire
+              </a>
+            </li>
+            <li>
               <a href="./resources/personas-template-markdown.md">
                 Persona Template
               </a>
