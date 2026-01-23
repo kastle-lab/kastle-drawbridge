@@ -282,7 +282,7 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
 2. Get Learning Path (Persona)
 3. Begin Learning!
 
-Before beginning this content, it would be ideal to complete the [persona survey](#) so we can provide the most optimal learning path for your needs based on your prior knowledge and experience. If you are using this resource as a reference or only want to explore specific topics for your own interest, then the persona survey is not required.
+Before beginning this content, it would be ideal to complete the [persona survey](https://docs.google.com/forms/d/e/1FAIpQLSdIVCUVG7VJBf6-ATQKW5KeqG1_MbXLsUBwA1gLPh39chanuw/viewform?usp=publish-editor) so we can provide the most optimal learning path for your needs based on your prior knowledge and experience. If you are using this resource as a reference or only want to explore specific topics for your own interest, then the persona survey is not required.
 
 # Modules
 
