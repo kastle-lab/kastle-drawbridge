@@ -1,3 +1,5 @@
+# Personas
+
 Personas are custom-made for the candidate audience of our educational platform; Drawbridge. They are divided into levels that reflect the audience’s knowledge and experience and of course end goal. The visualization below shows how learners are categorized from Beginner through Intermediate to Expert.
 
 ![All Persona Levels](../images/drawbridge-personas-all-levels.png)
