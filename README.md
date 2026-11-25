@@ -284,6 +284,10 @@ KASTLE Drawbridge is the formulation of a "zero-to-hero" curriculum for learning
         </ol>
     </li>
  </li>
+
+  <li>
+    <a href="./modules/graphrag/README.md">GraphRAG Learning Path</a>
+  </li>
 </ol>
 
 # Before Diving In
@@ -307,6 +311,10 @@ The purpose of this module is to familiarize a student with the field of Compute
 ## Knowledge-Graphs
 
 This module provides details on how to create, use, and apply a knowledge graph. This material inherits information from [kastle-lab\cs7810-intro-to-ke](https://github.com/kastle-lab/cs7810-intro-to-ke/) and [The KGC Open KG Curriculum](https://github.com/KGConf/open-kg-curriculum). This section introduces graphs, ontologies, knowledge graphs, axioms, and the software used to apply these concepts in the domain of knowledge engineering. This curriculum focuses on the KASTLE Labs preferred modeling practice, [Modular Ontology Modeling](https://journals.sagepub.com/doi/full/10.3233/SW-222886) (MOMo). Similar to Foundation, this module includes assignments to help students understand essential and challenging concepts in the material.
+
+## GraphRAG Learning Path
+
+This learning path is for students who want to work on GraphRAG, i.e. combining knowledge graphs with large language models. It maps the symbolic topics (RDF, OWL, SPARQL, schemas, axioms) to the Knowledge Graphs module, then covers LLMs, embeddings, and retrieval-augmented generation, and finally how LLMs populate, query, and reason over knowledge graphs. Each topic lists primary sources, and a small hands-on exercise runs locally with RDFLib.
 
 ## Resources
 
